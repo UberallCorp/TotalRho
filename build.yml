@@ -1,0 +1,25 @@
+#sdk: "C:/RhoMobileSuite5.3.2/ruby/lib/ruby/gems/1.9.1/gems/rhodes-5.3.2"
+sdkversion: "5.1.1"
+name: "Total"
+version: 1.0
+vendor: "rhomobile"
+build: "debug"
+applog: "rholog.txt"
+android:
+  manifest_template: "AndroidManifest.erb"
+  version: "2.3.3"
+  android_title: 0
+#logcatFilter: "APP:I StrictMode:I DEBUG:I *:E"
+wm:
+#sdk: "Windows Mobile 6.5.3 Professional DTK (ARMV4I)"
+#sdk: "Windows Mobile 6 SDK"
+  sdk: "Windows Mobile 6 Professional SDK (ARMV4I)"
+#sdk: "MC3000c50b (ARMV4I)"
+app_type: "rhoelements"
+capabilities:
+  - gps
+extensions:
+  - rhoconnect-client
+  - rho-javascript
+  - json
+  - hardwarekeys

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<ion-header-bar align-title="center" class="bar-stable">
+    <h1 class="title">Clientes</h1>
+</ion-header-bar>
+
+<ion-content padding="true">
+    <div class="itemChico item item-input-inset">
+        <label class="item-input-wrapper">
+            <input type="text" placeholder="Ingrese Cliente">
+        </label>
+        <button class="button button-small">
+            Buscar
+        </button>
+    </div>
+
+    <ion-list>
+        <!--<ion-item class="item item-divider">-->
+            <!--Clientes:-->
+        <!--</ion-item>-->
+        <ion-item class="item-input-chico">
+            Cliente 1 </br>
+            Dirección Cliente 1
+        </ion-item>
+        <ion-item class="item-input-chico">
+            Cliente 2</br>
+            Dirección Cliente 2
+        </ion-item>
+        <ion-item class="item-input-chico">
+            Cliente 3</br>
+            Dirección Cliente 3
+        </ion-item>
+    </ion-list>
+
+</ion-content>
+
+<ion-footer-bar class=" bar-stable">
+    <button id="botonVolverSeleccionCliente" ng-click="goBack()" class="button button-stable boton-mitad-width button-small">Volver</button>
+</ion-footer-bar>
+
+</body>
+</html>

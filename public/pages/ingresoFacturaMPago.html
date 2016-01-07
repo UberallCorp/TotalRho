@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<ion-view view-title="Ingreso Factura" hide-back-button="true" can-swipe-back="false">
+    <ion-content padding="true">
+        <div class="list">
+            <form novalidate name="forms.formFacturaMPago">
+                <div class="item item-input-chico">
+                    <span class="input-label smallFont span-inline-corto">N° {{facturaORemito}}:</span>
+                    <input style="display:inline; width: 40px" class="smallFont" ng-model="datosForm.factura1" name="campoFactura1" type="text" required min="0000" max="9999" oninput="if(value.length>4)value=value.slice(0,4)" placeholder="XXXX">
+                    <span class="input-label smallFont span-inline-corto"> {{tipoFacturaORemito}} </span>
+                    <input style="display:inline;" class="smallFont" type="text" name="campoFactura2" ng-model="datosForm.factura2" min="00000000" max="99999999" oninput="if(value.length>8)value=value.slice(0,8)" required placeholder="XXXXXXXX">
+                </div>
+                <span style="color:red" ng-show="(forms.formFacturaMPago.campoFactura1.$dirty && forms.formFacturaMPago.campoFactura1.$invalid && formSubmitted) ||
+                (forms.formFacturaMPago.campoFactura2.$dirty && forms.formFacturaMPago.campoFactura2.$invalid && formSubmitted) || formSubmitted">El número de {{facturaORemito}} no es válido</span>
+
+                <!--<label class="item item-input item-input-chico">-->
+                <!--<span class="input-label smallFont">N° Factura:</span>-->
+                <!--<input class="smallFont" type="text" placeholder="Ej: 12345"> --->
+                <!--<input class="smallFont" type="text" placeholder="Ej: 89394">-->
+                <!--</label>-->
+                <label class="item item-input item-input-chico">
+                    <span class="input-label smallFont">Precinto:</span>
+                    <input class="smallFont" type="text" ng-model="datosForm.precinto" placeholder="Precinto">
+                </label>
+                <label class="item item-input item-input-chico">
+                    <span class="input-label smallFont">Control Carga:</span>
+                    <input class="smallFont" name="campoControlCarga" ng-model="datosForm.controlCarga" type="text" placeholder="..." required>
+                </label>
+                <span style="color:red" ng-show="forms.formFacturaMPago.campoControlCarga.$dirty && forms.formFacturaMPago.campoControlCarga.$invalid">Debe ingresar el Control Carga.</span>
+                <label ng-if="showMedioPago" class="itemChico item item-input item-select">
+                    <div class="input-label">
+                        Medio Pago:
+                    </div>
+                    <select ng-model="datosForm.codigoMedioPago" style='padding:0px; width:auto;position:relative;' name="medioPago" required>
+                        <option ng-repeat="medioDePago in mediosDePago" value="{{medioDePago.codigoMedioPago}}">{{medioDePago.descripcion}}</option>
+                    </select>
+                </label>
+                <span style="color:red" ng-if="showMedioPago" ng-show="forms.formFacturaMPago.medioPago.$dirty && forms.formFacturaMPago.medioPago.$invalid">Debe ingresar el medio de pago.</span>
+            </form>
+        </div>
+    </ion-content>
+
+    <ion-footer-bar class=" bar-stable">
+        <button id="botonSalir" ng-click="goBack()" class="button button-stable boton-mitad-width button-small">Volver</button>
+        <button id="botonSiguiente" ng-click="siguiente()" class="button button-stable boton-mitad-width button-small">Siguiente</button>
+    </ion-footer-bar>
+</ion-view>
+</body>
+</html>

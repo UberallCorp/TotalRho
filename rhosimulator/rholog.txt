@@ -1,0 +1,480 @@
+I 01/05/2016 15:29:20:997 00001c68         QtMainWindow| WebView: URL changed to about:blank
+I 01/05/2016 15:29:21:012 000018c8              RhoRuby| require_compiled: RhoSystemApi
+I 01/05/2016 15:29:21:012 00001318          RhoThreadQT| RHOQT wait:-m_waitThread exists again 2-before Delete m_waitThread
+I 01/05/2016 15:29:21:028 00001c68         QtMainWindow| Page load complete.
+I 01/05/2016 15:29:21:028 000018c8              RhoRuby| require_compiled: RhoApplicationApi
+I 01/05/2016 15:29:21:028 00001318          RhoThreadQT| RHOQT wait:-m_waitThread exists again 2-after Delete m_waitThread
+I 01/05/2016 15:29:21:044 000018c8              RhoRuby| require_compiled: RhoNetworkApi
+I 01/05/2016 15:29:21:044 00001318         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 01/05/2016 15:29:21:059 000018c8              RhoRuby| require_compiled: RhoDatabaseApi
+I 01/05/2016 15:29:21:059 00001318          RhoThreadQT| RHOQT wait
+I 01/05/2016 15:29:21:059 00001318          RhoThreadQT| RHOQT wait-after m_waitThread->start
+I 01/05/2016 15:29:21:075 000018c8              RhoRuby| require_compiled: RhoLogApi
+I 01/05/2016 15:29:21:075 00001318          RhoThreadQT| RHOQT wait-before wait for a long time nTimeoutMs:-  4294966296
+I 01/05/2016 15:29:21:075 000018c8              RhoRuby| require_compiled: RhoWebViewApi
+I 01/05/2016 15:29:21:095 000018c8              RhoRuby| require_compiled: RhoNativeToolbarApi
+I 01/05/2016 15:29:21:095 000018c8              RhoRuby| require_compiled: RhoNativeTabbarApi
+I 01/05/2016 15:29:21:110 000018c8              RhoRuby| require_compiled: RhoNotificationApi
+I 01/05/2016 15:29:21:110 000018c8              RhoRuby| require_compiled: RhoNativeMenubarApi
+I 01/05/2016 15:29:21:110 000018c8              RhoRuby| require_compiled: RhoTimerApi
+I 01/05/2016 15:29:21:126 000018c8              RhoRuby| require_compiled: RhoConnectClient
+I 01/05/2016 15:29:21:126 000018c8 RhoconnectClientManager| setRhoconnectClientImpl ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+I 01/05/2016 15:29:21:142 000018c8              RhoRuby| require_compiled: digest
+I 01/05/2016 15:29:21:142 000018c8              RhoRuby| require_compiled: digest.so
+I 01/05/2016 15:29:21:157 000018c8              RhoRuby| require_compiled: rhoframework
+I 01/05/2016 15:29:21:173 000018c8              RhoRuby| require_compiled: rational
+I 01/05/2016 15:29:21:173 000018c8              RhoRuby| require_compiled: json
+I 01/05/2016 15:29:21:173 000018c8              RhoRuby| require_compiled: json/common
+I 01/05/2016 15:29:21:189 000018c8              RhoRuby| require_compiled: json/version
+I 01/05/2016 15:29:21:189 000018c8              RhoRuby| require_compiled: json/pure
+I 01/05/2016 15:29:21:189 000018c8              RhoRuby| require_compiled: json/pure/generator
+I 01/05/2016 15:29:21:208 000018c8              RhoRuby| require_compiled: rho/rhoapplication
+I 01/05/2016 15:29:21:218 000018c8              RhoRuby| require_compiled: rholang/localization_simplified
+I 01/05/2016 15:29:21:228 000018c8              RhoRuby| require_compiled: rho/rhomsg
+I 01/05/2016 15:29:21:236 000018c8              RhoRuby| require_compiled: rho/rhotabbar
+I 01/05/2016 15:29:21:245 000018c8              RhoRuby| require_compiled: rho/rhotoolbar
+I 01/05/2016 15:29:21:251 000018c8                  APP| Current locale: ; Country code: 
+I 01/05/2016 15:29:21:254 000018c8                  APP| Locilized file: C:/RhoMobileSuite5.3.2/ruby/lib/ruby/gems/1.9.1/gems/rhodes-5.3.2/lib/framework/rholang/lang_
+I 01/05/2016 15:29:21:254 000018c8              RhoRuby| require_compiled: C:/RhoMobileSuite5.3.2/ruby/lib/ruby/gems/1.9.1/gems/rhodes-5.3.2/lib/framework/rholang/lang_en
+I 01/05/2016 15:29:21:254 000018c8                  APP| Locilized file: D:/Projects/Total-Rho/Development/app/lang/lang_
+I 01/05/2016 15:29:21:272 000018c8                  APP| Locilized file: C:/RhoMobileSuite5.3.2/ruby/lib/ruby/gems/1.9.1/gems/rhodes-5.3.2/lib/framework/rholang/rhoerror_
+I 01/05/2016 15:29:21:272 000018c8              RhoRuby| require_compiled: C:/RhoMobileSuite5.3.2/ruby/lib/ruby/gems/1.9.1/gems/rhodes-5.3.2/lib/framework/rholang/rhoerror_en
+I 01/05/2016 15:29:21:272 000018c8                  APP| Locilized file: C:/RhoMobileSuite5.3.2/ruby/lib/ruby/gems/1.9.1/gems/rhodes-5.3.2/lib/framework/rholang/rhomsg_
+I 01/05/2016 15:29:21:287 000018c8              RhoRuby| require_compiled: C:/RhoMobileSuite5.3.2/ruby/lib/ruby/gems/1.9.1/gems/rhodes-5.3.2/lib/framework/rholang/rhomsg_en
+I 01/05/2016 15:29:21:287 000018c8              RhoRuby| require_compiled: indifferent_access
+I 01/05/2016 15:29:21:303 000018c8              RhoRuby| require_compiled: rho/rhosupport
+I 01/05/2016 15:29:21:303 000018c8              RhoRuby| require_compiled: rho/rhocontroller
+I 01/05/2016 15:29:21:319 000018c8              RhoRuby| require_compiled: rho/render
+I 01/05/2016 15:29:21:319 000018c8              RhoRuby| require_compiled: rho/rho
+I 01/05/2016 15:29:21:350 000018c8              RhoRuby| require_compiled: rho/rhoerror
+I 01/05/2016 15:29:21:350 000018c8              RhoRuby| require_compiled: rhodes
+I 01/05/2016 15:29:21:350 000018c8                  APP| Looking for RhoConnectClient
+I 01/05/2016 15:29:21:365 000018c8                  APP| RhoConnectClient found. do nothing
+E 01/05/2016 15:29:21:365 000018c8              RhoRuby| require_compiled: error: can not find rhodes_translator
+I 01/05/2016 15:29:21:365 000018c8              RhoRuby| require_compiled: rho/rhoviewhelpers
+I 01/05/2016 15:29:21:381 000018c8              RhoRuby| require_compiled: rho
+I 01/05/2016 15:29:21:381 000018c8                  APP| RHOSTUDIO_REMOTE_DEBUG=false
+I 01/05/2016 15:29:21:397 000018c8                  APP| RHOSTUDIO_REMOTE_HOST=
+I 01/05/2016 15:29:21:397 000018c8                  APP| RHOSTUDIO_REMOTE_PATH=
+I 01/05/2016 15:29:21:397 000018c8              RhoRuby| require_compiled: debugger
+I 01/05/2016 15:29:21:412 000018c8              RhoRuby| require_compiled: uri
+I 01/05/2016 15:29:21:412 000018c8              RhoRuby| require_compiled: uri/common
+I 01/05/2016 15:29:21:428 000018c8              RhoRuby| require_compiled: uri/generic
+I 01/05/2016 15:29:21:444 000018c8              RhoRuby| require_compiled: uri/ftp
+I 01/05/2016 15:29:21:459 000018c8              RhoRuby| require_compiled: uri/http
+I 01/05/2016 15:29:21:459 000018c8              RhoRuby| require_compiled: uri/https
+I 01/05/2016 15:29:21:475 000018c8              RhoRuby| require_compiled: uri/ldap
+I 01/05/2016 15:29:21:475 000018c8              RhoRuby| require_compiled: uri/ldaps
+I 01/05/2016 15:29:21:490 000018c8              RhoRuby| require_compiled: uri/mailto
+I 01/05/2016 15:29:21:490 000018c8              RhoRuby| require_compiled: timeout
+I 01/05/2016 15:29:21:506 000018c8                  APP| [Debugger] Opening connection
+I 01/05/2016 15:29:21:506 000018c8                  APP| [Debugger] host=127.0.0.1
+I 01/05/2016 15:29:21:506 000018c8                  APP| [Debugger] port=9000
+I 01/05/2016 15:29:21:522 000018c8                  APP| [Debugger] path=D:/Projects/Total-Rho/Development/app/
+I 01/05/2016 15:29:22:546 000018c8                  APP| [Debugger] Unable to open connection to debugger: #<Errno::ECONNREFUSED: No connection could be made because the target machine actively refused it. - connect(2)>
+I 01/05/2016 15:29:22:546 000018c8                  APP| RHO loaded
+I 01/05/2016 15:29:22:546 000018c8                  APP| Calling RHO.initialize , use_new_orm: 0
+I 01/05/2016 15:29:22:562 000018c8                  APP| MZV_DEBUG: we are in use_new_orm false false
+I 01/05/2016 15:29:22:562 000018c8                   DB| Open DB: D:/Projects/Total-Rho/Development/rhosimulator/db/syncdbapp.sqlite
+I 01/05/2016 15:29:22:562 000018c8                   DB| Open DB: D:/Projects/Total-Rho/Development/rhosimulator/db/syncdbuser.sqlite
+I 01/05/2016 15:29:22:577 000018c8                   DB| Open DB: D:/Projects/Total-Rho/Development/rhosimulator/db/syncdblocal.sqlite
+I 01/05/2016 15:29:22:577 000018c8              RhoRuby| require_compiled: rhom
+I 01/05/2016 15:29:22:593 000018c8              RhoRuby| require_compiled: rhom/rhom
+I 01/05/2016 15:29:22:593 000018c8              RhoRuby| require_compiled: rhom/rhom_object_factory
+I 01/05/2016 15:29:22:640 000018c8              RhoRuby| require_compiled: rhom/rhom_object
+I 01/05/2016 15:29:22:640 000018c8              RhoRuby| require_compiled: rhom/rhom_model
+I 01/05/2016 15:29:22:640 000018c8              RhoRuby| require_compiled: rhom/rhom_source
+I 01/05/2016 15:29:22:656 000018c8              RhoRuby| require_compiled: rhoappmanifest
+I 01/05/2016 15:29:22:656 000018c8              RhoRuby| require_compiled: find
+I 01/05/2016 15:29:22:671 000018c8          GeoLocation| Creating singleton instance.
+I 01/05/2016 15:29:22:671 000018c8            RhodesApp| Starting sync engine...
+I 01/05/2016 15:29:22:671 000018c8          RhoThreadQT| RHOQT CRhoThreadImpl cons-before InitializeCriticalSections
+I 01/05/2016 15:29:22:687 000018c8                 Sync| sync_poll_interval: 0
+I 01/05/2016 15:29:22:687 000018c8                 Sync| syncserver: 
+I 01/05/2016 15:29:22:687 000018c8                 Sync| bulksync_state: 0
+I 01/05/2016 15:29:22:702 000018c8            RhodesApp| RhoRubyInitApp...
+I 01/05/2016 15:29:22:702 00003060                 Sync| Starting main routine...
+I 01/05/2016 15:29:22:702 000018c8                  APP| init_app
+I 01/05/2016 15:29:22:702 00003060                 Sync| ThreadQueue blocked for 4294967295 seconds...
+I 01/05/2016 15:29:22:702 000018c8              RhoRuby| require_compiled: application
+I 01/05/2016 15:29:22:718 00003060          RhoThreadQT| RHOQT wait
+I 01/05/2016 15:29:22:718 000018c8                 Sync| Set notification. Source ID: -1;Url :; Params: 
+I 01/05/2016 15:29:22:718 00003060          RhoThreadQT| RHOQT wait-after m_waitThread->start
+I 01/05/2016 15:29:22:734 000018c8           HttpServer| Start HTTP server
+I 01/05/2016 15:29:22:734 00003060          RhoThreadQT| RHOQT wait-before wait for a long time nTimeoutMs:-  4294966296
+I 01/05/2016 15:29:22:734 000018c8           HttpServer| Listen for connections on port 4367
+I 01/05/2016 15:29:22:749 000018c8         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I 01/05/2016 15:29:22:749 000018c8          RhoThreadQT| RHOQT stopWait
+I 01/05/2016 15:29:22:749 000018c8          RhoThreadQT| RHOQT stopWait- before 100 ms sleep
+I 01/05/2016 15:29:22:874 000018c8          RhoThreadQT| RHOQT stopWait-m_waitThread exists -before EnterCriticalSection
+I 01/05/2016 15:29:22:874 000018c8          RhoThreadQT| RHOQT stopWait-m_waitThread exists again- before Terminate waitthread
+I 01/05/2016 15:29:22:874 00001318          RhoThreadQT| RHOQT wait-after wait for a long time Result:-  false
+I 01/05/2016 15:29:22:890 00001318          RhoThreadQT| RHOQT wait-m_waitThread exists again-before EnterCriticalSection
+I 01/05/2016 15:29:22:890 00001318          RhoThreadQT| RHOQT wait:-m_waitThread exists again 2-before Delete m_waitThread
+I 01/05/2016 15:29:22:890 00001318          RhoThreadQT| RHOQT wait:-m_waitThread exists again 2-after Delete m_waitThread
+I 01/05/2016 15:29:22:906 00001318         AppCallbacks| LOCAL-SERVER-STARTED is received ++++++++++++++++++++++++++++
+I 01/05/2016 15:29:22:906 00001318         AppCallbacks| process command: LOCAL-SERVER-STARTED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I 01/05/2016 15:29:22:906 00001318           SystemImpl| rho_sys_report_app_started() has no implementation in RhoSimulator.
+I 01/05/2016 15:29:22:921 00001318         AppCallbacks| process command: UI-CREATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I 01/05/2016 15:29:22:921 00001318                  Net| Method: GET;Url: http://127.0.0.1:4367/system/uicreated
+I 01/05/2016 15:29:22:952 000018c8           HttpServer| Process URI: '/system/uicreated'
+I 01/05/2016 15:29:22:968 000018c8                  APP| on_ui_created.navigate to start url: '/public/index.html'
+I 01/05/2016 15:29:22:968 00001c68         QtMainWindow| WebView: loading...
+I 01/05/2016 15:29:22:968 00001318         AppCallbacks| process command: APP-ACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I 01/05/2016 15:29:22:984 00001318                  Net| Method: GET;Url: http://127.0.0.1:4367/system/activateapp
+I 01/05/2016 15:29:22:984 00001318                  Net| initConnection-Internet handle present
+I 01/05/2016 15:29:23:015 000018c8           HttpServer| Process URI: '/system/activateapp'
+I 01/05/2016 15:29:23:031 000018c8                  APP| AppEvent Activated
+I 01/05/2016 15:29:23:046 00001318         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 01/05/2016 15:29:23:046 00001318          RhoThreadQT| RHOQT wait
+I 01/05/2016 15:29:23:046 00001318          RhoThreadQT| RHOQT wait-after m_waitThread->start
+I 01/05/2016 15:29:23:062 00001318          RhoThreadQT| RHOQT wait-before wait for a long time nTimeoutMs:-  4294966296
+I 01/05/2016 15:29:24:071 000018c8           HttpServer| Process URI: '/public/index.html'
+I 01/05/2016 15:29:24:071 000018c8                  APP| RHO serve_index: /public/index.html
+I 01/05/2016 15:29:24:087 000018c8           HttpServer| GC Start.
+I 01/05/2016 15:29:24:091 00001c68         QtMainWindow| WebView: URL changed to http://127.0.0.1:4367/public/index.html
+I 01/05/2016 15:29:24:091 000018c8           HttpServer| GC End.
+I 01/05/2016 15:29:24:091 000018c8           HttpServer| Process URI: '/public/bower_components/ionic/css/ionic.css'
+I 01/05/2016 15:29:24:107 000018c8           HttpServer| Process URI: '/public/css/index.css'
+I 01/05/2016 15:29:24:121 000018c8           HttpServer| Process URI: '/public/bower_components/ionicons/css/ionicons.css'
+I 01/05/2016 15:29:24:129 000018c8           HttpServer| Process URI: '/public/jquery/jquery-1.9.1.min.js'
+I 01/05/2016 15:29:24:137 000018c8           HttpServer| Process URI: '/public/js/jquery.json.min.js'
+I 01/05/2016 15:29:24:138 00001c68           JavaScript| Console message at http://127.0.0.1:4367/public/index.html:21
+I 01/05/2016 15:29:24:146 000018c8           HttpServer| Process URI: '/public/js/rho_javascript_api.js'
+I 01/05/2016 15:29:24:151 00001c68           JavaScript| Consider using 'dppx' units instead of 'dpi', as in CSS 'dpi' means dots-per-CSS-inch, not dots-per-physical-inch, so does not correspond to the actual 'dpi' of a screen. In media query expression: not all, (-webkit-min-device-pixel-ratio: 1.5), not all, (min-resolution: 144dpi), (min-resolution: 1.5dppx)
+I 01/05/2016 15:29:24:157 000018c8           HttpServer| Process URI: '/public/js/rho_common_api_noconflict.js'
+I 01/05/2016 15:29:24:157 00001c68           JavaScript| Console message at http://127.0.0.1:4367/public/index.html:21
+I 01/05/2016 15:29:24:157 000018c8           HttpServer| Process URI: '/public/api/rhoapi-modules.js'
+I 01/05/2016 15:29:24:173 00001c68           JavaScript| Consider using 'dppx' units instead of 'dpi', as in CSS 'dpi' means dots-per-CSS-inch, not dots-per-physical-inch, so does not correspond to the actual 'dpi' of a screen. In media query expression: not all, (-webkit-min-device-pixel-ratio: 1.5), not all, (min-resolution: 144dpi), (min-resolution: 1.5dppx)
+I 01/05/2016 15:29:24:173 000018c8           HttpServer| Process URI: '/public/api/rhoapi-modules-ORM.js'
+I 01/05/2016 15:29:24:173 000018c8           HttpServer| Process URI: '/public/api/rhoapi-modules-ORMHelper.js'
+I 01/05/2016 15:29:24:189 000018c8           HttpServer| Process URI: '/public/api/rhoapi-modules-Ruby-RunTime.js'
+I 01/05/2016 15:29:24:204 000018c8           HttpServer| Process URI: '/public/bower_components/ionic/js/ionic.bundle.js'
+I 01/05/2016 15:29:24:220 000018c8           HttpServer| Process URI: '/public/bower_components/angular-ui-router/release/angular-ui-router.min.js'
+I 01/05/2016 15:29:24:236 000018c8           HttpServer| Process URI: '/public/js/config.js'
+I 01/05/2016 15:29:24:236 000018c8           HttpServer| Process URI: '/public/js/enums.js'
+I 01/05/2016 15:29:24:236 000018c8           HttpServer| Process URI: '/public/js/constants.js'
+I 01/05/2016 15:29:24:251 000018c8           HttpServer| Process URI: '/public/js/models.js'
+I 01/05/2016 15:29:24:251 000018c8           HttpServer| Process URI: '/public/js/misc/moment-with-locales.min.js'
+I 01/05/2016 15:29:24:267 000018c8           HttpServer| Process URI: '/public/js/misc/stringFormat.js'
+I 01/05/2016 15:29:24:267 00001c68               NewORM| calling useNewOrm
+I 01/05/2016 15:29:24:267 000018c8           HttpServer| Process URI: '/public/js/factories.js'
+I 01/05/2016 15:29:24:282 000018c8           HttpServer| Process URI: '/public/js/utils.js'
+I 01/05/2016 15:29:24:282 000018c8           HttpServer| Process URI: '/public/js/syncManager.js'
+I 01/05/2016 15:29:24:298 000018c8           HttpServer| Process URI: '/public/js/app.js'
+I 01/05/2016 15:29:24:314 000018c8           HttpServer| Process URI: '/public/js/controllers/controllers.js'
+I 01/05/2016 15:29:24:314 000018c8           HttpServer| Process URI: '/public/js/controllers/loginController.js'
+I 01/05/2016 15:29:24:329 000018c8           HttpServer| Process URI: '/public/js/controllers/agendaCtrl.js'
+I 01/05/2016 15:29:24:329 000018c8           HttpServer| Process URI: '/public/js/controllers/datosInicioController.js'
+I 01/05/2016 15:29:24:329 000018c8           HttpServer| Process URI: '/public/js/controllers/descargaController.js'
+I 01/05/2016 15:29:24:345 000018c8           HttpServer| Process URI: '/public/js/controllers/configController.js'
+I 01/05/2016 15:29:24:345 000018c8           HttpServer| Process URI: '/public/js/controllers/menuController.js'
+I 01/05/2016 15:29:24:345 000018c8           HttpServer| Process URI: '/public/js/controllers/recargaController.js'
+I 01/05/2016 15:29:24:361 000018c8           HttpServer| Process URI: '/public/js/controllers/seleccionClienteCobranzaCtrl.js'
+I 01/05/2016 15:29:24:361 000018c8           HttpServer| Process URI: '/public/js/controllers/seleccionClienteController.js'
+I 01/05/2016 15:29:24:361 000018c8           HttpServer| Process URI: '/public/js/controllers/detalleEntregaController.js'
+I 01/05/2016 15:29:24:361 000018c8           HttpServer| Process URI: '/public/js/controllers/ingresoFacturaMPagoCtrl.js'
+I 01/05/2016 15:29:24:392 000018c8           HttpServer| Process URI: '/public/js/controllers/detalleMedioPagoCtrl.js'
+I 01/05/2016 15:29:24:392 000018c8           HttpServer| Process URI: '/public/js/controllers/calculadoraCtrl.js'
+I 01/05/2016 15:29:24:407 000018c8           HttpServer| Process URI: '/public/js/controllers/detalleVentaCtrl.js'
+I 01/05/2016 15:29:24:407 000018c8           HttpServer| Process URI: '/public/js/controllers/cierreHrController.js'
+I 01/05/2016 15:29:24:423 000018c8           HttpServer| Process URI: '/public/js/controllers/detalleVenta2Ctrl.js'
+I 01/05/2016 15:29:24:423 000018c8           HttpServer| Process URI: '/public/js/controllers/cancelacionPedidoCtrl.js'
+I 01/05/2016 15:29:24:423 000018c8           HttpServer| Process URI: '/public/js/controllers/otroMedioPagoCtrl.js'
+I 01/05/2016 15:29:24:439 000018c8           HttpServer| Process URI: '/public/js/controllers/reciboCobranzaCtrl.js'
+I 01/05/2016 15:29:24:439 000018c8           HttpServer| Process URI: '/public/js/controllers/detalleMedioPagoCobranzaCtrl.js'
+I 01/05/2016 15:29:24:454 000018c8           HttpServer| Process URI: '/public/js/controllers/detalleRemitoCtrl.js'
+I 01/05/2016 15:29:24:454 000018c8           HttpServer| Process URI: '/public/js/controllers/porcentajeYObservacionesCtrl.js'
+I 01/05/2016 15:29:24:472 000018c8           HttpServer| Process URI: '/public/js/controllers/configEstilosCtrl.js'
+I 01/05/2016 15:29:24:722 00001c68           JavaScript| Console message at http://127.0.0.1:4367/public/js/utils.js:6
+I 01/05/2016 15:29:24:722 00001c68           JavaScript| SyntaxError: Expected token '}'
+E 01/05/2016 15:29:24:816 00001c68            js_helper| API Module is not found: Rho:KeyCapture
+I 01/05/2016 15:29:24:816 00001c68           JavaScript| Console message at http://127.0.0.1:4367/public/js/app.js:25
+I 01/05/2016 15:29:24:816 00001c68           JavaScript| API module is not found.
+I 01/05/2016 15:29:24:832 00001c68           JavaScript| Console message at http://127.0.0.1:4367/public/js/app.js:32
+I 01/05/2016 15:29:24:832 00001c68           JavaScript| [object Object]
+I 01/05/2016 15:29:24:925 00001c68           JavaScript| Console message at http://127.0.0.1:4367/public/js/factories.js:156
+I 01/05/2016 15:29:24:941 00001c68           JavaScript| hay algo
+I 01/05/2016 15:29:24:941 00001c68           JavaScript| Console message at http://127.0.0.1:4367/public/js/factories.js:157
+I 01/05/2016 15:29:24:941 00001c68           JavaScript| [object Object]
+I 01/05/2016 15:29:24:957 00001c68           JavaScript| Console message at http://127.0.0.1:4367/public/js/factories.js:156
+I 01/05/2016 15:29:24:957 00001c68           JavaScript| hay algo
+I 01/05/2016 15:29:24:957 00001c68           JavaScript| Console message at http://127.0.0.1:4367/public/js/factories.js:157
+I 01/05/2016 15:29:24:972 00001c68           JavaScript| [object Object]
+I 01/05/2016 15:29:24:972 00001c68           JavaScript| Console message at http://127.0.0.1:4367/public/js/app.js:218
+I 01/05/2016 15:29:24:972 00001c68           JavaScript| 2
+I 01/05/2016 15:29:24:988 00001c68           JavaScript| Console message at http://127.0.0.1:4367/public/js/app.js:209
+I 01/05/2016 15:29:24:988 00001c68           JavaScript| ion-content, ion-content span, ion-content div, ion-content input, ion-content h3{font-size:16px !important}
+I 01/05/2016 15:29:25:019 000018c8           HttpServer| Process URI: '/public/pages/configEstilos.html'
+I 01/05/2016 15:29:25:019 00001c68         QtMainWindow| WebView: URL changed to http://127.0.0.1:4367/public/index.html#/app/home
+I 01/05/2016 15:29:25:019 000018c8           HttpServer| Process URI: '/public/pages/porcentajeDeCarga.html'
+I 01/05/2016 15:29:25:035 000018c8           HttpServer| Process URI: '/public/pages/cancelacionPedido.html'
+I 01/05/2016 15:29:25:035 000018c8           HttpServer| Process URI: '/public/pages/seleccionClienteEspontanea.html'
+I 01/05/2016 15:29:25:035 00001c68         QtMainWindow| Page load complete.
+I 01/05/2016 15:29:25:050 000018c8           HttpServer| Process URI: '/public/pages/menu.html'
+I 01/05/2016 15:29:25:066 000018c8           HttpServer| Process URI: '/public/pages/login.html'
+I 01/05/2016 15:29:25:066 000018c8           HttpServer| Process URI: '/favicon.ico'
+E 01/05/2016 15:29:25:066 000018c8           HttpServer| The file /favicon.ico was not found
+I 01/05/2016 15:29:25:128 00001c68           JavaScript| Console message at http://127.0.0.1:4367/public/js/controllers/loginController.js:12
+I 01/05/2016 15:29:25:128 00001c68           JavaScript| 272727272727
+I 01/05/2016 15:29:25:144 00001c68           JavaScript| Console message at http://127.0.0.1:4367/public/js/controllers/loginController.js:17
+I 01/05/2016 15:29:25:144 00001c68           JavaScript| loginCtrl
+I 01/05/2016 15:29:25:207 000018c8           HttpServer| Process URI: '/public/images/total/total_logo_big.png'
+I 01/05/2016 15:29:25:821 000018c8           HttpServer| Process URI: '/public/pages/detalleMedioPago.html'
+I 01/05/2016 15:29:25:836 000018c8           HttpServer| Process URI: '/public/pages/ingresoFacturaMPago.html'
+I 01/05/2016 15:29:26:852 000018c8           HttpServer| Process URI: '/public/pages/reciboCobranza.html'
+I 01/05/2016 15:29:26:867 000018c8           HttpServer| Process URI: '/public/pages/recarga.html'
+I 01/05/2016 15:29:26:867 000018c8           HttpServer| Process URI: '/public/pages/config.html'
+I 01/05/2016 15:29:27:852 000018c8           HttpServer| Process URI: '/public/pages/datosInicio.html'
+I 01/05/2016 15:29:27:867 000018c8           HttpServer| Process URI: '/public/pages/descarga.html'
+I 01/05/2016 15:29:27:867 000018c8           HttpServer| Process URI: '/public/pages/detalleRemito.html'
+I 01/05/2016 15:29:28:851 000018c8           HttpServer| Process URI: '/public/pages/detalleVenta2.html'
+I 01/05/2016 15:29:28:890 000018c8           HttpServer| Process URI: '/public/pages/detalleVenta.html'
+I 01/05/2016 15:29:28:890 000018c8           HttpServer| Process URI: '/public/pages/calculadora.html'
+I 01/05/2016 15:29:28:905 000018c8           HttpServer| Process URI: '/public/pages/detalleEntrega.html'
+I 01/05/2016 15:29:29:849 000018c8           HttpServer| Process URI: '/public/pages/agenda.html'
+I 01/05/2016 15:29:59:247 00001c68            RhodesApp| callAppActiveCallback
+I 01/05/2016 15:29:59:256 00001c68         AppCallbacks| addCommand: APP-DEACTIVATED
+I 01/05/2016 15:29:59:260 00001c68          RhoThreadQT| RHOQT stopWait
+I 01/05/2016 15:29:59:260 00001c68          RhoThreadQT| RHOQT stopWait- before 100 ms sleep
+I 01/05/2016 15:29:59:375 00001c68          RhoThreadQT| RHOQT stopWait-m_waitThread exists -before EnterCriticalSection
+I 01/05/2016 15:29:59:383 00001c68          RhoThreadQT| RHOQT stopWait-m_waitThread exists again- before Terminate waitthread
+I 01/05/2016 15:29:59:391 00001c68                  Net| Method: GET;Url: http://127.0.0.1:4367/system/deactivateapp
+I 01/05/2016 15:29:59:392 00001318          RhoThreadQT| RHOQT wait-after wait for a long time Result:-  false
+I 01/05/2016 15:29:59:400 00001c68                  Net| initConnection-Internet handle present
+I 01/05/2016 15:29:59:408 00001318          RhoThreadQT| RHOQT wait-m_waitThread exists again-before EnterCriticalSection
+I 01/05/2016 15:29:59:418 000018c8           HttpServer| Process URI: '/system/deactivateapp'
+I 01/05/2016 15:29:59:423 00001318          RhoThreadQT| RHOQT wait:-m_waitThread exists again 2-before Delete m_waitThread
+I 01/05/2016 15:29:59:429 000018c8                  APP| AppEvent Deactivated
+I 01/05/2016 15:29:59:435 00001318          RhoThreadQT| RHOQT wait:-m_waitThread exists again 2-after Delete m_waitThread
+I 01/05/2016 15:29:59:448 00001318         AppCallbacks| APP-DEACTIVATED is received ++++++++++++++++++++++++++++
+I 01/05/2016 15:29:59:454 00001318         AppCallbacks| process command: APP-DEACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I 01/05/2016 15:29:59:461 00001318         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 01/05/2016 15:29:59:467 00001318          RhoThreadQT| RHOQT wait
+I 01/05/2016 15:29:59:474 00001318          RhoThreadQT| RHOQT wait-after m_waitThread->start
+I 01/05/2016 15:29:59:479 00001318          RhoThreadQT| RHOQT wait-before wait for a long time nTimeoutMs:-  4294966296
+I 01/05/2016 15:29:59:615 00001c68                  Net| Method: GET;Url: http://127.0.0.1:4367/system/uidestroyed
+I 01/05/2016 15:29:59:615 00001c68                  Net| initConnection-Internet handle present
+I 01/05/2016 15:29:59:631 000018c8           HttpServer| Process URI: '/system/uidestroyed'
+I 01/05/2016 15:29:59:631 000018c8                  APP| AppEvent UIDestroyed
+I 01/05/2016 15:29:59:646 00001c68          RhoThreadQT| RHOQT stop
+I 01/05/2016 15:29:59:646 00001c68          RhoThreadQT| RHOQT stopWait
+I 01/05/2016 15:29:59:646 00001c68          RhoThreadQT| RHOQT stopWait- before 100 ms sleep
+I 01/05/2016 15:29:59:772 00001c68          RhoThreadQT| RHOQT stopWait-m_waitThread exists -before EnterCriticalSection
+I 01/05/2016 15:29:59:778 00001c68          RhoThreadQT| RHOQT stopWait-m_waitThread exists again- before Terminate waitthread
+I 01/05/2016 15:29:59:787 00001318          RhoThreadQT| RHOQT wait-after wait for a long time Result:-  false
+I 01/05/2016 15:29:59:787 00001318          RhoThreadQT| RHOQT wait-m_waitThread exists again-before EnterCriticalSection
+I 01/05/2016 15:29:59:803 00001318          RhoThreadQT| RHOQT wait:-m_waitThread exists again 2-before Delete m_waitThread
+I 01/05/2016 15:29:59:803 00001318          RhoThreadQT| RHOQT wait:-m_waitThread exists again 2-after Delete m_waitThread
+I 01/05/2016 15:29:59:803 00001318         AppCallbacks| Thread shutdown
+I 01/05/2016 15:29:59:818 00001c68           HttpServer| Stopping server...
+I 01/05/2016 15:29:59:818 00001c68          RhoThreadQT| RHOQT stopWait
+I 01/05/2016 15:29:59:818 000018c8            RhodesApp| RhodesApp thread shutdown
+I 01/05/2016 15:29:59:834 00001c68          RhoThreadQT| RHOQT stopWait- before 100 ms sleep
+I 01/05/2016 15:29:59:834 000018c8          GeoLocation| Destroying singleton instance.
+I 01/05/2016 15:29:59:850 000018c8                 Sync| Stopping Sync thread
+I 01/05/2016 15:29:59:850 000018c8          RhoThreadQT| RHOQT stop
+I 01/05/2016 15:29:59:865 000018c8          RhoThreadQT| RHOQT stopWait
+I 01/05/2016 15:29:59:865 000018c8          RhoThreadQT| RHOQT stopWait- before 100 ms sleep
+I 01/05/2016 15:29:59:959 00001c68          RhoThreadQT| RHOQT stop
+I 01/05/2016 15:29:59:959 00001c68          RhoThreadQT| RHOQT stopWait
+I 01/05/2016 15:29:59:975 00001c68          RhoThreadQT| RHOQT stopWait- before 100 ms sleep
+I 01/05/2016 15:29:59:990 000018c8          RhoThreadQT| RHOQT stopWait-m_waitThread exists -before EnterCriticalSection
+I 01/05/2016 15:29:59:990 000018c8          RhoThreadQT| RHOQT stopWait-m_waitThread exists again- before Terminate waitthread
+I 01/05/2016 15:30:00:006 00003060          RhoThreadQT| RHOQT wait-after wait for a long time Result:-  false
+I 01/05/2016 15:30:00:006 00003060          RhoThreadQT| RHOQT wait-m_waitThread exists again-before EnterCriticalSection
+I 01/05/2016 15:30:00:006 00003060          RhoThreadQT| RHOQT wait:-m_waitThread exists again 2-before Delete m_waitThread
+I 01/05/2016 15:30:00:021 00003060          RhoThreadQT| RHOQT wait:-m_waitThread exists again 2-after Delete m_waitThread
+I 01/05/2016 15:30:00:021 00003060                 Sync| Thread shutdown
+I 01/05/2016 15:30:00:037 000018c8          RhoThreadQT| RHOQT CRhoThreadImpl destructor
+I 01/05/2016 15:30:00:084 00001c68          RhoThreadQT| RHOQT CRhoThreadImpl destructor
+I 01/05/2016 15:30:00:084 00001c68          RhoThreadQT| RHOQT stop
+I 01/05/2016 15:30:00:084 00001c68          RhoThreadQT| RHOQT stopWait
+I 01/05/2016 15:30:00:100 00001c68          RhoThreadQT| RHOQT stopWait- before 100 ms sleep
+I 01/05/2016 15:30:00:225 00001c68          RhoThreadQT| RHOQT stopWait-m_waitThread exists -before EnterCriticalSection
+I 01/05/2016 15:30:00:225 00001c68          RhoThreadQT| RHOQT stopWait-m_waitThread exists again- before Terminate waitthread
+I 01/05/2016 15:30:00:225 00003258          RhoThreadQT| RHOQT wait-after wait for a long time Result:-  false
+I 01/05/2016 15:30:00:240 00003258          RhoThreadQT| RHOQT wait-m_waitThread exists again-before EnterCriticalSection
+I 01/05/2016 15:30:00:240 00003258          RhoThreadQT| RHOQT wait:-m_waitThread exists again 2-before Delete m_waitThread
+I 01/05/2016 15:30:00:240 00003258          RhoThreadQT| RHOQT wait:-m_waitThread exists again 2-after Delete m_waitThread
+I 01/05/2016 15:30:00:256 00001c68          RhoThreadQT| RHOQT CRhoThreadImpl destructor
+I 01/05/2016 15:30:00:256 00001c68          RhoThreadQT| RHOQT CRhoThreadImpl destructor
+erver| Process URI: '/public/js/controllers/seleccionClienteCobranzaCtrl.js'
+I 01/05/2016 15:29:04:726 000031a0           HttpServer| Process URI: '/public/js/controllers/seleccionClienteController.js'
+I 01/05/2016 15:29:04:726 000031a0           HttpServer| Process URI: '/public/js/controllers/detalleEntregaController.js'
+I 01/05/2016 15:29:04:726 000031a0           HttpServer| Process URI: '/public/js/controllers/ingresoFacturaMPagoCtrl.js'
+I 01/05/2016 15:29:04:741 000031a0           HttpServer| Process URI: '/public/js/controllers/detalleMedioPagoCtrl.js'
+I 01/05/2016 15:29:04:741 000031a0           HttpServer| Process URI: '/public/js/controllers/calculadoraCtrl.js'
+I 01/05/2016 15:29:04:757 000031a0           HttpServer| Process URI: '/public/js/controllers/detalleVentaCtrl.js'
+I 01/05/2016 15:29:04:766 000031a0           HttpServer| Process URI: '/public/js/controllers/cierreHrController.js'
+I 01/05/2016 15:29:04:772 000031a0           HttpServer| Process URI: '/public/js/controllers/detalleVenta2Ctrl.js'
+I 01/05/2016 15:29:04:772 000031a0           HttpServer| Process URI: '/public/js/controllers/cancelacionPedidoCtrl.js'
+I 01/05/2016 15:29:04:787 000031a0           HttpServer| Process URI: '/public/js/controllers/otroMedioPagoCtrl.js'
+I 01/05/2016 15:29:04:803 000031a0           HttpServer| Process URI: '/public/js/controllers/reciboCobranzaCtrl.js'
+I 01/05/2016 15:29:04:803 000031a0           HttpServer| Process URI: '/public/js/controllers/detalleMedioPagoCobranzaCtrl.js'
+I 01/05/2016 15:29:04:821 000031a0           HttpServer| Process URI: '/public/js/controllers/detalleRemitoCtrl.js'
+I 01/05/2016 15:29:04:829 000031a0           HttpServer| Process URI: '/public/js/controllers/porcentajeYObservacionesCtrl.js'
+I 01/05/2016 15:29:04:835 000031a0           HttpServer| Process URI: '/public/js/controllers/configEstilosCtrl.js'
+I 01/05/2016 15:29:05:014 00002754           JavaScript| Console message at http://127.0.0.1:4289/public/js/utils.js:6
+I 01/05/2016 15:29:05:030 00002754           JavaScript| SyntaxError: Expected token '}'
+E 01/05/2016 15:29:05:111 00002754            js_helper| API Module is not found: Rho:KeyCapture
+I 01/05/2016 15:29:05:111 00002754           JavaScript| Console message at http://127.0.0.1:4289/public/js/app.js:25
+I 01/05/2016 15:29:05:126 00002754           JavaScript| API module is not found.
+I 01/05/2016 15:29:05:126 00002754           JavaScript| Console message at http://127.0.0.1:4289/public/js/app.js:32
+I 01/05/2016 15:29:05:142 00002754           JavaScript| [object Object]
+I 01/05/2016 15:29:05:267 00002754           JavaScript| Console message at http://127.0.0.1:4289/public/js/factories.js:156
+I 01/05/2016 15:29:05:267 00002754           JavaScript| hay algo
+I 01/05/2016 15:29:05:283 00002754           JavaScript| Console message at http://127.0.0.1:4289/public/js/factories.js:157
+I 01/05/2016 15:29:05:283 00002754           JavaScript| [object Object]
+I 01/05/2016 15:29:05:283 00002754           JavaScript| Console message at http://127.0.0.1:4289/public/js/factories.js:156
+I 01/05/2016 15:29:05:298 00002754           JavaScript| hay algo
+I 01/05/2016 15:29:05:298 00002754           JavaScript| Console message at http://127.0.0.1:4289/public/js/factories.js:157
+I 01/05/2016 15:29:05:298 00002754           JavaScript| [object Object]
+I 01/05/2016 15:29:05:298 00002754           JavaScript| Console message at http://127.0.0.1:4289/public/js/app.js:218
+I 01/05/2016 15:29:05:314 00002754           JavaScript| 2
+I 01/05/2016 15:29:05:314 00002754           JavaScript| Console message at http://127.0.0.1:4289/public/js/app.js:209
+I 01/05/2016 15:29:05:329 00002754           JavaScript| ion-content, ion-content span, ion-content div, ion-content input, ion-content h3{font-size:16px !important}
+I 01/05/2016 15:29:05:361 000031a0           HttpServer| Process URI: '/public/pages/configEstilos.html'
+I 01/05/2016 15:29:05:361 00002754         QtMainWindow| WebView: URL changed to http://127.0.0.1:4289/public/index.html#/app/home
+I 01/05/2016 15:29:05:376 000031a0           HttpServer| Process URI: '/public/pages/porcentajeDeCarga.html'
+I 01/05/2016 15:29:05:376 000031a0           HttpServer| Process URI: '/public/pages/cancelacionPedido.html'
+I 01/05/2016 15:29:05:376 00002754         QtMainWindow| Page load complete.
+I 01/05/2016 15:29:05:408 000031a0           HttpServer| Process URI: '/public/pages/seleccionClienteEspontanea.html'
+I 01/05/2016 15:29:05:408 000031a0           HttpServer| Process URI: '/public/pages/menu.html'
+I 01/05/2016 15:29:05:408 000031a0           HttpServer| Process URI: '/public/pages/login.html'
+I 01/05/2016 15:29:05:423 000031a0           HttpServer| Process URI: '/favicon.ico'
+E 01/05/2016 15:29:05:423 000031a0           HttpServer| The file /favicon.ico was not found
+I 01/05/2016 15:29:05:491 00002754           JavaScript| Console message at http://127.0.0.1:4289/public/js/controllers/loginController.js:12
+I 01/05/2016 15:29:05:494 00002754           JavaScript| 272727272727
+I 01/05/2016 15:29:05:500 00002754           JavaScript| Console message at http://127.0.0.1:4289/public/js/controllers/loginController.js:17
+I 01/05/2016 15:29:05:504 00002754           JavaScript| loginCtrl
+I 01/05/2016 15:29:05:583 000031a0           HttpServer| Process URI: '/public/images/total/total_logo_big.png'
+I 01/05/2016 15:29:06:122 000031a0           HttpServer| Process URI: '/public/pages/detalleMedioPago.html'
+I 01/05/2016 15:29:06:138 000031a0           HttpServer| Process URI: '/public/pages/ingresoFacturaMPago.html'
+I 01/05/2016 15:29:07:128 000031a0           HttpServer| Process URI: '/public/pages/reciboCobranza.html'
+I 01/05/2016 15:29:07:144 000031a0           HttpServer| Process URI: '/public/pages/recarga.html'
+I 01/05/2016 15:29:07:160 000031a0           HttpServer| Process URI: '/public/pages/config.html'
+I 01/05/2016 15:29:08:133 000031a0           HttpServer| Process URI: '/public/pages/datosInicio.html'
+I 01/05/2016 15:29:08:148 000031a0           HttpServer| Process URI: '/public/pages/descarga.html'
+I 01/05/2016 15:29:08:164 000031a0           HttpServer| Process URI: '/public/pages/detalleRemito.html'
+I 01/05/2016 15:29:09:136 000031a0           HttpServer| Process URI: '/public/pages/detalleVenta2.html'
+I 01/05/2016 15:29:09:151 000031a0           HttpServer| Process URI: '/public/pages/detalleVenta.html'
+I 01/05/2016 15:29:09:155 000031a0           HttpServer| Process URI: '/public/pages/calculadora.html'
+I 01/05/2016 15:29:09:170 000031a0           HttpServer| Process URI: '/public/pages/detalleEntrega.html'
+I 01/05/2016 15:29:09:700 00002754            RhodesApp| callAppActiveCallback
+I 01/05/2016 15:29:09:716 00002754         AppCallbacks| addCommand: APP-DEACTIVATED
+I 01/05/2016 15:29:09:716 00002754          RhoThreadQT| RHOQT stopWait
+I 01/05/2016 15:29:09:716 00002754          RhoThreadQT| RHOQT stopWait- before 100 ms sleep
+I 01/05/2016 15:29:09:841 00002754          RhoThreadQT| RHOQT stopWait-m_waitThread exists -before EnterCriticalSection
+I 01/05/2016 15:29:09:841 00002754          RhoThreadQT| RHOQT stopWait-m_waitThread exists again- before Terminate waitthread
+I 01/05/2016 15:29:09:841 00002754                  Net| Method: GET;Url: http://127.0.0.1:4289/system/deactivateapp
+I 01/05/2016 15:29:09:841 00001578          RhoThreadQT| RHOQT wait-after wait for a long time Result:-  false
+I 01/05/2016 15:29:09:864 00001578          RhoThreadQT| RHOQT wait-m_waitThread exists again-before EnterCriticalSection
+I 01/05/2016 15:29:09:856 00002754                  Net| initConnection-Internet handle present
+I 01/05/2016 15:29:09:871 00001578          RhoThreadQT| RHOQT wait:-m_waitThread exists again 2-before Delete m_waitThread
+I 01/05/2016 15:29:09:885 00001578          RhoThreadQT| RHOQT wait:-m_waitThread exists again 2-after Delete m_waitThread
+I 01/05/2016 15:29:09:892 00001578         AppCallbacks| APP-DEACTIVATED is received ++++++++++++++++++++++++++++
+I 01/05/2016 15:29:09:898 00001578         AppCallbacks| process command: APP-DEACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I 01/05/2016 15:29:09:880 000031a0           HttpServer| Process URI: '/system/deactivateapp'
+I 01/05/2016 15:29:09:906 00001578         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 01/05/2016 15:29:09:912 000031a0                  APP| AppEvent Deactivated
+I 01/05/2016 15:29:09:920 00001578          RhoThreadQT| RHOQT wait
+I 01/05/2016 15:29:09:936 00001578          RhoThreadQT| RHOQT wait-after m_waitThread->start
+I 01/05/2016 15:29:09:941 00001578          RhoThreadQT| RHOQT wait-before wait for a long time nTimeoutMs:-  4294966296
+I 01/05/2016 15:29:10:090 00002754                  Net| Method: GET;Url: http://127.0.0.1:4289/system/uidestroyed
+I 01/05/2016 15:29:10:090 00002754                  Net| initConnection-Internet handle present
+I 01/05/2016 15:29:10:106 000031a0           HttpServer| Process URI: '/system/uidestroyed'
+I 01/05/2016 15:29:10:106 000031a0                  APP| AppEvent UIDestroyed
+I 01/05/2016 15:29:10:106 00002754          RhoThreadQT| RHOQT stop
+I 01/05/2016 15:29:10:106 00002754          RhoThreadQT| RHOQT stopWait
+I 01/05/2016 15:29:10:121 00002754          RhoThreadQT| RHOQT stopWait- before 100 ms sleep
+I 01/05/2016 15:29:10:231 00002754          RhoThreadQT| RHOQT stopWait-m_waitThread exists -before EnterCriticalSection
+I 01/05/2016 15:29:10:231 00002754          RhoThreadQT| RHOQT stopWait-m_waitThread exists again- before Terminate waitthread
+I 01/05/2016 15:29:10:231 00001578          RhoThreadQT| RHOQT wait-after wait for a long time Result:-  false
+I 01/05/2016 15:29:10:246 00001578          RhoThreadQT| RHOQT wait-m_waitThread exists again-before EnterCriticalSection
+I 01/05/2016 15:29:10:246 00001578          RhoThreadQT| RHOQT wait:-m_waitThread exists again 2-before Delete m_waitThread
+I 01/05/2016 15:29:10:246 00001578          RhoThreadQT| RHOQT wait:-m_waitThread exists again 2-after Delete m_waitThread
+I 01/05/2016 15:29:10:246 00001578         AppCallbacks| Thread shutdown
+I 01/05/2016 15:29:10:262 00002754           HttpServer| Stopping server...
+I 01/05/2016 15:29:10:262 00002754          RhoThreadQT| RHOQT stopWait
+I 01/05/2016 15:29:10:278 00002754          RhoThreadQT| RHOQT stopWait- before 100 ms sleep
+I 01/05/2016 15:29:10:262 000031a0            RhodesApp| RhodesApp thread shutdown
+I 01/05/2016 15:29:10:293 000031a0          GeoLocation| Destroying singleton instance.
+I 01/05/2016 15:29:10:293 000031a0                 Sync| Stopping Sync thread
+I 01/05/2016 15:29:10:309 000031a0          RhoThreadQT| RHOQT stop
+I 01/05/2016 15:29:10:309 000031a0          RhoThreadQT| RHOQT stopWait
+I 01/05/2016 15:29:10:309 000031a0          RhoThreadQT| RHOQT stopWait- before 100 ms sleep
+I 01/05/2016 15:29:10:403 00002754          RhoThreadQT| RHOQT stop
+I 01/05/2016 15:29:10:403 00002754          RhoThreadQT| RHOQT stopWait
+I 01/05/2016 15:29:10:403 00002754          RhoThreadQT| RHOQT stopWait- before 100 ms sleep
+I 01/05/2016 15:29:10:434 000031a0          RhoThreadQT| RHOQT stopWait-m_waitThread exists -before EnterCriticalSection
+I 01/05/2016 15:29:10:434 000031a0          RhoThreadQT| RHOQT stopWait-m_waitThread exists again- before Terminate waitthread
+I 01/05/2016 15:29:10:434 000035fc          RhoThreadQT| RHOQT wait-after wait for a long time Result:-  false
+I 01/05/2016 15:29:10:449 000035fc          RhoThreadQT| RHOQT wait-m_waitThread exists again-before EnterCriticalSection
+I 01/05/2016 15:29:10:449 000035fc          RhoThreadQT| RHOQT wait:-m_waitThread exists again 2-before Delete m_waitThread
+I 01/05/2016 15:29:10:465 000035fc          RhoThreadQT| RHOQT wait:-m_waitThread exists again 2-after Delete m_waitThread
+I 01/05/2016 15:29:10:465 000035fc                 Sync| Thread shutdown
+I 01/05/2016 15:29:10:481 000031a0          RhoThreadQT| RHOQT CRhoThreadImpl destructor
+I 01/05/2016 15:29:10:528 00002754          RhoThreadQT| RHOQT CRhoThreadImpl destructor
+I 01/05/2016 15:29:10:528 00002754          RhoThreadQT| RHOQT stop
+I 01/05/2016 15:29:10:528 00002754          RhoThreadQT| RHOQT stopWait
+I 01/05/2016 15:29:10:543 00002754          RhoThreadQT| RHOQT stopWait- before 100 ms sleep
+I 01/05/2016 15:29:10:653 00002754          RhoThreadQT| RHOQT stopWait-m_waitThread exists -before EnterCriticalSection
+I 01/05/2016 15:29:10:653 00002754          RhoThreadQT| RHOQT stopWait-m_waitThread exists again- before Terminate waitthread
+I 01/05/2016 15:29:10:668 000004ac          RhoThreadQT| RHOQT wait-after wait for a long time Result:-  false
+I 01/05/2016 15:29:10:668 000004ac          RhoThreadQT| RHOQT wait-m_waitThread exists again-before EnterCriticalSection
+I 01/05/2016 15:29:10:668 000004ac          RhoThreadQT| RHOQT wait:-m_waitThread exists again 2-before Delete m_waitThread
+I 01/05/2016 15:29:10:684 000004ac          RhoThreadQT| RHOQT wait:-m_waitThread exists again 2-after Delete m_waitThread
+I 01/05/2016 15:29:10:684 00002754          RhoThreadQT| RHOQT CRhoThreadImpl destructor
+I 01/05/2016 15:29:10:684 00002754          RhoThreadQT| RHOQT CRhoThreadImpl destructor
+I 01/05/2016 15:29:20:540 00001c68            RhodesApp| New start params: -approot=D:/Projects/Total-Rho/Development -rhodespath=C:/RhoMobileSuite5.3.2/ruby/lib/ruby/gems/1.9.1/gems/rhodes-5.3.2 
+I 01/05/2016 15:29:20:540 00001c68               QTMain| Running on : Windows 6.2 (Win 8) Application Compiled with QT Version :  5.1.1 Running with QT Version 5.1.1
+I 01/05/2016 15:29:20:555 00001c68               QTMain| 0 Paths
+I 01/05/2016 15:29:20:555 00001c68               QTMain| C:/RhoMobileSuite5.3.2/ruby/lib/ruby/gems/1.9.1/gems/rhodes-5.3.2/platform/win32/RhoSimulator
+I 01/05/2016 15:29:20:555 00001c68               QTMain| Rhodes started
+I 01/05/2016 15:29:20:555 00001c68          RhoThreadQT| RHOQT CRhoThreadImpl cons-before InitializeCriticalSections
+I 01/05/2016 15:29:20:571 00001c68          RhoThreadQT| RHOQT CRhoThreadImpl cons-before InitializeCriticalSections
+I 01/05/2016 15:29:20:571 00001c68          RhoThreadQT| RHOQT CRhoThreadImpl cons-before InitializeCriticalSections
+I 01/05/2016 15:29:20:571 00003258          RhoThreadQT| RHOQT wait
+I 01/05/2016 15:29:20:571 00001318         AppCallbacks| Starting main routine...
+I 01/05/2016 15:29:20:571 00001c68            RhodesApp| Trying to get free listening port.
+I 01/05/2016 15:29:20:571 00003258          RhoThreadQT| RHOQT wait-after m_waitThread->start
+I 01/05/2016 15:29:20:571 00001318         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 01/05/2016 15:29:20:586 00001318          RhoThreadQT| RHOQT wait
+I 01/05/2016 15:29:20:586 00003258          RhoThreadQT| RHOQT wait-before wait for a long time nTimeoutMs:-  4294967295
+I 01/05/2016 15:29:20:571 00001c68            RhodesApp| Trying to bind of 0 port...
+I 01/05/2016 15:29:20:586 00001318          RhoThreadQT| RHOQT wait-after m_waitThread->start
+I 01/05/2016 15:29:20:602 00001318          RhoThreadQT| RHOQT wait-before wait for a long time nTimeoutMs:-  4294966296
+I 01/05/2016 15:29:20:602 00001c68            RhodesApp| Got port to bind on: 4367
+I 01/05/2016 15:29:20:618 00001c68            RhodesApp| Free listening port: 4367
+I 01/05/2016 15:29:20:669 00001c68            RhodesApp| callAppActiveCallback
+I 01/05/2016 15:29:20:669 00001c68         AppCallbacks| addCommand: APP-ACTIVATED
+I 01/05/2016 15:29:20:684 00001c68          RhoThreadQT| RHOQT stopWait
+I 01/05/2016 15:29:20:684 00001c68          RhoThreadQT| RHOQT stopWait- before 100 ms sleep
+I 01/05/2016 15:29:20:809 00001c68          RhoThreadQT| RHOQT stopWait-m_waitThread exists -before EnterCriticalSection
+I 01/05/2016 15:29:20:809 00001c68          RhoThreadQT| RHOQT stopWait-m_waitThread exists again- before Terminate waitthread
+I 01/05/2016 15:29:20:825 00001318          RhoThreadQT| RHOQT wait-after wait for a long time Result:-  false
+I 01/05/2016 15:29:20:825 00001318          RhoThreadQT| RHOQT wait-m_waitThread exists again-before EnterCriticalSection
+I 01/05/2016 15:29:20:825 00001318          RhoThreadQT| RHOQT wait:-m_waitThread exists again 2-before Delete m_waitThread
+I 01/05/2016 15:29:20:825 00001318          RhoThreadQT| RHOQT wait:-m_waitThread exists again 2-after Delete m_waitThread
+I 01/05/2016 15:29:20:825 00001c68         AppCallbacks| addCommand: UI-CREATED
+I 01/05/2016 15:29:20:840 00001318         AppCallbacks| APP-ACTIVATED is received ++++++++++++++++++++++++++++
+I 01/05/2016 15:29:20:840 00001c68          RhoThreadQT| RHOQT stopWait
+I 01/05/2016 15:29:20:840 00001318         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I 01/05/2016 15:29:20:856 00001c68          RhoThreadQT| RHOQT stopWait- before 100 ms sleep
+I 01/05/2016 15:29:20:856 00001318         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I 01/05/2016 15:29:20:872 00001318         AppCallbacks| m_uistate: 0
+I 01/05/2016 15:29:20:872 00001318         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I 01/05/2016 15:29:20:887 00001318         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 01/05/2016 15:29:20:887 00001318          RhoThreadQT| RHOQT wait
+I 01/05/2016 15:29:20:887 00001318          RhoThreadQT| RHOQT wait-after m_waitThread->start
+I 01/05/2016 15:29:20:903 00001318          RhoThreadQT| RHOQT wait-before wait for a long time nTimeoutMs:-  4294966296
+I 01/05/2016 15:29:20:981 00001c68          RhoThreadQT| RHOQT stopWait-m_waitThread exists -before EnterCriticalSection
+I 01/05/2016 15:29:20:981 00001c68          RhoThreadQT| RHOQT stopWait-m_waitThread exists again- before Terminate waitthread
+I 01/05/2016 15:29:20:981 00001c68           MainWindow| navigate: 'about:blank'
+I 01/05/2016 15:29:20:981 000018c8            RhodesApp| Starting RhodesApp main routine...
+I 01/05/2016 15:29:20:981 00001318          RhoThreadQT| RHOQT wait-after wait for a long time Result:-  false
+I 01/05/2016 15:29:20:981 00001c68         QtMainWindow| WebView: loading...
+I 01/05/2016 15:29:20:997 000018c8              RhoRuby| Init_RhoBlobs: D:/Projects/Total-Rho/Development/rhosimulator/db/db-files
+I 01/05/2016 15:29:20:997 00001318          RhoThreadQT| RHOQT wait-m_waitThread exists again-before EnterCriticalSection
+

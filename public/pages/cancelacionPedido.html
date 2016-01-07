@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<ion-view view-title="Cancelación Pedido" hide-back-button="true" can-swipe-back="false">
+    <ion-content padding="true">
+        <center>
+            <label>
+                <div class="smallFont">
+                    <u>Motivo Cancelación Pedido:</u>
+                </div>
+                <select class="selectFullWidth" ng-model="datosForm.idMotivo">
+                    <option ng-repeat="motivo in motivos" value="{{motivo.id}}">{{motivo.descripcion}}</option>
+                </select>
+            </label>
+        </center>
+    </ion-content>
+    <ion-footer-bar class=" bar-stable">
+        <button id="botonVolver" ng-click="volver()" class="button button-stable boton-mitad-width">Volver</button>
+        <button id="botonFinalizar" ng-click="finalizar()" class="button button-stable boton-mitad-width">Finalizar</button>
+    </ion-footer-bar>
+</ion-view>
+</body>
+</html>

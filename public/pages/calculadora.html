@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+</head>
+<body>
+
+<ion-view view-title="Calculadora" hide-back-button="true" can-swipe-back="false">
+    <ion-content padding="true" has-header>
+        <div class="list">
+            <label class="itemChico item item-input item-select">
+                <div class="input-label">
+                    Tipo de conversión:
+                </div>
+                <select ng-model="formData.tipoConversion" ng-options='x.label for x in opcionesSelect' ng-change="cambioSelect()" >\
+                </select>
+            </label>
+            <div class="itemChico item item-input-inset">
+                <label class="item-input-wrapper">
+                    <input type="number" ng-model="formData.txtDato" placeholder="{{inputLabel}}">
+                </label>
+                <button ng-click="calcular()" class="button button-small importantButton" >
+                    Calcular
+                </button>
+            </div>
+            <div class="itemChico item">{{formData.valorCalculado}}</div>
+            <div class="itemChico item">Precio por Litro: {{formData.precioPorLitro}}</div>
+            <div class="itemChico item">Neto: {{formData.neto}}</div>
+            <div class="itemChico item">IVA: {{formData.IVA}}</div>
+            <div class="itemChico item">PI: {{formData.PI}}</div>
+            <div class="itemChico item">PIB: {{formData.PIB}}</div>
+            <div class="itemChico item">{{formData.respuesta}}</div>
+        </div>
+    </ion-content>
+    <ion-footer-bar class=" bar-stable">
+        <button id="botonVolver" ng-click="volverAEntrega()" class="button button-stable boton-mitad-width">Volver</button>
+        <button id="botonAprobar" ng-click="aprobar()" ng-disabled="pedidoBloqueado" class="button button-stable boton-mitad-width">Aprobar</button>
+    </ion-footer-bar>
+</ion-view>
+</body>
+</html>

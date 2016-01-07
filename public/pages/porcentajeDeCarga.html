@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<ion-view view-title="Porcentaje de Carga y Observaciones" hide-back-button="true" can-swipe-back="false">
+    <ion-content padding="true">
+    	<form novalidate name="forms.cargaYObservaciones">
+	    	<ion-list>
+	    		<ion-item>
+	    			<span class='formTitle'>Porcentaje Inicial</span>
+	    			<input name="porcentajeInicial" class="formInput" type="number" placeholder='XX' required min="0" max="100" ng-model='datos.porcentajeInicial' integer />
+                    <div ng-show='forms.cargaYObservaciones.porcentajeInicial.$touched'>
+                        <span class='validation' ng-show='forms.cargaYObservaciones.porcentajeInicial.$error.required || forms.cargaYObservaciones.porcentajeInicial.$error.integer || forms.cargaYObservaciones.porcentajeInicial.$error.min || forms.cargaYObservaciones.porcentajeInicial.$error.max' >Debe completar el formulario con Numeros entre 0 y 100</span>
+                    </div>
+	    		</ion-item>
+	    		<ion-item>
+	    			<span class='formTitle' >Porcentaje Final</span>
+	    			<input name="procentajeFinal" class="formInput" type="number" placeholder='XX'  required min="0" max="100" ng-model='datos.porcentajeFinal'/>
+                     <div ng-show='forms.cargaYObservaciones.procentajeFinal.$touched'>
+                        <span class='validation' ng-show='forms.cargaYObservaciones.procentajeFinal.$error.required || forms.cargaYObservaciones.procentajeFinal.$error.integer || forms.cargaYObservaciones.procentajeFinal.$error.min || forms.cargaYObservaciones.procentajeFinal.$error.max' >Debe completar el formulario con Numeros entre 0 y 100</span>
+                    </div>
+	    		</ion-item>
+	    		<ion-item>
+	    			<span class='formTitle' >Observaciones</span>
+	    			<textarea class="formInput multiText" name="observaciones" placeholder='Observaciones' ng-model='datos.observaciones'></textarea>
+                    <div ng-show='forms.cargaYObservaciones.observaciones.$touched'>
+                        <span class='validation' ng-show='ValidFormObs' >Campo obligatorio. Solo se admiten hasta 100 caracteres con números o letras.</span>
+                    </div>
+	    		</ion-item>
+	    	</ion-list>    		
+    	</form>
+    </ion-content>
+
+    <ion-footer-bar class=" bar-stable">
+        <span id="space" class="boton-mitad-width"></span>
+        <button id="botonSiguiente" ng-click="siguiente()" class="button button-stable boton-mitad-width button-small">Siguiente</button>
+    </ion-footer-bar>
+</ion-view>
+</body>
+</html>

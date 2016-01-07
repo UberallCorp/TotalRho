@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Detalle Entrega</title>
+</head>
+<body>
+
+<ion-view view-title="Pedido N° {{pedido.NumeroPedido}}" hide-back-button="true" can-swipe-back="false">
+    <ion-content padding="true">
+        <div style="display: block"><span style="font-weight:bold">Cod Cliente:</span> <span> {{pedido.CodigoCliente}}</span> </div>
+        <div style="display: block"><span style="font-weight:bold">Cliente:</span> <span> {{pedido.cliente.nombreCliente}}</span> </div>
+        <div style="display: block"><span style="font-weight:bold">Cuit:</span> <span> {{pedido.cliente.cuit}}</span> </div>
+        <div style="display: block"><span style="font-weight:bold">Dir:</span> <span> {{pedido.DireccionDestinatario}}</span> </div>
+        <div style="display: block"><span style="font-weight:bold">Localidad:</span> <span> {{pedido.Localidad}}</span> </div>
+        <div style="display: block"><span style="font-weight:bold">Telefono:</span> <span> {{pedido.cliente.telefono}} </span> </div>
+        <div style="display: block"><span style="font-weight:bold">Tipo de Factura:</span> <span> {{pedido.TipoFactura}} </span> </div>
+        <div style="display: block"><span style="font-weight:bold">Cond. Pago:</span> <span> {{pedido.cliente.condicion_Pago}} </span></div>
+
+        <div ng-if="form.mostrarRemito" style="display: block ; text-align: center; margin-top: 10px;"><span style="font-weight:bold; margin-top: 3px; margin-bottom: 3px;">REMITO</span></div>
+
+
+        <div ng-show="pedido.Observacion" style="display: block"><span style="font-weight:bold">Observación:</span> <span>{{pedido.Observacion}}</span> </div>
+
+        <form>
+            <div style="display: block" class=" item item-checkbox item-checkbox-sin-bordes">
+                <label class="checkbox checkbox-stable checkbox-square tope-izquierda">
+                    <input ng-model="sit.pedida" type="checkbox">
+                </label>
+                Solicitud de Inspección Técnica
+            </div>
+        </form>
+
+        <button id="botonCancelar" style="margin-top:5px;" ng-disabled='cancelarStatus' ng-click="cancelarPedido()" class="button button-stable button-small importantButton">Cancelar Pedido</button>
+
+    </ion-content>
+    <ion-footer-bar class=" bar-stable">
+        <button id="botonVolver" ng-click="goBack()" class="button button-stable boton-mitad-width">Volver</button>
+        <button id="botonSiguiente" ng-click="siguienteDetalleEntrega()" class="button button-stable boton-mitad-width">Siguiente</button>
+    </ion-footer-bar>
+</ion-view>
+</body>
+</html>

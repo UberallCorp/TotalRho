@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<ion-view view-title="{{otro}}Medio Pago{{tituloCobranza}}: {{titulo}}" hide-back-button="true" can-swipe-back="false">
+    <ion-content padding="true">
+
+        <div ng-if="segundoMedioDePago" class="list" style="margin-bottom: 5px !important;">
+            <form novalidate name="forms.formSeleccionSegundoMedioPago">
+                <label class="itemChico item item-input item-select">
+                    <div class="input-label">
+                        Medio Pago:
+                    </div>
+                    <select ng-model="formSeleccionSegundoMedioPago.codigoMedioPago" name="medioPago" required ng-change="seleccionMedioDePago()">
+                        <option ng-repeat="medioDePago in mediosDePago" value="{{medioDePago.codigoMedioPago}}">{{medioDePago.descripcion}}</option>
+                    </select>
+                </label>
+            </form>
+        </div>
+
+        <!--EFECTIVO-->
+        <div ng-if="codigoMedioPago == 1" padding="true">
+            <form novalidate name="forms.formEfectivo">
+                <label class="item item-input item-input-chico">
+                    <span class="input-label smallFont">Monto:</span>
+                    <input class="smallFont" name="montoEfectivo" min="0.00000000001" type="number"  ng-model="datosPago.monto" placeholder="Monto" required>
+                </label>
+                <span style="color:red" ng-show="forms.formEfectivo.montoEfectivo.$dirty &&
+                forms.formEfectivo.montoEfectivo.$invalid">El monto no es válido.</span>
+            </form>
+        </div>
+    
+        <!--CUENTA CORRIENTE-->
+        <div ng-if="codigoMedioPago == 5" padding="true">
+            <form novalidate name="forms.formCuentaCorriente">
+                <label class="item item-input item-input-chico">
+                    <span class="input-label smallFont">Monto:</span>
+                    <input class="smallFont" type="number" name="montoCuentaCorriente" min="0.00000000001" ng-model="datosPago.monto" placeholder="Monto" required>
+                </label>
+                <span style="color:red" ng-show="forms.formCuentaCorriente.montoCuentaCorriente.$dirty &&
+                forms.formCuentaCorriente.montoCuentaCorriente.$invalid">El monto no es válido.</span>
+            </form>
+        </div>
+    
+        <!--CHEQUE-->
+        <div ng-if="codigoMedioPago == 2" padding="true">
+            <form novalidate name="forms.formCheque">
+                <label class="item item-input item-input-chico">
+                    <span class="input-label smallFont">Número:</span>
+                    <input class="smallFont" type="number" name="numeroCheque" ng-model="datosCheque.numero" placeholder="Numero" required>
+                </label>
+                <span style="color:red" ng-show="forms.formCheque.numeroCheque.$dirty &&
+                forms.formCheque.numeroCheque.$invalid">El número de cheque no es válido.</span>
+    
+                <label class="itemChico item item-input item-select">
+                    <div class="input-label">
+                        Banco:
+                    </div>
+                    <select ng-model="datosCheque.codigoBanco">
+                        <option ng-repeat="banco in bancos" value="{{banco.codigoBanco}}">{{banco.descripcionBanco}}</option>
+                    </select>
+                </label>
+    
+                <div class="item item-input-chico">
+                    <span class="input-label smallFont span-inline-corto">Fecha Venc:</span>
+                    <input style="display:inline; width: 20px" class="smallFont" type="number" ng-model="datosCheque.diaVenc" placeholder="XX" min="1" max="31" required>
+                    <span class="input-label smallFont span-inline-corto"> / </span>
+                    <input style="display:inline; width: 20px" class="smallFont" type="number" ng-model="datosCheque.mesVenc" placeholder="XX" min="1" max="12" required>
+                    <span class="input-label smallFont span-inline-corto"> / </span>
+                    <input style="display:inline; width: 40px" class="smallFont" type="number" ng-model="datosCheque.anioVenc" placeholder="XXXX" required>
+                </div>
+                <span style="color:red" ng-show="fechaChequeInvalida">La fecha de vencimiento no es válida.</span>
+    
+                <label class="itemChico item item-input item-select">
+                    <div class="input-label">
+                        Tipo:
+                    </div>
+                    <select ng-model="datosCheque.tipoMedioPago" required>
+                        <option ng-repeat="tipoMedioPago in tiposMedioPago" value="{{tipoMedioPago.codigo}}">{{tipoMedioPago.descripcion}}</option>
+                    </select>
+                </label>
+                <span style="color:red" ng-show="forms.formTarjeta.tipoTarjeta.$dirty &&
+                forms.formTarjeta.tipoTarjeta.$invalid">El tipo es requerido.</span>
+    
+                <label class="item item-input item-input-chico">
+                    <span class="input-label smallFont">Monto:</span>
+                    <input class="smallFont" type="number" ng-model="datosPago.monto" name="montoCheque" min="0" placeholder="Monto" required>
+                </label>
+                <span style="color:red" ng-show="forms.formCheque.montoCuentaCorriente.$dirty &&
+                forms.formCheque.montoCuentaCorriente.$invalid">El monto no es válido.</span>
+            </form>
+        </div>
+    
+        <!--TARJETA-->
+        <div ng-if="codigoMedioPago == 3" padding="true">
+            <form novalidate name="forms.formTarjeta">
+                <label class="itemChico item item-input item-select">
+                    <div class="input-label">
+                        Tipo:
+                    </div>
+                    <select ng-model="datosTarjeta.tipoMedioPago" name="tipoTarjeta" required>
+                        <option ng-repeat="tipoMedioPago in tiposMedioPago" value="{{tipoMedioPago.codigo}}">{{tipoMedioPago.descripcion}}</option>
+                    </select>
+                </label>
+                <span style="color:red" ng-show="forms.formTarjeta.tipoTarjeta.$dirty &&
+                forms.formTarjeta.tipoTarjeta.$invalid">El tipo de tarjeta es requerido.</span>
+    
+                <label class="item item-input item-input-chico">
+                    <span class="input-label smallFont">Cod Aut:</span>
+                    <input class="smallFont" type="text" name="codAutTarjeta" ng-model="datosTarjeta.codAut" placeholder="Cod Aut" required>
+                </label>
+                <span style="color:red" ng-show="forms.formTarjeta.codAutTarjeta.$dirty &&
+                forms.formTarjeta.codAutTarjeta.$invalid">El código de autorización no es válido.</span>
+    
+                <label class="item item-input item-input-chico">
+                    <span class="input-label smallFont">Cuotas:</span>
+                    <input class="smallFont" type="number" ng-model="datosTarjeta.cuotas" name="cuotasTarjeta"  min="0" placeholder="Cuotas" required>
+                </label>
+                <span style="color:red" ng-show="forms.formTarjeta.cuotasTarjeta.$dirty &&
+                forms.formTarjeta.cuotasTarjeta.$invalid">El número de cuotas no es válido.</span>
+    
+                <label class="item item-input item-input-chico">
+                    <span class="input-label smallFont">N° Cupón:</span>
+                    <input class="smallFont" type="text" ng-model="datosTarjeta.numeroCupon" name="cuponTarjeta" placeholder="Num Cupon" required>
+                </label>
+                <span style="color:red" ng-show="forms.formTarjeta.cuponTarjeta.$dirty &&
+                forms.formTarjeta.cuponTarjeta.$invalid">El número de cupón no es válido.</span>
+    
+                <label class="item item-input item-input-chico">
+                    <span class="input-label smallFont">Monto:</span>
+                    <input class="smallFont" type="number" ng-model="datosPago.monto" name="montoTarjeta" min="1" placeholder="Monto" required>
+                </label>
+                <span style="color:red" ng-show="forms.formTarjeta.montoTarjeta.$dirty &&
+                forms.formTarjeta.montoTarjeta.$invalid">El monto no es válido.</span>
+            </form>
+        </div>
+    
+        <!--FORMULARIO DE RETENCION-->
+        <div ng-if="codigoMedioPago == 4 || codigoMedioPago ==  6 || codigoMedioPago == 7 || codigoMedioPago == 8 || codigoMedioPago == 9" padding="true">
+            <form novalidate name="forms.formRetencion">
+                <label class="item item-input item-input-chico">
+                    <span class="input-label smallFont">Número:</span>
+                    <input class="smallFont" type="number" name="numeroRetencion" ng-model="datosRetencion.numero" placeholder="Numero" required>
+                </label>
+                <span style="color:red" ng-show="forms.formRetencion.numeroRetencion.$dirty &&
+                forms.formRetencion.numeroRetencion.$invalid">El número no es válido.</span>
+    
+                <label class="itemChico item item-input item-select">
+                    <div class="input-label">
+                        Tipo:
+                    </div>
+                    <select ng-model="datosRetencion.tipoMedioPago" required>
+                        <option ng-repeat="tipoMedioPago in tiposMedioPago" name="tipoRetencion" value="{{tipoMedioPago.codigo}}">{{tipoMedioPago.descripcion}}</option>
+                    </select>
+                </label>
+                <span style="color:red" ng-show="forms.formRetencion.tipoRetencion.$dirty &&
+                forms.formRetencion.tipoRetencion.$invalid">El tipo es requerido.</span>
+    
+                <label class="item item-input item-input-chico">
+                    <span class="input-label smallFont">Monto:</span>
+                    <input class="smallFont" type="number" name="montoRetencion" min="1" ng-model="datosPago.monto" placeholder="Monto" required>
+                </label>
+                <span style="color:red" ng-show="forms.formRetencion.montoRetencion.$dirty &&
+                forms.formRetencion.montoRetencion.$invalid">El monto no es válido.</span>
+    
+                <!--TODO VER SI SE USA ESTE CAMPO-->
+                <!--<div class="itemChico item item-input-inset">-->
+                    <!--<label class="item-input-wrapper">-->
+                        <!--<input type="text" placeholder="0">-->
+                    <!--</label>-->
+                <!--</div>-->
+            </form>
+        </div>
+    </ion-content>
+    <ion-footer-bar class=" bar-stable">
+        <button id="botonVolverMedioPagoCobranza" ng-click="volver()" class="button button-stable boton-mitad-width">Volver</button>
+        <button id="botonSiguienteMedioPagoCobranza" ng-click="ingresar()" class="button button-stable boton-mitad-width">Ingresar</button>
+    </ion-footer-bar>
+</ion-view>
+</body>
+</html>

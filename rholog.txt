@@ -1,0 +1,1089 @@
+--------- beginning of crash
+--------- beginning of system
+--------- beginning of main
+I/APP     (26978): I 01/05/2016 15:37:24:043 00006962    RhodesApplication| Initialized
+I/APP     (26978): I 01/05/2016 15:37:24:266 00006962       RhodesActivity| Config path: /storage/emulated/0/Android/data/com.rhomobile.total/Config.xml
+I/APP     (26978): I 01/05/2016 15:37:24:267 00006962       RhodesActivity| Loading Config.xml from resources
+I/APP     (26978): I 01/05/2016 15:37:24:700 00006962         ElementsCore| RhoElements initializing...
+I/APP     (26978): I 01/05/2016 15:37:24:896 00006962         ElementsCore| RhoElements initialized.
+I/APP     (26978): I 01/05/2016 15:37:24:898 00006962    RhoExtManagerImpl| Creating Google web view !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+I/APP     (26978): I 01/05/2016 15:37:25:771 00006962        GoogleWebView| Initialize Google WEbView staff
+I/APP     (26978): I 01/05/2016 15:37:26:778 00006962        GoogleWebView| Adding new JS interface: __rhoNativeApi
+I/APP     (26978): I 01/05/2016 15:37:26:791 00006962     WebViewSingleton| Set config initially: true
+I/APP     (26978): I 01/05/2016 15:37:26:791 00006962        GoogleWebView| applyWebSettings
+I/APP     (26978): I 01/05/2016 15:37:26:791 00006962        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     (26978): I 01/05/2016 15:37:26:794 00006962  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     (26978): I 01/05/2016 15:37:26:803 00006962  WebSettingsProvider| Allow universal access from file URL
+I/APP     (26978): I 01/05/2016 15:37:26:810 00006962        GoogleWebView| Adding new JS interface: genericImpl
+I/APP     (26978): I 01/05/2016 15:37:27:330 00006962        GoogleWebView| Adding new JS interface: apdImpl
+I/APP     (26978): I 01/05/2016 15:37:27:331 00006962        GoogleWebView| Adding new JS interface: nosipImpl
+I/APP     (26978): I 01/05/2016 15:37:27:331 00006962        GoogleWebView| Adding new JS interface: metaReceiver
+I/APP     (26978): I 01/05/2016 15:37:27:336 00006962    RhodesApplication| New UiState: MainActivityCreated
+I/APP     (26978): I 01/05/2016 15:37:27:341 00006962    RhodesApplication| New UiState: MainActivityStarted
+I/APP     (26978): I 01/05/2016 15:37:27:360 00006962         SplashScreen| Process config: zoom
+I/APP     (26978): I 01/05/2016 15:37:27:360 00006962         SplashScreen| Scale type: zoom
+I/APP     (26978): I 01/05/2016 15:37:27:360 00006962         SplashScreen| Looking for start page source
+I/APP     (26978): I 01/05/2016 15:37:27:361 00006962         SplashScreen| Loading image: apps/app/loading.png
+I/APP     (26978): I 01/05/2016 15:37:27:361 00006962         SplashScreen| Specified splashscreen image is not found or supported. Setting the default splashscreen image.
+I/APP     (26978): I 01/05/2016 15:37:27:400 00006962         SplashScreen| Done
+I/APP     (26978): I 01/05/2016 15:37:27:404 00006962    RhodesApplication| New UiState: MainActivitiResumed
+I/APP     (26978): I 01/05/2016 15:37:27:427 00006962    LocalFileProvider| Revoke URI permissions: content://com.rhomobile.total
+I/APP     (26978): I 01/05/2016 15:37:27:432 00006962               Rhodes| Loading...
+I/APP     (26978): I 01/05/2016 15:37:27:441 00006962            RhodesApp| Trying to get free listening port.
+I/APP     (26978): I 01/05/2016 15:37:27:441 00006962            RhodesApp| Trying to bind of 0 port...
+I/APP     (26978): I 01/05/2016 15:37:27:446 00006a39         AppCallbacks| Starting main routine...
+I/APP     (26978): I 01/05/2016 15:37:27:446 00006a39         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (26978): I 01/05/2016 15:37:27:443 00006962            RhodesApp| Got port to bind on: 48548
+I/APP     (26978): I 01/05/2016 15:37:27:448 00006962            RhodesApp| Free listening port: 48548
+I/APP     (26978): I 01/05/2016 15:37:27:680 00006962            RhodesApp| callAppActiveCallback
+I/APP     (26978): I 01/05/2016 15:37:27:680 00006962         AppCallbacks| addCommand: APP-ACTIVATED
+I/APP     (26978): I 01/05/2016 15:37:27:681 00006a39         AppCallbacks| APP-ACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (26978): I 01/05/2016 15:37:27:681 00006962         AppActivated| Cannot commit now, application will be activated when started.
+I/APP     (26978): I 01/05/2016 15:37:27:697 00006962    RhodesApplication| New AppState: Undefined
+I/APP     (26978): I 01/05/2016 15:37:27:698 00006962        RhodesService| handleCommand: startId=1, source=com.rhomobile.rhodes.BaseActivity
+I/APP     (26978): I 01/05/2016 15:37:27:682 00006a3a            RhodesApp| Starting RhodesApp main routine...
+I/APP     (26978): I 01/05/2016 15:37:27:681 00006a39         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     (26978): I 01/05/2016 15:37:27:699 00006a39         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (26978): I 01/05/2016 15:37:27:731 00006962         AppCallbacks| addCommand: UI-CREATED
+I/APP     (26978): I 01/05/2016 15:37:27:731 00006962        GoogleWebView| Setting RhoWebChromeClient and RhoWebViewClient
+I/APP     (26978): I 01/05/2016 15:37:27:732 00006a39         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     (26978): I 01/05/2016 15:37:27:732 00006a39         AppCallbacks| m_uistate: 0
+I/APP     (26978): I 01/05/2016 15:37:27:732 00006a39         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     (26978): I 01/05/2016 15:37:27:732 00006a39         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (26978): I 01/05/2016 15:37:27:790 00006a3a              RhoRuby| Init_RhoBlobs: /data/data/com.rhomobile.total/rhodata/db/db-files
+I/APP     (26978): I 01/05/2016 15:37:27:829 00006962 ConnectionChangeReceiver| LOGGER: Network status change, connected = true
+I/APP     (26978): E 01/05/2016 15:37:27:830 00006962         RhodesAppJNI| nativeNotify
+I/APP     (26978): E 01/05/2016 15:37:27:830 00006962            RhodesApp| enter notifyReceiver
+I/APP     (26978): E 01/05/2016 15:37:27:830 00006962            RhodesApp| calling onNetworkStatusChanged
+I/APP     (26978): I 01/05/2016 15:37:27:832 00006962       RhodesActivity| New start parameters: 
+I/APP     (26978): I 01/05/2016 15:37:27:832 00006962            RhodesApp| New start params: 
+I/APP     (26978): I 01/05/2016 15:37:27:835 00006a3a              RhoRuby| require_compiled: RhoSystemApi
+I/APP     (26978): I 01/05/2016 15:37:27:841 00006a3a              RhoRuby| require_compiled: RhoApplicationApi
+I/APP     (26978): I 01/05/2016 15:37:27:858 00006a3a              RhoRuby| require_compiled: RhoNetworkApi
+I/APP     (26978): I 01/05/2016 15:37:27:866 00006a3a              RhoRuby| require_compiled: RhoDatabaseApi
+I/APP     (26978): I 01/05/2016 15:37:27:903 00006a3a              RhoRuby| require_compiled: RhoLogApi
+I/APP     (26978): I 01/05/2016 15:37:27:918 00006a3a              RhoRuby| require_compiled: RhoWebViewApi
+I/APP     (26978): I 01/05/2016 15:37:27:936 00006a3a              RhoRuby| require_compiled: RhoNativeToolbarApi
+I/APP     (26978): I 01/05/2016 15:37:27:946 00006a3a              RhoRuby| require_compiled: RhoNativeTabbarApi
+I/APP     (26978): I 01/05/2016 15:37:27:960 00006a3a              RhoRuby| require_compiled: RhoNotificationApi
+I/APP     (26978): I 01/05/2016 15:37:27:981 00006a3a              RhoRuby| require_compiled: RhoTimerApi
+I/APP     (26978): I 01/05/2016 15:37:27:992 00006a3a              RhoRuby| require_compiled: motoapi/elements
+I/APP     (26978): I 01/05/2016 15:37:28:264 00006a3a              RhoRuby| require_compiled: RhoConnectClient
+I/APP     (26978): I 01/05/2016 15:37:28:271 00006a3a RhoconnectClientManager| setRhoconnectClientImpl ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+I/APP     (26978): I 01/05/2016 15:37:28:312 00006a3a              RhoRuby| require_compiled: RhoSignatureApi
+I/APP     (26978): I 01/05/2016 15:37:28:360 00006a3a              RhoRuby| require_compiled: rhoframework
+I/APP     (26978): I 01/05/2016 15:37:28:366 00006a3a              RhoRuby| require_compiled: rational
+I/APP     (26978): I 01/05/2016 15:37:28:367 00006a3a              RhoRuby| require_compiled: json
+I/APP     (26978): I 01/05/2016 15:37:28:369 00006a3a              RhoRuby| require_compiled: json/common
+I/APP     (26978): I 01/05/2016 15:37:28:380 00006a3a              RhoRuby| require_compiled: json/version
+I/APP     (26978): I 01/05/2016 15:37:28:383 00006a3a              RhoRuby| require_compiled: json/pure
+I/APP     (26978): I 01/05/2016 15:37:28:388 00006a3a              RhoRuby| require_compiled: json/pure/generator
+I/APP     (26978): I 01/05/2016 15:37:28:407 00006a3a              RhoRuby| require_compiled: rho/rhoapplication
+I/APP     (26978): I 01/05/2016 15:37:28:417 00006a3a              RhoRuby| require_compiled: rholang/localization_simplified
+I/APP     (26978): I 01/05/2016 15:37:28:426 00006a3a              RhoRuby| require_compiled: rho/rhomsg
+I/APP     (26978): I 01/05/2016 15:37:28:428 00006a3a              RhoRuby| require_compiled: rho/rhotabbar
+I/APP     (26978): I 01/05/2016 15:37:28:431 00006a3a              RhoRuby| require_compiled: rho/rhotoolbar
+I/APP     (26978): I 01/05/2016 15:37:28:433 00006a3a                  APP| Current locale: ; Country code: 
+I/APP     (26978): I 01/05/2016 15:37:28:434 00006a3a                  APP| Locilized file: /data/data/com.rhomobile.total/rhodata/lib/rholang/lang_
+I/APP     (26978): I 01/05/2016 15:37:28:434 00006a3a              RhoRuby| require_compiled: /data/data/com.rhomobile.total/rhodata/lib/rholang/lang_en
+I/APP     (26978): I 01/05/2016 15:37:28:437 00006a3a                  APP| Locilized file: /data/data/com.rhomobile.total/rhodata/apps/app/lang/lang_
+I/APP     (26978): I 01/05/2016 15:37:28:438 00006a3a                  APP| Locilized file: /data/data/com.rhomobile.total/rhodata/lib/rholang/rhoerror_
+I/APP     (26978): I 01/05/2016 15:37:28:438 00006a3a              RhoRuby| require_compiled: /data/data/com.rhomobile.total/rhodata/lib/rholang/rhoerror_en
+I/APP     (26978): I 01/05/2016 15:37:28:441 00006a3a                  APP| Locilized file: /data/data/com.rhomobile.total/rhodata/lib/rholang/rhomsg_
+I/APP     (26978): I 01/05/2016 15:37:28:441 00006a3a              RhoRuby| require_compiled: /data/data/com.rhomobile.total/rhodata/lib/rholang/rhomsg_en
+I/APP     (26978): I 01/05/2016 15:37:28:443 00006a3a              RhoRuby| require_compiled: indifferent_access
+I/APP     (26978): I 01/05/2016 15:37:28:450 00006a3a              RhoRuby| require_compiled: rho/rhosupport
+I/APP     (26978): I 01/05/2016 15:37:28:461 00006a3a              RhoRuby| require_compiled: rho/rhocontroller
+I/APP     (26978): I 01/05/2016 15:37:28:468 00006a3a              RhoRuby| require_compiled: rho/render
+I/APP     (26978): I 01/05/2016 15:37:28:483 00006a3a              RhoRuby| require_compiled: rho/rho
+I/APP     (26978): I 01/05/2016 15:37:28:534 00006a3a              RhoRuby| require_compiled: rho/rhoerror
+I/APP     (26978): I 01/05/2016 15:37:28:536 00006a3a              RhoRuby| require_compiled: rhodes
+I/APP     (26978): I 01/05/2016 15:37:28:539 00006a3a                  APP| Looking for RhoConnectClient
+I/APP     (26978): I 01/05/2016 15:37:28:539 00006a3a                  APP| RhoConnectClient found. do nothing
+I/APP     (26978): I 01/05/2016 15:37:28:541 00006a3a              RhoRuby| require_compiled: rho/rhoviewhelpers
+I/APP     (26978): I 01/05/2016 15:37:28:547 00006a3a              RhoRuby| require_compiled: rho
+I/APP     (26978): I 01/05/2016 15:37:28:548 00006a3a                  APP| RHOSTUDIO_REMOTE_DEBUG=false
+I/APP     (26978): I 01/05/2016 15:37:28:548 00006a3a                  APP| RHOSTUDIO_REMOTE_HOST=
+I/APP     (26978): I 01/05/2016 15:37:28:549 00006a3a                  APP| RHOSTUDIO_REMOTE_PATH=
+I/APP     (26978): I 01/05/2016 15:37:28:549 00006a3a                  APP| RHO loaded
+I/APP     (26978): I 01/05/2016 15:37:28:549 00006a3a                  APP| Calling RHO.initialize , use_new_orm: 0
+I/APP     (26978): I 01/05/2016 15:37:28:549 00006a3a                  APP| MZV_DEBUG: we are in use_new_orm false false
+I/APP     (26978): I 01/05/2016 15:37:28:550 00006a3a                   DB| Open DB: /data/data/com.rhomobile.total/rhodata/db/syncdbapp.sqlite
+I/APP     (26978): I 01/05/2016 15:37:28:752 00006a3a                   DB| Open DB: /data/data/com.rhomobile.total/rhodata/db/syncdbuser.sqlite
+I/APP     (26978): I 01/05/2016 15:37:28:871 00006a3a                   DB| Open DB: /data/data/com.rhomobile.total/rhodata/db/syncdblocal.sqlite
+I/APP     (26978): I 01/05/2016 15:37:29:030 00006a3a              RhoRuby| require_compiled: rhom
+I/APP     (26978): I 01/05/2016 15:37:29:032 00006a3a              RhoRuby| require_compiled: rhom/rhom
+I/APP     (26978): I 01/05/2016 15:37:29:043 00006a3a              RhoRuby| require_compiled: rhom/rhom_object_factory
+I/APP     (26978): I 01/05/2016 15:37:29:120 00006a3a              RhoRuby| require_compiled: rhom/rhom_object
+I/APP     (26978): I 01/05/2016 15:37:29:123 00006a3a              RhoRuby| require_compiled: rhom/rhom_model
+I/APP     (26978): I 01/05/2016 15:37:29:133 00006a3a              RhoRuby| require_compiled: rhom/rhom_source
+I/APP     (26978): I 01/05/2016 15:37:29:142 00006a3a          GeoLocation| Creating singleton instance.
+I/APP     (26978): I 01/05/2016 15:37:29:142 00006a3a            RhodesApp| Starting sync engine...
+I/APP     (26978): I 01/05/2016 15:37:29:142 00006a3a                 Sync| sync_poll_interval: 0
+I/APP     (26978): I 01/05/2016 15:37:29:142 00006a3a                 Sync| syncserver: 
+I/APP     (26978): I 01/05/2016 15:37:29:142 00006a3a                 Sync| bulksync_state: 0
+I/APP     (26978): I 01/05/2016 15:37:29:144 00006a3a            RhodesApp| RhoRubyInitApp...
+I/APP     (26978): I 01/05/2016 15:37:29:144 00006a3a                  APP| init_app
+I/APP     (26978): I 01/05/2016 15:37:29:145 00006a3a              RhoRuby| require_compiled: application
+I/APP     (26978): I 01/05/2016 15:37:29:147 00006a4b                 Sync| Starting main routine...
+I/APP     (26978): I 01/05/2016 15:37:29:149 00006a3a                 Sync| Set notification. Source ID: -1;Url :; Params: 
+I/APP     (26978): I 01/05/2016 15:37:29:149 00006a3a           HttpServer| Start HTTP server
+I/APP     (26978): I 01/05/2016 15:37:29:149 00006a3a           HttpServer| Listen for connections on port 48548
+I/APP     (26978): I 01/05/2016 15:37:29:149 00006a3a         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I/APP     (26978): I 01/05/2016 15:37:29:150 00006a39         AppCallbacks| LOCAL-SERVER-STARTED is received ++++++++++++++++++++++++++++
+I/APP     (26978): I 01/05/2016 15:37:29:150 00006a39         AppCallbacks| process command: LOCAL-SERVER-STARTED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (26978): I 01/05/2016 15:37:29:152 00006a39        GoogleWebView| applyWebSettings
+I/APP     (26978): I 01/05/2016 15:37:29:153 00006a39        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     (26978): I 01/05/2016 15:37:29:154 00006a4b                 Sync| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (26978): I 01/05/2016 15:37:29:169 00006a39  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     (26978): I 01/05/2016 15:37:29:169 00006a39  WebSettingsProvider| Allow universal access from file URL
+I/APP     (26978): I 01/05/2016 15:37:29:170 00006a39    RhodesApplication| Inside runwhen before return
+I/APP     (26978): I 01/05/2016 15:37:29:170 00006a39         AppCallbacks| addCommand: UI-CREATED
+I/APP     (26978): I 01/05/2016 15:37:29:170 00006a39    RhodesApplication| New AppState: AppActivated
+I/APP     (26978): I 01/05/2016 15:37:29:170 00006a39         AppCallbacks| process command: UI-CREATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (26978): I 01/05/2016 15:37:29:173 00006a3a           HttpServer| Process URI: '/system/uicreated'
+I/APP     (26978): I 01/05/2016 15:37:29:173 00006a3a                  APP| on_ui_created.navigate to start url: '/public/index.html'
+I/APP     (26978): I 01/05/2016 15:37:29:185 00006a3a    RhodesApplication| Inside runwhen before return
+I/APP     (26978): I 01/05/2016 15:37:29:187 00006a39         AppCallbacks| process command: APP-ACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (26978): I 01/05/2016 15:37:29:190 00006a3a           HttpServer| Process URI: '/system/activateapp'
+I/APP     (26978): I 01/05/2016 15:37:29:191 00006a3a                  APP| AppEvent Activated
+I/APP     (26978): I 01/05/2016 15:37:29:192 00006a39         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     (26978): I 01/05/2016 15:37:29:192 00006a39         AppCallbacks| m_uistate: 2
+I/APP     (26978): I 01/05/2016 15:37:29:192 00006a39         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (26978): I 01/05/2016 15:37:29:193 00006a39         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (26978): I 01/05/2016 15:37:29:235 00006962       SimpleMainView| Cleared URL: http://127.0.0.1:48548/public/index.html
+I/APP     (26978): I 01/05/2016 15:37:29:242 00006962     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (26978): I 01/05/2016 15:37:29:602 00006962         MetaReceiver| QuitButton', 'Visibility:hidden'
+I/APP     (26978): I 01/05/2016 15:37:29:602 00006962         MetaReceiver| BackButton', 'Visibility:hidden'
+I/APP     (26978): I 01/05/2016 15:37:29:602 00006962         MetaReceiver| ForwardButton', 'Visibility:hidden'
+I/APP     (26978): I 01/05/2016 15:37:29:603 00006962         MetaReceiver| HomeButton', 'Visibility:hidden'
+I/APP     (26978): I 01/05/2016 15:37:29:603 00006962         MetaReceiver| ReloadButton', 'Visibility:hidden'
+I/APP     (26978): I 01/05/2016 15:37:29:603 00006962         MetaReceiver| ZoomTextButton', 'Visibility:hidden'
+I/APP     (26978): I 01/05/2016 15:37:29:603 00006962         MetaReceiver| SIPButton', 'Visibility:hidden'
+I/APP     (26978): I 01/05/2016 15:37:29:603 00006962         MetaReceiver| GoButton', 'Visibility:hidden'
+I/APP     (26978): I 01/05/2016 15:37:29:603 00006962         MetaReceiver| StopButton', 'Visibility:hidden'
+I/APP     (26978): I 01/05/2016 15:37:29:603 00006962         MetaReceiver| MinimizeButton', 'Visibility:hidden'
+I/APP     (26978): I 01/05/2016 15:37:29:603 00006962         MetaReceiver| AddressBar', 'top:50;visibility:hidden'
+I/APP     (26978): I 01/05/2016 15:37:29:603 00006962         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     (26978): I 01/05/2016 15:37:29:650 00006a3a           HttpServer| Process URI: '/public/index.html'
+I/APP     (26978): I 01/05/2016 15:37:29:656 00006a3a    RhodesApplication| Inside runwhen before return
+I/APP     (26978): I 01/05/2016 15:37:29:656 00006a3a                  APP| RHO serve_index: /public/index.html
+I/APP     (26978): I 01/05/2016 15:37:29:663 00006a3a           HttpServer| GC Start.
+I/APP     (26978): I 01/05/2016 15:37:29:696 00006a3a           HttpServer| GC End.
+I/APP     (26978): I 01/05/2016 15:37:29:830 00006a3a           HttpServer| Process URI: '/public/bower_components/ionic/css/ionic.css'
+I/APP     (26978): I 01/05/2016 15:37:29:855 00006a3a           HttpServer| Process URI: '/public/css/index.css'
+I/APP     (26978): I 01/05/2016 15:37:29:859 00006a3a           HttpServer| Process URI: '/public/bower_components/ionicons/css/ionicons.css'
+I/APP     (26978): I 01/05/2016 15:37:29:873 00006a3a           HttpServer| Process URI: '/public/jquery/jquery-1.9.1.min.js'
+I/APP     (26978): I 01/05/2016 15:37:29:892 00006a3a           HttpServer| Process URI: '/public/js/jquery.json.min.js'
+I/APP     (26978): I 01/05/2016 15:37:29:901 00006a3a           HttpServer| Process URI: '/public/js/rho_javascript_api.js'
+I/APP     (26978): I 01/05/2016 15:37:29:909 00006a3a           HttpServer| Process URI: '/public/js/rho_common_api_noconflict.js'
+I/APP     (26978): I 01/05/2016 15:37:29:915 00006a3a           HttpServer| Process URI: '/public/api/rhoapi-modules.js'
+I/APP     (26978): I 01/05/2016 15:37:29:972 00006a3a           HttpServer| Process URI: '/public/api/rhoapi-modules-ORM.js'
+I/APP     (26978): I 01/05/2016 15:37:29:978 00006a3a           HttpServer| Process URI: '/public/api/rhoapi-modules-ORMHelper.js'
+I/APP     (26978): I 01/05/2016 15:37:29:985 00006a3a           HttpServer| Process URI: '/public/api/rhoapi-modules-Ruby-RunTime.js'
+I/APP     (26978): I 01/05/2016 15:37:30:026 00006a3a           HttpServer| Process URI: '/public/bower_components/ionic/js/ionic.bundle.js'
+I/APP     (26978): I 01/05/2016 15:37:30:829 00006a6f               NewORM| calling useNewOrm
+I/APP     (26978): I 01/05/2016 15:37:30:995 00006a3a           HttpServer| Process URI: '/public/bower_components/angular-ui-router/release/angular-ui-router.min.js'
+I/APP     (26978): I 01/05/2016 15:37:31:005 00006a3a           HttpServer| Process URI: '/public/js/config.js'
+I/APP     (26978): I 01/05/2016 15:37:31:008 00006a3a           HttpServer| Process URI: '/public/js/enums.js'
+I/APP     (26978): I 01/05/2016 15:37:31:010 00006a3a           HttpServer| Process URI: '/public/js/constants.js'
+I/APP     (26978): I 01/05/2016 15:37:31:013 00006a3a           HttpServer| Process URI: '/public/js/models.js'
+I/APP     (26978): I 01/05/2016 15:37:31:028 00006a3a           HttpServer| Process URI: '/public/js/misc/moment-with-locales.min.js'
+I/APP     (26978): I 01/05/2016 15:37:31:041 00006a3a           HttpServer| Process URI: '/public/js/misc/stringFormat.js'
+I/APP     (26978): I 01/05/2016 15:37:31:046 00006a3a           HttpServer| Process URI: '/public/js/factories.js'
+I/APP     (26978): I 01/05/2016 15:37:31:053 00006a3a           HttpServer| Process URI: '/public/js/utils.js'
+I/APP     (26978): I 01/05/2016 15:37:31:073 00006a3a           HttpServer| Process URI: '/public/js/syncManager.js'
+I/APP     (26978): I 01/05/2016 15:37:31:093 00006a3a           HttpServer| Process URI: '/public/js/app.js'
+I/APP     (26978): I 01/05/2016 15:37:31:114 00006a3a           HttpServer| Process URI: '/public/js/controllers/controllers.js'
+I/APP     (26978): I 01/05/2016 15:37:31:120 00006a3a           HttpServer| Process URI: '/public/js/controllers/loginController.js'
+I/APP     (26978): I 01/05/2016 15:37:31:125 00006a3a           HttpServer| Process URI: '/public/js/controllers/agendaCtrl.js'
+I/APP     (26978): I 01/05/2016 15:37:31:191 00006a3a           HttpServer| Process URI: '/public/js/controllers/datosInicioController.js'
+I/APP     (26978): I 01/05/2016 15:37:31:197 00006a3a           HttpServer| Process URI: '/public/js/controllers/descargaController.js'
+I/APP     (26978): I 01/05/2016 15:37:31:202 00006a3a           HttpServer| Process URI: '/public/js/controllers/configController.js'
+I/APP     (26978): I 01/05/2016 15:37:31:206 00006a3a           HttpServer| Process URI: '/public/js/controllers/menuController.js'
+I/APP     (26978): I 01/05/2016 15:37:31:216 00006a3a           HttpServer| Process URI: '/public/js/controllers/recargaController.js'
+I/APP     (26978): I 01/05/2016 15:37:31:221 00006a3a           HttpServer| Process URI: '/public/js/controllers/seleccionClienteCobranzaCtrl.js'
+I/APP     (26978): I 01/05/2016 15:37:31:227 00006a3a           HttpServer| Process URI: '/public/js/controllers/seleccionClienteController.js'
+I/APP     (26978): I 01/05/2016 15:37:31:238 00006a3a           HttpServer| Process URI: '/public/js/controllers/detalleEntregaController.js'
+I/APP     (26978): I 01/05/2016 15:37:31:245 00006a3a           HttpServer| Process URI: '/public/js/controllers/ingresoFacturaMPagoCtrl.js'
+I/APP     (26978): I 01/05/2016 15:37:31:248 00006a3a           HttpServer| Process URI: '/public/js/controllers/detalleMedioPagoCtrl.js'
+I/APP     (26978): I 01/05/2016 15:37:31:252 00006a3a           HttpServer| Process URI: '/public/js/controllers/calculadoraCtrl.js'
+I/APP     (26978): I 01/05/2016 15:37:31:258 00006a3a           HttpServer| Process URI: '/public/js/controllers/detalleVentaCtrl.js'
+I/APP     (26978): I 01/05/2016 15:37:31:263 00006a3a           HttpServer| Process URI: '/public/js/controllers/cierreHrController.js'
+I/APP     (26978): I 01/05/2016 15:37:31:271 00006a3a           HttpServer| Process URI: '/public/js/controllers/detalleVenta2Ctrl.js'
+I/APP     (26978): I 01/05/2016 15:37:31:280 00006a3a           HttpServer| Process URI: '/public/js/controllers/cancelacionPedidoCtrl.js'
+I/APP     (26978): I 01/05/2016 15:37:31:290 00006a3a           HttpServer| Process URI: '/public/js/controllers/otroMedioPagoCtrl.js'
+I/APP     (26978): I 01/05/2016 15:37:31:300 00006a3a           HttpServer| Process URI: '/public/js/controllers/reciboCobranzaCtrl.js'
+I/APP     (26978): I 01/05/2016 15:37:31:305 00006a3a           HttpServer| Process URI: '/public/js/controllers/detalleMedioPagoCobranzaCtrl.js'
+I/APP     (26978): I 01/05/2016 15:37:31:309 00006a3a           HttpServer| Process URI: '/public/js/controllers/detalleRemitoCtrl.js'
+I/APP     (26978): I 01/05/2016 15:37:31:311 00006a3a           HttpServer| Process URI: '/public/js/controllers/porcentajeYObservacionesCtrl.js'
+I/APP     (26978): I 01/05/2016 15:37:31:317 00006a3a           HttpServer| Process URI: '/public/js/controllers/configEstilosCtrl.js'
+I/APP     (26978): I 01/05/2016 15:37:34:119 00006962   RhoWebChromeClient| Uncaught SyntaxError: Unexpected token ; -- From line 6 of http://127.0.0.1:48548/public/js/utils.js
+I/APP     (26978): I 01/05/2016 15:37:35:047 00006a6f    RhodesApplication| Inside runwhen before return
+I/APP     (26978): I 01/05/2016 15:37:35:067 00006962   RhoWebChromeClient| [object Object] -- From line 32 of http://127.0.0.1:48548/public/js/app.js
+I/APP     (26978): I 01/05/2016 15:38:16:988 00006962   RhoWebChromeClient| ion-content, ion-content span, ion-content div, ion-content input, ion-content h3{font-size:16px !important} -- From line 209 of http://127.0.0.1:48548/public/js/app.js
+I/APP     (26978): I 01/05/2016 15:38:17:137 00006a3a           HttpServer| Process URI: '/public/pages/configEstilos.html'
+I/APP     (26978): I 01/05/2016 15:38:17:147 00006a3a           HttpServer| Process URI: '/public/pages/porcentajeDeCarga.html'
+I/APP     (26978): I 01/05/2016 15:38:17:154 00006a3a           HttpServer| Process URI: '/public/pages/cancelacionPedido.html'
+I/APP     (26978): I 01/05/2016 15:38:17:163 00006a3a           HttpServer| Process URI: '/public/pages/seleccionClienteEspontanea.html'
+I/APP     (26978): I 01/05/2016 15:38:17:223 00006a3a           HttpServer| Process URI: '/public/pages/menu.html'
+I/APP     (26978): I 01/05/2016 15:38:17:233 00006a3a           HttpServer| Process URI: '/public/pages/login.html'
+I/APP     (26978): I 01/05/2016 15:38:17:246 00006962     WebViewSingleton| onNavigateComplete <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (26978): I 01/05/2016 15:38:17:251 00006962         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     (26978): I 01/05/2016 15:38:17:279 00006962     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (26978): I 01/05/2016 15:38:17:317 00006a3a           HttpServer| Process URI: '/public/pages/detalleMedioPago.html'
+I/APP     (26978): I 01/05/2016 15:38:17:330 00006a3a           HttpServer| Process URI: '/public/pages/ingresoFacturaMPago.html'
+I/APP     (26978): I 01/05/2016 15:38:17:335 00006b40    RhodesApplication| Inside runwhen before return
+I/APP     (26978): I 01/05/2016 15:38:17:350 00006962     WebViewSingleton| onNavigateComplete <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (26978): I 01/05/2016 15:38:17:350 00006962         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     (26978): I 01/05/2016 15:38:17:351 00006962     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (26978): I 01/05/2016 15:38:17:708 00006a3a           HttpServer| Process URI: '/public/images/total/total_logo_big.png'
+I/APP     (26978): I 01/05/2016 15:38:17:709 00006962   RhoWebChromeClient| 272727272727 -- From line 12 of http://127.0.0.1:48548/public/js/controllers/loginController.js
+I/APP     (26978): I 01/05/2016 15:38:17:710 00006962   RhoWebChromeClient| loginCtrl -- From line 17 of http://127.0.0.1:48548/public/js/controllers/loginController.js
+I/APP     (26978): I 01/05/2016 15:38:18:034 00006a6f         MetaReceiver| null', 'null'
+I/APP     (26978): I 01/05/2016 15:38:18:036 00006a6f         MetaReceiver| Content-type', 'text/html; charset=UTF-8'
+I/APP     (26978): I 01/05/2016 15:38:18:044 00006a6f         MetaReceiver| null', 'telephone=no'
+I/APP     (26978): I 01/05/2016 15:38:18:046 00006a6f         MetaReceiver| null', 'no'
+I/APP     (26978): I 01/05/2016 15:38:18:047 00006a6f         MetaReceiver| null', 'user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width'
+I/APP     (26978): I 01/05/2016 15:38:18:048 00006a6f         MetaReceiver| null', 'null'
+I/APP     (26978): I 01/05/2016 15:38:18:049 00006a6f         MetaReceiver| status', 'eom'
+I/APP     (26978): I 01/05/2016 15:38:18:107 00006a6f         MetaReceiver| null', 'null'
+I/APP     (26978): I 01/05/2016 15:38:18:108 00006a6f         MetaReceiver| Content-type', 'text/html; charset=UTF-8'
+I/APP     (26978): I 01/05/2016 15:38:18:115 00006a6f         MetaReceiver| null', 'telephone=no'
+I/APP     (26978): I 01/05/2016 15:38:18:116 00006a6f         MetaReceiver| null', 'no'
+I/APP     (26978): I 01/05/2016 15:38:18:117 00006a6f         MetaReceiver| null', 'user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width'
+I/APP     (26978): I 01/05/2016 15:38:18:118 00006a6f         MetaReceiver| null', 'null'
+I/APP     (26978): I 01/05/2016 15:38:18:119 00006a6f         MetaReceiver| status', 'eom'
+I/APP     (26978): I 01/05/2016 15:38:18:324 00006a3a           HttpServer| Process URI: '/public/pages/reciboCobranza.html'
+I/APP     (26978): I 01/05/2016 15:38:18:338 00006a3a           HttpServer| Process URI: '/public/pages/recarga.html'
+I/APP     (26978): I 01/05/2016 15:38:18:342 00006a3a           HttpServer| Process URI: '/public/pages/config.html'
+I/APP     (26978): I 01/05/2016 15:38:19:328 00006a3a           HttpServer| Process URI: '/public/pages/datosInicio.html'
+I/APP     (26978): I 01/05/2016 15:38:19:336 00006a3a           HttpServer| Process URI: '/public/pages/descarga.html'
+I/APP     (26978): I 01/05/2016 15:38:19:346 00006a3a           HttpServer| Process URI: '/public/pages/detalleRemito.html'
+I/APP     (26978): I 01/05/2016 15:38:20:352 00006a3a           HttpServer| Process URI: '/public/pages/detalleVenta2.html'
+I/APP     (26978): I 01/05/2016 15:38:20:368 00006a3a           HttpServer| Process URI: '/public/pages/detalleVenta.html'
+I/APP     (26978): I 01/05/2016 15:38:20:382 00006a3a           HttpServer| Process URI: '/public/pages/calculadora.html'
+I/APP     (26978): I 01/05/2016 15:38:20:393 00006a3a           HttpServer| Process URI: '/public/pages/detalleEntrega.html'
+I/APP     (26978): I 01/05/2016 15:38:21:336 00006a3a           HttpServer| Process URI: '/public/pages/agenda.html'
+I/APP     (26978): I 01/05/2016 15:39:08:225 00006962   RhoWebChromeClient| Uncaught ReferenceError: showAlert is not defined -- From line 89 of http://127.0.0.1:48548/public/js/controllers/loginController.js
+I/APP     (26978): I 01/05/2016 15:39:14:528 00006a3a           HttpServer| Process URI: '/system/uidestroyed'
+I/APP     (26978): I 01/05/2016 15:39:14:530 00006a3a                  APP| AppEvent UIDestroyed
+I/APP     (26978): I 01/05/2016 15:39:14:533 00006962    RhodesApplication| New UiState: MainActivityPaused
+I/APP     (26978): I 01/05/2016 15:39:15:321 00006962    RhodesApplication| New AppState: AppDeactivated
+I/APP     (26978): I 01/05/2016 15:39:15:322 00006962        RhodesService| activityStopped() temporary release wakeLock object
+I/APP     (26978): I 01/05/2016 15:39:15:344 00006962            RhodesApp| callAppActiveCallback
+I/APP     (26978): I 01/05/2016 15:39:15:362 00006962         AppCallbacks| addCommand: APP-DEACTIVATED
+I/APP     (26978): I 01/05/2016 15:39:15:402 00006a39         AppCallbacks| APP-DEACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (26978): I 01/05/2016 15:39:15:402 00006a39         AppCallbacks| process command: APP-DEACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (26978): I 01/05/2016 15:39:15:402 00006a39         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (26978): I 01/05/2016 15:39:15:404 00006a3a           HttpServer| Process URI: '/system/deactivateapp'
+I/APP     (26978): I 01/05/2016 15:39:15:405 00006a3a                  APP| AppEvent Deactivated
+I/APP     (26978): I 01/05/2016 15:39:35:054 00006962            RhodesApp| callAppActiveCallback
+I/APP     (26978): I 01/05/2016 15:39:35:054 00006962         AppCallbacks| addCommand: APP-ACTIVATED
+I/APP     (26978): I 01/05/2016 15:39:35:055 00006a39         AppCallbacks| APP-ACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (26978): I 01/05/2016 15:39:35:055 00006a39         AppCallbacks| Restart local server ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+I/APP     (26978): I 01/05/2016 15:39:35:056 00006962    RhodesApplication| New AppState: AppActivated
+I/APP     (26978): I 01/05/2016 15:39:35:056 00006962    RhodesApplication| New UiState: MainActivityStarted
+I/APP     (26978): I 01/05/2016 15:39:35:061 00006a39            RhodesApp| restart local server.
+I/APP     (26978): I 01/05/2016 15:39:35:061 00006a39           HttpServer| Stopping server...
+I/APP     (26978): I 01/05/2016 15:39:35:063 00006a3a           HttpServer| Start HTTP server
+I/APP     (26978): I 01/05/2016 15:39:35:064 00006a3a           HttpServer| Listen for connections on port 48548
+I/APP     (26978): I 01/05/2016 15:39:35:064 00006a3a         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I/APP     (26978): I 01/05/2016 15:39:35:105 00006962        GoogleWebView| applyWebSettings
+I/APP     (26978): I 01/05/2016 15:39:35:105 00006962        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     (26978): I 01/05/2016 15:39:35:115 00006a39         AppCallbacks| Continue after server restart =======================================
+I/APP     (26978): I 01/05/2016 15:39:35:117 00006962  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     (26978): I 01/05/2016 15:39:35:121 00006962  WebSettingsProvider| Allow universal access from file URL
+I/APP     (26978): I 01/05/2016 15:39:35:121 00006962    RhodesApplication| Inside runwhen before return
+I/APP     (26978): I 01/05/2016 15:39:35:121 00006962         AppCallbacks| addCommand: UI-CREATED
+I/APP     (26978): I 01/05/2016 15:39:35:115 00006a39         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     (26978): I 01/05/2016 15:39:35:123 00006a39         AppCallbacks| LOCAL-SERVER-STARTED is received ++++++++++++++++++++++++++++
+I/APP     (26978): I 01/05/2016 15:39:35:124 00006a39         AppCallbacks| process command: LOCAL-SERVER-STARTED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (26978): I 01/05/2016 15:39:35:136 00006a39    RhodesApplication| New AppState: AppActivated
+I/APP     (26978): I 01/05/2016 15:39:35:136 00006a39         AppCallbacks| process command: APP-ACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (26978): I 01/05/2016 15:39:35:138 00006962    RhodesApplication| New UiState: MainActivitiResumed
+I/APP     (26978): I 01/05/2016 15:39:35:139 00006a3a           HttpServer| Process URI: '/system/activateapp'
+I/APP     (26978): I 01/05/2016 15:39:35:140 00006a3a                  APP| AppEvent Activated
+I/APP     (26978): I 01/05/2016 15:39:35:143 00006a39         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     (26978): I 01/05/2016 15:39:35:144 00006a39         AppCallbacks| m_uistate: 2
+I/APP     (26978): I 01/05/2016 15:39:35:146 00006a39         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (26978): I 01/05/2016 15:39:35:146 00006a39         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (26978): I 01/05/2016 15:39:37:725 00006a3a           HttpServer| Process URI: '/system/uidestroyed'
+I/APP     (26978): I 01/05/2016 15:39:37:726 00006a3a                  APP| AppEvent UIDestroyed
+I/APP     (26978): I 01/05/2016 15:39:37:729 00006962    RhodesApplication| New UiState: MainActivityPaused
+I/APP     (26978): I 01/05/2016 15:39:38:121 00006962    RhodesApplication| New AppState: AppDeactivated
+I/APP     (26978): I 01/05/2016 15:39:38:122 00006962        RhodesService| activityStopped() temporary release wakeLock object
+I/APP     (26978): I 01/05/2016 15:39:38:122 00006962            RhodesApp| callAppActiveCallback
+I/APP     (26978): I 01/05/2016 15:39:38:122 00006962         AppCallbacks| addCommand: APP-DEACTIVATED
+I/APP     (26978): I 01/05/2016 15:39:38:123 00006a39         AppCallbacks| APP-DEACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (26978): I 01/05/2016 15:39:38:123 00006a39         AppCallbacks| process command: APP-DEACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (26978): I 01/05/2016 15:39:38:124 00006a39         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (26978): I 01/05/2016 15:39:38:126 00006a3a           HttpServer| Process URI: '/system/deactivateapp'
+I/APP     (26978): I 01/05/2016 15:39:38:126 00006a3a                  APP| AppEvent Deactivated
+I/APP     (26978): I 01/05/2016 15:39:50:798 00006a3a           HttpServer| Process URI: '/public/jquery/jquery.min.map'
+I/APP     (26978): E 01/05/2016 15:39:50:798 00006a3a           HttpServer| The file /public/jquery/jquery.min.map was not found
+I/APP     (30022): I 01/05/2016 15:41:55:658 00007546    RhodesApplication| Initialized
+I/APP     (30022): I 01/05/2016 15:41:55:728 00007546       RhodesActivity| Config path: /storage/emulated/0/Android/data/com.rhomobile.total/Config.xml
+I/APP     (30022): I 01/05/2016 15:41:55:728 00007546       RhodesActivity| Loading Config.xml from /storage/emulated/0/Android/data/com.rhomobile.total/Config.xml
+I/APP     (30022): I 01/05/2016 15:41:56:098 00007546         ElementsCore| RhoElements initializing...
+I/APP     (30022): I 01/05/2016 15:41:56:242 00007546         ElementsCore| RhoElements initialized.
+I/APP     (30022): I 01/05/2016 15:41:56:244 00007546    RhoExtManagerImpl| Creating Google web view !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+I/APP     (30022): I 01/05/2016 15:41:57:221 00007546        GoogleWebView| Initialize Google WEbView staff
+I/APP     (30022): I 01/05/2016 15:41:57:237 00007546        GoogleWebView| Adding new JS interface: __rhoNativeApi
+I/APP     (30022): I 01/05/2016 15:41:57:244 00007546     WebViewSingleton| Set config initially: true
+I/APP     (30022): I 01/05/2016 15:41:57:244 00007546        GoogleWebView| applyWebSettings
+I/APP     (30022): I 01/05/2016 15:41:57:245 00007546        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     (30022): I 01/05/2016 15:41:57:248 00007546  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     (30022): I 01/05/2016 15:41:57:253 00007546  WebSettingsProvider| Allow universal access from file URL
+I/APP     (30022): I 01/05/2016 15:41:57:262 00007546        GoogleWebView| Adding new JS interface: genericImpl
+I/APP     (30022): I 01/05/2016 15:41:57:323 00007546        GoogleWebView| Adding new JS interface: apdImpl
+I/APP     (30022): I 01/05/2016 15:41:57:324 00007546        GoogleWebView| Adding new JS interface: nosipImpl
+I/APP     (30022): I 01/05/2016 15:41:57:324 00007546        GoogleWebView| Adding new JS interface: metaReceiver
+I/APP     (30022): I 01/05/2016 15:41:57:329 00007546    RhodesApplication| New UiState: MainActivityCreated
+I/APP     (30022): I 01/05/2016 15:41:57:341 00007546    RhodesApplication| New UiState: MainActivityStarted
+I/APP     (30022): I 01/05/2016 15:41:57:352 00007546         SplashScreen| Process config: zoom
+I/APP     (30022): I 01/05/2016 15:41:57:352 00007546         SplashScreen| Scale type: zoom
+I/APP     (30022): I 01/05/2016 15:41:57:352 00007546         SplashScreen| Looking for start page source
+I/APP     (30022): I 01/05/2016 15:41:57:352 00007546         SplashScreen| Loading image: apps/app/loading.png
+I/APP     (30022): I 01/05/2016 15:41:57:353 00007546         SplashScreen| Specified splashscreen image is not found or supported. Setting the default splashscreen image.
+I/APP     (30022): I 01/05/2016 15:41:57:395 00007546         SplashScreen| Done
+I/APP     (30022): I 01/05/2016 15:41:57:396 00007546    RhodesApplication| New UiState: MainActivitiResumed
+I/APP     (30022): I 01/05/2016 15:41:57:412 00007546    LocalFileProvider| Revoke URI permissions: content://com.rhomobile.total
+I/APP     (30022): I 01/05/2016 15:41:57:412 00007546               Rhodes| Loading...
+I/APP     (30022): I 01/05/2016 15:41:57:416 00007546            RhodesApp| Trying to get free listening port.
+I/APP     (30022): I 01/05/2016 15:41:57:416 00007546            RhodesApp| Trying to bind of 0 port...
+I/APP     (30022): I 01/05/2016 15:41:57:416 00007546            RhodesApp| Got port to bind on: 33606
+I/APP     (30022): I 01/05/2016 15:41:57:416 00007546            RhodesApp| Free listening port: 33606
+I/APP     (30022): I 01/05/2016 15:41:57:417 000075dc         AppCallbacks| Starting main routine...
+I/APP     (30022): I 01/05/2016 15:41:57:417 000075dc         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (30022): I 01/05/2016 15:41:57:430 00007546            RhodesApp| callAppActiveCallback
+I/APP     (30022): I 01/05/2016 15:41:57:430 00007546         AppCallbacks| addCommand: APP-ACTIVATED
+I/APP     (30022): I 01/05/2016 15:41:57:430 000075dc         AppCallbacks| APP-ACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (30022): I 01/05/2016 15:41:57:430 00007546         AppActivated| Cannot commit now, application will be activated when started.
+I/APP     (30022): I 01/05/2016 15:41:57:430 000075dc         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     (30022): I 01/05/2016 15:41:57:430 00007546    RhodesApplication| New AppState: Undefined
+I/APP     (30022): I 01/05/2016 15:41:57:430 000075dc         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (30022): I 01/05/2016 15:41:57:431 000075dd            RhodesApp| Starting RhodesApp main routine...
+I/APP     (30022): I 01/05/2016 15:41:57:431 00007546        RhodesService| handleCommand: startId=1, source=com.rhomobile.rhodes.BaseActivity
+I/APP     (30022): I 01/05/2016 15:41:57:457 00007546         AppCallbacks| addCommand: UI-CREATED
+I/APP     (30022): I 01/05/2016 15:41:57:458 000075dc         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     (30022): I 01/05/2016 15:41:57:458 000075dc         AppCallbacks| m_uistate: 0
+I/APP     (30022): I 01/05/2016 15:41:57:458 000075dc         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     (30022): I 01/05/2016 15:41:57:458 000075dc         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (30022): I 01/05/2016 15:41:57:459 00007546        GoogleWebView| Setting RhoWebChromeClient and RhoWebViewClient
+I/APP     (30022): I 01/05/2016 15:41:57:479 000075dd              RhoRuby| Init_RhoBlobs: /data/data/com.rhomobile.total/rhodata/db/db-files
+I/APP     (30022): I 01/05/2016 15:41:57:504 000075dd              RhoRuby| require_compiled: RhoSystemApi
+I/APP     (30022): I 01/05/2016 15:41:57:513 000075dd              RhoRuby| require_compiled: RhoApplicationApi
+I/APP     (30022): I 01/05/2016 15:41:57:524 000075dd              RhoRuby| require_compiled: RhoNetworkApi
+I/APP     (30022): I 01/05/2016 15:41:57:530 00007546 ConnectionChangeReceiver| LOGGER: Network status change, connected = true
+I/APP     (30022): E 01/05/2016 15:41:57:530 00007546         RhodesAppJNI| nativeNotify
+I/APP     (30022): E 01/05/2016 15:41:57:530 00007546            RhodesApp| enter notifyReceiver
+I/APP     (30022): E 01/05/2016 15:41:57:530 00007546            RhodesApp| calling onNetworkStatusChanged
+I/APP     (30022): I 01/05/2016 15:41:57:530 00007546       RhodesActivity| New start parameters: 
+I/APP     (30022): I 01/05/2016 15:41:57:530 00007546            RhodesApp| New start params: 
+I/APP     (30022): I 01/05/2016 15:41:57:534 000075dd              RhoRuby| require_compiled: RhoDatabaseApi
+I/APP     (30022): I 01/05/2016 15:41:57:567 000075dd              RhoRuby| require_compiled: RhoLogApi
+I/APP     (30022): I 01/05/2016 15:41:57:571 000075dd              RhoRuby| require_compiled: RhoWebViewApi
+I/APP     (30022): I 01/05/2016 15:41:57:576 000075dd              RhoRuby| require_compiled: RhoNativeToolbarApi
+I/APP     (30022): I 01/05/2016 15:41:57:592 000075dd              RhoRuby| require_compiled: RhoNativeTabbarApi
+I/APP     (30022): I 01/05/2016 15:41:57:596 000075dd              RhoRuby| require_compiled: RhoNotificationApi
+I/APP     (30022): I 01/05/2016 15:41:57:607 000075dd              RhoRuby| require_compiled: RhoTimerApi
+I/APP     (30022): I 01/05/2016 15:41:57:610 000075dd              RhoRuby| require_compiled: motoapi/elements
+I/APP     (30022): I 01/05/2016 15:41:57:926 000075dd              RhoRuby| require_compiled: RhoConnectClient
+I/APP     (30022): I 01/05/2016 15:41:57:933 000075dd RhoconnectClientManager| setRhoconnectClientImpl ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+I/APP     (30022): I 01/05/2016 15:41:57:969 000075dd              RhoRuby| require_compiled: RhoSignatureApi
+I/APP     (30022): I 01/05/2016 15:41:58:015 000075dd              RhoRuby| require_compiled: rhoframework
+I/APP     (30022): I 01/05/2016 15:41:58:022 000075dd              RhoRuby| require_compiled: rational
+I/APP     (30022): I 01/05/2016 15:41:58:023 000075dd              RhoRuby| require_compiled: json
+I/APP     (30022): I 01/05/2016 15:41:58:025 000075dd              RhoRuby| require_compiled: json/common
+I/APP     (30022): I 01/05/2016 15:41:58:034 000075dd              RhoRuby| require_compiled: json/version
+I/APP     (30022): I 01/05/2016 15:41:58:038 000075dd              RhoRuby| require_compiled: json/pure
+I/APP     (30022): I 01/05/2016 15:41:58:043 000075dd              RhoRuby| require_compiled: json/pure/generator
+I/APP     (30022): I 01/05/2016 15:41:58:061 000075dd              RhoRuby| require_compiled: rho/rhoapplication
+I/APP     (30022): I 01/05/2016 15:41:58:070 000075dd              RhoRuby| require_compiled: rholang/localization_simplified
+I/APP     (30022): I 01/05/2016 15:41:58:079 000075dd              RhoRuby| require_compiled: rho/rhomsg
+I/APP     (30022): I 01/05/2016 15:41:58:081 000075dd              RhoRuby| require_compiled: rho/rhotabbar
+I/APP     (30022): I 01/05/2016 15:41:58:084 000075dd              RhoRuby| require_compiled: rho/rhotoolbar
+I/APP     (30022): I 01/05/2016 15:41:58:086 000075dd                  APP| Current locale: ; Country code: 
+I/APP     (30022): I 01/05/2016 15:41:58:087 000075dd                  APP| Locilized file: /data/data/com.rhomobile.total/rhodata/lib/rholang/lang_
+I/APP     (30022): I 01/05/2016 15:41:58:087 000075dd              RhoRuby| require_compiled: /data/data/com.rhomobile.total/rhodata/lib/rholang/lang_en
+I/APP     (30022): I 01/05/2016 15:41:58:091 000075dd                  APP| Locilized file: /data/data/com.rhomobile.total/rhodata/apps/app/lang/lang_
+I/APP     (30022): I 01/05/2016 15:41:58:091 000075dd                  APP| Locilized file: /data/data/com.rhomobile.total/rhodata/lib/rholang/rhoerror_
+I/APP     (30022): I 01/05/2016 15:41:58:092 000075dd              RhoRuby| require_compiled: /data/data/com.rhomobile.total/rhodata/lib/rholang/rhoerror_en
+I/APP     (30022): I 01/05/2016 15:41:58:094 000075dd                  APP| Locilized file: /data/data/com.rhomobile.total/rhodata/lib/rholang/rhomsg_
+I/APP     (30022): I 01/05/2016 15:41:58:094 000075dd              RhoRuby| require_compiled: /data/data/com.rhomobile.total/rhodata/lib/rholang/rhomsg_en
+I/APP     (30022): I 01/05/2016 15:41:58:097 000075dd              RhoRuby| require_compiled: indifferent_access
+I/APP     (30022): I 01/05/2016 15:41:58:104 000075dd              RhoRuby| require_compiled: rho/rhosupport
+I/APP     (30022): I 01/05/2016 15:41:58:114 000075dd              RhoRuby| require_compiled: rho/rhocontroller
+I/APP     (30022): I 01/05/2016 15:41:58:123 000075dd              RhoRuby| require_compiled: rho/render
+I/APP     (30022): I 01/05/2016 15:41:58:137 000075dd              RhoRuby| require_compiled: rho/rho
+I/APP     (30022): I 01/05/2016 15:41:58:187 000075dd              RhoRuby| require_compiled: rho/rhoerror
+I/APP     (30022): I 01/05/2016 15:41:58:190 000075dd              RhoRuby| require_compiled: rhodes
+I/APP     (30022): I 01/05/2016 15:41:58:193 000075dd                  APP| Looking for RhoConnectClient
+I/APP     (30022): I 01/05/2016 15:41:58:193 000075dd                  APP| RhoConnectClient found. do nothing
+I/APP     (30022): I 01/05/2016 15:41:58:194 000075dd              RhoRuby| require_compiled: rho/rhoviewhelpers
+I/APP     (30022): I 01/05/2016 15:41:58:201 000075dd              RhoRuby| require_compiled: rho
+I/APP     (30022): I 01/05/2016 15:41:58:202 000075dd                  APP| RHOSTUDIO_REMOTE_DEBUG=false
+I/APP     (30022): I 01/05/2016 15:41:58:202 000075dd                  APP| RHOSTUDIO_REMOTE_HOST=
+I/APP     (30022): I 01/05/2016 15:41:58:202 000075dd                  APP| RHOSTUDIO_REMOTE_PATH=
+I/APP     (30022): I 01/05/2016 15:41:58:202 000075dd                  APP| RHO loaded
+I/APP     (30022): I 01/05/2016 15:41:58:202 000075dd                  APP| Calling RHO.initialize , use_new_orm: 0
+I/APP     (30022): I 01/05/2016 15:41:58:202 000075dd                  APP| MZV_DEBUG: we are in use_new_orm false false
+I/APP     (30022): I 01/05/2016 15:41:58:203 000075dd                   DB| Open DB: /data/data/com.rhomobile.total/rhodata/db/syncdbapp.sqlite
+I/APP     (30022): I 01/05/2016 15:41:58:208 000075dd                   DB| Open DB: /data/data/com.rhomobile.total/rhodata/db/syncdbuser.sqlite
+I/APP     (30022): I 01/05/2016 15:41:58:211 000075dd                   DB| Open DB: /data/data/com.rhomobile.total/rhodata/db/syncdblocal.sqlite
+I/APP     (30022): I 01/05/2016 15:41:58:214 000075dd              RhoRuby| require_compiled: rhom
+I/APP     (30022): I 01/05/2016 15:41:58:216 000075dd              RhoRuby| require_compiled: rhom/rhom
+I/APP     (30022): I 01/05/2016 15:41:58:226 000075dd              RhoRuby| require_compiled: rhom/rhom_object_factory
+I/APP     (30022): I 01/05/2016 15:41:58:286 000075dd              RhoRuby| require_compiled: rhom/rhom_object
+I/APP     (30022): I 01/05/2016 15:41:58:289 000075dd              RhoRuby| require_compiled: rhom/rhom_model
+I/APP     (30022): I 01/05/2016 15:41:58:297 000075dd              RhoRuby| require_compiled: rhom/rhom_source
+I/APP     (30022): I 01/05/2016 15:41:58:303 000075dd          GeoLocation| Creating singleton instance.
+I/APP     (30022): I 01/05/2016 15:41:58:303 000075dd            RhodesApp| Starting sync engine...
+I/APP     (30022): I 01/05/2016 15:41:58:303 000075dd                 Sync| sync_poll_interval: 0
+I/APP     (30022): I 01/05/2016 15:41:58:303 000075dd                 Sync| syncserver: 
+I/APP     (30022): I 01/05/2016 15:41:58:303 000075dd                 Sync| bulksync_state: 0
+I/APP     (30022): I 01/05/2016 15:41:58:305 000075dd            RhodesApp| RhoRubyInitApp...
+I/APP     (30022): I 01/05/2016 15:41:58:305 000075dd                  APP| init_app
+I/APP     (30022): I 01/05/2016 15:41:58:306 000075dd              RhoRuby| require_compiled: application
+I/APP     (30022): I 01/05/2016 15:41:58:306 000075f6                 Sync| Starting main routine...
+I/APP     (30022): I 01/05/2016 15:41:58:313 000075f6                 Sync| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (30022): I 01/05/2016 15:41:58:314 000075dd                 Sync| Set notification. Source ID: -1;Url :; Params: 
+I/APP     (30022): I 01/05/2016 15:41:58:314 000075dd           HttpServer| Start HTTP server
+I/APP     (30022): I 01/05/2016 15:41:58:314 000075dd           HttpServer| Listen for connections on port 33606
+I/APP     (30022): I 01/05/2016 15:41:58:314 000075dd         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I/APP     (30022): I 01/05/2016 15:41:58:315 000075dc         AppCallbacks| LOCAL-SERVER-STARTED is received ++++++++++++++++++++++++++++
+I/APP     (30022): I 01/05/2016 15:41:58:315 000075dc         AppCallbacks| process command: LOCAL-SERVER-STARTED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:41:58:321 000075dc        GoogleWebView| applyWebSettings
+I/APP     (30022): I 01/05/2016 15:41:58:321 000075dc        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     (30022): I 01/05/2016 15:41:58:348 000075dc  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     (30022): I 01/05/2016 15:41:58:349 000075dc  WebSettingsProvider| Allow universal access from file URL
+I/APP     (30022): I 01/05/2016 15:41:58:352 000075dc    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:41:58:352 000075dc         AppCallbacks| addCommand: UI-CREATED
+I/APP     (30022): I 01/05/2016 15:41:58:352 000075dc    RhodesApplication| New AppState: AppActivated
+I/APP     (30022): I 01/05/2016 15:41:58:353 000075dc         AppCallbacks| process command: UI-CREATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:41:58:355 000075dd           HttpServer| Process URI: '/system/uicreated'
+I/APP     (30022): I 01/05/2016 15:41:58:356 000075dd                  APP| on_ui_created.navigate to start url: '/public/index.html'
+I/APP     (30022): I 01/05/2016 15:41:58:366 000075dd    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:41:58:367 00007546       SimpleMainView| Cleared URL: http://127.0.0.1:33606/public/index.html
+I/APP     (30022): I 01/05/2016 15:41:58:368 000075dc         AppCallbacks| process command: APP-ACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:41:58:370 000075dd           HttpServer| Process URI: '/system/activateapp'
+I/APP     (30022): I 01/05/2016 15:41:58:371 000075dd                  APP| AppEvent Activated
+I/APP     (30022): I 01/05/2016 15:41:58:372 000075dc         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     (30022): I 01/05/2016 15:41:58:372 000075dc         AppCallbacks| m_uistate: 2
+I/APP     (30022): I 01/05/2016 15:41:58:372 000075dc         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (30022): I 01/05/2016 15:41:58:372 000075dc         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (30022): I 01/05/2016 15:41:58:384 00007546     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (30022): I 01/05/2016 15:41:58:848 000075dd           HttpServer| Process URI: '/public/index.html'
+I/APP     (30022): I 01/05/2016 15:41:58:854 000075dd    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:41:58:855 000075dd                  APP| RHO serve_index: /public/index.html
+I/APP     (30022): I 01/05/2016 15:41:58:857 000075dd           HttpServer| GC Start.
+I/APP     (30022): I 01/05/2016 15:41:58:886 000075dd           HttpServer| GC End.
+I/APP     (30022): I 01/05/2016 15:41:58:891 00007546         MetaReceiver| QuitButton', 'Visibility:hidden'
+I/APP     (30022): I 01/05/2016 15:41:58:891 00007546         MetaReceiver| BackButton', 'Visibility:hidden'
+I/APP     (30022): I 01/05/2016 15:41:58:891 00007546         MetaReceiver| ForwardButton', 'Visibility:hidden'
+I/APP     (30022): I 01/05/2016 15:41:58:891 00007546         MetaReceiver| HomeButton', 'Visibility:hidden'
+I/APP     (30022): I 01/05/2016 15:41:58:891 00007546         MetaReceiver| ReloadButton', 'Visibility:hidden'
+I/APP     (30022): I 01/05/2016 15:41:58:892 00007546         MetaReceiver| ZoomTextButton', 'Visibility:hidden'
+I/APP     (30022): I 01/05/2016 15:41:58:892 00007546         MetaReceiver| SIPButton', 'Visibility:hidden'
+I/APP     (30022): I 01/05/2016 15:41:58:892 00007546         MetaReceiver| GoButton', 'Visibility:hidden'
+I/APP     (30022): I 01/05/2016 15:41:58:892 00007546         MetaReceiver| StopButton', 'Visibility:hidden'
+I/APP     (30022): I 01/05/2016 15:41:58:892 00007546         MetaReceiver| MinimizeButton', 'Visibility:hidden'
+I/APP     (30022): I 01/05/2016 15:41:58:892 00007546         MetaReceiver| AddressBar', 'top:50;visibility:hidden'
+I/APP     (30022): I 01/05/2016 15:41:58:892 00007546         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     (30022): I 01/05/2016 15:41:59:189 000075dd           HttpServer| Process URI: '/public/bower_components/ionic/css/ionic.css'
+I/APP     (30022): I 01/05/2016 15:41:59:204 000075dd           HttpServer| Process URI: '/public/css/index.css'
+I/APP     (30022): I 01/05/2016 15:41:59:210 000075dd           HttpServer| Process URI: '/public/bower_components/ionicons/css/ionicons.css'
+I/APP     (30022): I 01/05/2016 15:41:59:217 000075dd           HttpServer| Process URI: '/public/jquery/jquery-1.9.1.min.js'
+I/APP     (30022): I 01/05/2016 15:41:59:235 000075dd           HttpServer| Process URI: '/public/js/jquery.json.min.js'
+I/APP     (30022): I 01/05/2016 15:41:59:242 000075dd           HttpServer| Process URI: '/public/js/rho_javascript_api.js'
+I/APP     (30022): I 01/05/2016 15:41:59:247 000075dd           HttpServer| Process URI: '/public/js/rho_common_api_noconflict.js'
+I/APP     (30022): I 01/05/2016 15:41:59:251 000075dd           HttpServer| Process URI: '/public/api/rhoapi-modules.js'
+I/APP     (30022): I 01/05/2016 15:41:59:274 000075dd           HttpServer| Process URI: '/public/api/rhoapi-modules-ORM.js'
+I/APP     (30022): I 01/05/2016 15:41:59:286 000075dd           HttpServer| Process URI: '/public/api/rhoapi-modules-ORMHelper.js'
+I/APP     (30022): I 01/05/2016 15:41:59:293 000075dd           HttpServer| Process URI: '/public/api/rhoapi-modules-Ruby-RunTime.js'
+I/APP     (30022): I 01/05/2016 15:41:59:306 000075dd           HttpServer| Process URI: '/public/bower_components/ionic/js/ionic.bundle.js'
+I/APP     (30022): I 01/05/2016 15:42:00:058 0000761e               NewORM| calling useNewOrm
+I/APP     (30022): I 01/05/2016 15:42:00:252 000075dd           HttpServer| Process URI: '/public/bower_components/angular-ui-router/release/angular-ui-router.min.js'
+I/APP     (30022): I 01/05/2016 15:42:00:257 000075dd           HttpServer| Process URI: '/public/js/config.js'
+I/APP     (30022): I 01/05/2016 15:42:00:259 000075dd           HttpServer| Process URI: '/public/js/enums.js'
+I/APP     (30022): I 01/05/2016 15:42:00:263 000075dd           HttpServer| Process URI: '/public/js/constants.js'
+I/APP     (30022): I 01/05/2016 15:42:00:266 000075dd           HttpServer| Process URI: '/public/js/models.js'
+I/APP     (30022): I 01/05/2016 15:42:00:296 000075dd           HttpServer| Process URI: '/public/js/misc/moment-with-locales.min.js'
+I/APP     (30022): I 01/05/2016 15:42:00:345 000075dd           HttpServer| Process URI: '/public/js/misc/stringFormat.js'
+I/APP     (30022): I 01/05/2016 15:42:00:360 000075dd           HttpServer| Process URI: '/public/js/factories.js'
+I/APP     (30022): I 01/05/2016 15:42:00:365 000075dd           HttpServer| Process URI: '/public/js/utils.js'
+I/APP     (30022): I 01/05/2016 15:42:02:398 000075dd           HttpServer| Process URI: '/public/js/syncManager.js'
+I/APP     (30022): I 01/05/2016 15:42:02:410 000075dd           HttpServer| Process URI: '/public/js/app.js'
+I/APP     (30022): I 01/05/2016 15:42:02:429 000075dd           HttpServer| Process URI: '/public/js/controllers/controllers.js'
+I/APP     (30022): I 01/05/2016 15:42:02:436 000075dd           HttpServer| Process URI: '/public/js/controllers/loginController.js'
+I/APP     (30022): I 01/05/2016 15:42:02:452 000075dd           HttpServer| Process URI: '/public/js/controllers/agendaCtrl.js'
+I/APP     (30022): I 01/05/2016 15:42:02:460 000075dd           HttpServer| Process URI: '/public/js/controllers/datosInicioController.js'
+I/APP     (30022): I 01/05/2016 15:42:02:481 000075dd           HttpServer| Process URI: '/public/js/controllers/descargaController.js'
+I/APP     (30022): I 01/05/2016 15:42:02:524 000075dd           HttpServer| Process URI: '/public/js/controllers/configController.js'
+I/APP     (30022): I 01/05/2016 15:42:02:589 000075dd           HttpServer| Process URI: '/public/js/controllers/menuController.js'
+I/APP     (30022): I 01/05/2016 15:42:02:595 000075dd           HttpServer| Process URI: '/public/js/controllers/recargaController.js'
+I/APP     (30022): I 01/05/2016 15:42:02:607 000075dd           HttpServer| Process URI: '/public/js/controllers/seleccionClienteCobranzaCtrl.js'
+I/APP     (30022): I 01/05/2016 15:42:02:609 000075dd           HttpServer| Process URI: '/public/js/controllers/seleccionClienteController.js'
+I/APP     (30022): I 01/05/2016 15:42:02:611 000075dd           HttpServer| Process URI: '/public/js/controllers/detalleEntregaController.js'
+I/APP     (30022): I 01/05/2016 15:42:02:617 000075dd           HttpServer| Process URI: '/public/js/controllers/ingresoFacturaMPagoCtrl.js'
+I/APP     (30022): I 01/05/2016 15:42:02:626 000075dd           HttpServer| Process URI: '/public/js/controllers/detalleMedioPagoCtrl.js'
+I/APP     (30022): I 01/05/2016 15:42:02:637 000075dd           HttpServer| Process URI: '/public/js/controllers/calculadoraCtrl.js'
+I/APP     (30022): I 01/05/2016 15:42:02:668 000075dd           HttpServer| Process URI: '/public/js/controllers/detalleVentaCtrl.js'
+I/APP     (30022): I 01/05/2016 15:42:02:678 000075dd           HttpServer| Process URI: '/public/js/controllers/cierreHrController.js'
+I/APP     (30022): I 01/05/2016 15:42:02:681 000075dd           HttpServer| Process URI: '/public/js/controllers/detalleVenta2Ctrl.js'
+I/APP     (30022): I 01/05/2016 15:42:02:691 000075dd           HttpServer| Process URI: '/public/js/controllers/cancelacionPedidoCtrl.js'
+I/APP     (30022): I 01/05/2016 15:42:02:694 000075dd           HttpServer| Process URI: '/public/js/controllers/otroMedioPagoCtrl.js'
+I/APP     (30022): I 01/05/2016 15:42:02:697 000075dd           HttpServer| Process URI: '/public/js/controllers/reciboCobranzaCtrl.js'
+I/APP     (30022): I 01/05/2016 15:42:02:714 000075dd           HttpServer| Process URI: '/public/js/controllers/detalleMedioPagoCobranzaCtrl.js'
+I/APP     (30022): I 01/05/2016 15:42:02:722 000075dd           HttpServer| Process URI: '/public/js/controllers/detalleRemitoCtrl.js'
+I/APP     (30022): I 01/05/2016 15:42:02:724 000075dd           HttpServer| Process URI: '/public/js/controllers/porcentajeYObservacionesCtrl.js'
+I/APP     (30022): I 01/05/2016 15:42:02:728 000075dd           HttpServer| Process URI: '/public/js/controllers/configEstilosCtrl.js'
+I/APP     (30022): I 01/05/2016 15:42:08:321 0000761e    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:42:08:355 00007546   RhoWebChromeClient| [object Object] -- From line 32 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:42:09:547 00007546   RhoWebChromeClient| hay algo -- From line 156 of http://127.0.0.1:33606/public/js/factories.js
+I/APP     (30022): I 01/05/2016 15:42:09:547 00007546   RhoWebChromeClient| [object Object] -- From line 157 of http://127.0.0.1:33606/public/js/factories.js
+I/APP     (30022): I 01/05/2016 15:42:09:556 00007546   RhoWebChromeClient| hay algo -- From line 156 of http://127.0.0.1:33606/public/js/factories.js
+I/APP     (30022): I 01/05/2016 15:42:09:557 00007546   RhoWebChromeClient| [object Object] -- From line 157 of http://127.0.0.1:33606/public/js/factories.js
+I/APP     (30022): I 01/05/2016 15:42:09:557 00007546   RhoWebChromeClient| 2 -- From line 218 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:42:09:558 00007546   RhoWebChromeClient| ion-content, ion-content span, ion-content div, ion-content input, ion-content h3{font-size:16px !important} -- From line 209 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:42:09:689 000075dd           HttpServer| Process URI: '/public/pages/configEstilos.html'
+I/APP     (30022): I 01/05/2016 15:42:09:702 000075dd           HttpServer| Process URI: '/public/pages/porcentajeDeCarga.html'
+I/APP     (30022): I 01/05/2016 15:42:09:710 000075dd           HttpServer| Process URI: '/public/pages/cancelacionPedido.html'
+I/APP     (30022): I 01/05/2016 15:42:09:718 000075dd           HttpServer| Process URI: '/public/pages/seleccionClienteEspontanea.html'
+I/APP     (30022): I 01/05/2016 15:42:09:742 00007546     WebViewSingleton| onNavigateComplete <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:42:09:742 00007546         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     (30022): I 01/05/2016 15:42:09:751 00007546     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (30022): I 01/05/2016 15:42:09:782 000075dd           HttpServer| Process URI: '/public/pages/menu.html'
+I/APP     (30022): I 01/05/2016 15:42:09:793 000075dd           HttpServer| Process URI: '/public/pages/login.html'
+I/APP     (30022): I 01/05/2016 15:42:09:807 00007833    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:42:09:882 000075dd           HttpServer| Process URI: '/public/pages/detalleMedioPago.html'
+I/APP     (30022): I 01/05/2016 15:42:09:883 00007546     WebViewSingleton| onNavigateComplete <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:42:09:884 00007546         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     (30022): I 01/05/2016 15:42:09:886 00007546     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (30022): I 01/05/2016 15:42:09:893 000075dd           HttpServer| Process URI: '/public/pages/ingresoFacturaMPago.html'
+I/APP     (30022): I 01/05/2016 15:42:09:951 0000761e         MetaReceiver| null', 'null'
+I/APP     (30022): I 01/05/2016 15:42:09:952 0000761e         MetaReceiver| Content-type', 'text/html; charset=UTF-8'
+I/APP     (30022): I 01/05/2016 15:42:09:960 0000761e         MetaReceiver| null', 'telephone=no'
+I/APP     (30022): I 01/05/2016 15:42:09:961 0000761e         MetaReceiver| null', 'no'
+I/APP     (30022): I 01/05/2016 15:42:09:962 0000761e         MetaReceiver| null', 'user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width'
+I/APP     (30022): I 01/05/2016 15:42:09:963 0000761e         MetaReceiver| status', 'eom'
+I/APP     (30022): I 01/05/2016 15:42:10:237 000075dd           HttpServer| Process URI: '/public/images/total/total_logo_big.png'
+I/APP     (30022): I 01/05/2016 15:42:10:239 00007546   RhoWebChromeClient| 272727272727 -- From line 12 of http://127.0.0.1:33606/public/js/controllers/loginController.js
+I/APP     (30022): I 01/05/2016 15:42:10:240 00007546   RhoWebChromeClient| loginCtrl -- From line 17 of http://127.0.0.1:33606/public/js/controllers/loginController.js
+I/APP     (30022): I 01/05/2016 15:42:10:590 0000761e         MetaReceiver| null', 'null'
+I/APP     (30022): I 01/05/2016 15:42:10:591 0000761e         MetaReceiver| Content-type', 'text/html; charset=UTF-8'
+I/APP     (30022): I 01/05/2016 15:42:10:598 0000761e         MetaReceiver| null', 'telephone=no'
+I/APP     (30022): I 01/05/2016 15:42:10:599 0000761e         MetaReceiver| null', 'no'
+I/APP     (30022): I 01/05/2016 15:42:10:600 0000761e         MetaReceiver| null', 'user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width'
+I/APP     (30022): I 01/05/2016 15:42:10:600 0000761e         MetaReceiver| null', 'null'
+I/APP     (30022): I 01/05/2016 15:42:10:601 0000761e         MetaReceiver| status', 'eom'
+I/APP     (30022): I 01/05/2016 15:42:10:886 000075dd           HttpServer| Process URI: '/public/pages/reciboCobranza.html'
+I/APP     (30022): I 01/05/2016 15:42:10:902 000075dd           HttpServer| Process URI: '/public/pages/recarga.html'
+I/APP     (30022): I 01/05/2016 15:42:10:908 000075dd           HttpServer| Process URI: '/public/pages/config.html'
+I/APP     (30022): I 01/05/2016 15:42:11:929 000075dd           HttpServer| Process URI: '/public/pages/datosInicio.html'
+I/APP     (30022): I 01/05/2016 15:42:11:939 000075dd           HttpServer| Process URI: '/public/pages/descarga.html'
+I/APP     (30022): I 01/05/2016 15:42:11:947 000075dd           HttpServer| Process URI: '/public/pages/detalleRemito.html'
+I/APP     (30022): I 01/05/2016 15:42:12:934 000075dd           HttpServer| Process URI: '/public/pages/detalleVenta2.html'
+I/APP     (30022): I 01/05/2016 15:42:12:945 000075dd           HttpServer| Process URI: '/public/pages/detalleVenta.html'
+I/APP     (30022): I 01/05/2016 15:42:12:954 000075dd           HttpServer| Process URI: '/public/pages/calculadora.html'
+I/APP     (30022): I 01/05/2016 15:42:12:962 000075dd           HttpServer| Process URI: '/public/pages/detalleEntrega.html'
+I/APP     (30022): I 01/05/2016 15:42:13:949 000075dd           HttpServer| Process URI: '/public/pages/agenda.html'
+I/APP     (30022): I 01/05/2016 15:42:32:280 00007a8a    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:42:32:427 00007546   RhoWebChromeClient| Usuario o contraseña incorrectos. -- From line 21162 of http://127.0.0.1:33606/public/bower_components/ionic/js/ionic.bundle.js
+I/APP     (30022): I 01/05/2016 15:42:32:428 00007546   RhoWebChromeClient| Login Request Complete -- From line 41 of http://127.0.0.1:33606/public/js/controllers/loginController.js
+I/APP     (30022): I 01/05/2016 15:42:33:724 00007546    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:42:33:732 00007546       SimpleMainView| Cleared URL: javascript:Rho.callbackHandler( "__rhoID#2", {"result":{"button_index":"0","button_title":"Ok","button_id":"ok"}},"")
+I/APP     (30022): I 01/05/2016 15:42:33:733 00007546     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (30022): I 01/05/2016 15:42:33:738 0000761e    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:42:42:672 00007546     WebViewSingleton| onNavigateComplete <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:42:42:672 00007546         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     (30022): I 01/05/2016 15:42:42:675 00007546     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (30022): I 01/05/2016 15:42:42:703 0000761e         MetaReceiver| null', 'null'
+I/APP     (30022): I 01/05/2016 15:42:42:749 0000761e         MetaReceiver| Content-type', 'text/html; charset=UTF-8'
+I/APP     (30022): I 01/05/2016 15:42:42:767 0000761e         MetaReceiver| null', 'telephone=no'
+I/APP     (30022): I 01/05/2016 15:42:42:769 0000761e         MetaReceiver| null', 'no'
+I/APP     (30022): I 01/05/2016 15:42:42:771 0000761e         MetaReceiver| null', 'user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width'
+I/APP     (30022): I 01/05/2016 15:42:42:773 0000761e         MetaReceiver| null', 'null'
+I/APP     (30022): I 01/05/2016 15:42:42:775 0000761e         MetaReceiver| null', 'null'
+I/APP     (30022): I 01/05/2016 15:42:42:776 0000761e         MetaReceiver| status', 'eom'
+I/APP     (30022): I 01/05/2016 15:43:05:488 00007ce5    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:43:06:306 00007546    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:43:06:315 00007546       SimpleMainView| Cleared URL: javascript:Rho.callbackHandler( "__rhoID#3", {"result":{"button_index":"0","button_title":"Ok","button_id":"ok"}},"")
+I/APP     (30022): I 01/05/2016 15:43:06:315 00007546     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (30022): I 01/05/2016 15:43:06:320 0000761e    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:43:07:002 00007546     WebViewSingleton| onNavigateComplete <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:43:07:002 00007546         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     (30022): I 01/05/2016 15:43:07:003 00007546     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (30022): I 01/05/2016 15:43:07:043 00007546   RhoWebChromeClient| 272727272727 -- From line 12 of http://127.0.0.1:33606/public/js/controllers/loginController.js
+I/APP     (30022): I 01/05/2016 15:43:07:044 00007546   RhoWebChromeClient| loginCtrl -- From line 17 of http://127.0.0.1:33606/public/js/controllers/loginController.js
+I/APP     (30022): I 01/05/2016 15:43:07:189 0000761e         MetaReceiver| null', 'null'
+I/APP     (30022): I 01/05/2016 15:43:07:190 0000761e         MetaReceiver| Content-type', 'text/html; charset=UTF-8'
+I/APP     (30022): I 01/05/2016 15:43:07:216 0000761e         MetaReceiver| null', 'telephone=no'
+I/APP     (30022): I 01/05/2016 15:43:07:217 0000761e         MetaReceiver| null', 'no'
+I/APP     (30022): I 01/05/2016 15:43:07:220 0000761e         MetaReceiver| null', 'user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width'
+I/APP     (30022): I 01/05/2016 15:43:07:222 0000761e         MetaReceiver| null', 'null'
+I/APP     (30022): I 01/05/2016 15:43:07:223 0000761e         MetaReceiver| null', 'null'
+I/APP     (30022): I 01/05/2016 15:43:07:224 0000761e         MetaReceiver| status', 'eom'
+I/APP     (30022): I 01/05/2016 15:43:18:337 00007546   RhoWebChromeClient| Hay nuevas plantas. Las mismas seran actualizadas. -- From line 547 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:43:18:620 00007546   RhoWebChromeClient| Tipo Medio de pago fue creado correctamente. -- From line 79 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:43:18:686 00007546   RhoWebChromeClient| Tipo Medio de pago fue creado correctamente. -- From line 99 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:43:18:689 00007546   RhoWebChromeClient| ** Sincro Automatica Activada** -- From line 157 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:43:18:709 00007546   RhoWebChromeClient| Login Request Complete -- From line 41 of http://127.0.0.1:33606/public/js/controllers/loginController.js
+I/APP     (30022): I 01/05/2016 15:43:18:774 000075dd           HttpServer| Process URI: '/system/uidestroyed'
+I/APP     (30022): I 01/05/2016 15:43:18:775 000075dd                  APP| AppEvent UIDestroyed
+I/APP     (30022): I 01/05/2016 15:43:18:780 00007546    RhodesApplication| New UiState: MainActivityPaused
+I/APP     (30022): I 01/05/2016 15:43:19:204 00007546     WebViewSingleton| onNavigateComplete <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:43:19:205 00007546         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     (30022): I 01/05/2016 15:43:19:205 00007546     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (30022): I 01/05/2016 15:43:19:419 0000761e         MetaReceiver| null', 'null'
+I/APP     (30022): I 01/05/2016 15:43:19:421 0000761e         MetaReceiver| Content-type', 'text/html; charset=UTF-8'
+I/APP     (30022): I 01/05/2016 15:43:19:431 0000761e         MetaReceiver| null', 'telephone=no'
+I/APP     (30022): I 01/05/2016 15:43:19:433 0000761e         MetaReceiver| null', 'no'
+I/APP     (30022): I 01/05/2016 15:43:19:434 0000761e         MetaReceiver| null', 'user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width'
+I/APP     (30022): I 01/05/2016 15:43:19:435 0000761e         MetaReceiver| null', 'null'
+I/APP     (30022): I 01/05/2016 15:43:19:437 0000761e         MetaReceiver| null', 'null'
+I/APP     (30022): I 01/05/2016 15:43:19:439 0000761e         MetaReceiver| status', 'eom'
+I/APP     (30022): I 01/05/2016 15:43:19:570 00007546    RhodesApplication| New AppState: AppDeactivated
+I/APP     (30022): I 01/05/2016 15:43:19:570 00007546        RhodesService| activityStopped() temporary release wakeLock object
+I/APP     (30022): I 01/05/2016 15:43:19:574 00007546            RhodesApp| callAppActiveCallback
+I/APP     (30022): I 01/05/2016 15:43:19:576 00007546         AppCallbacks| addCommand: APP-DEACTIVATED
+I/APP     (30022): I 01/05/2016 15:43:19:581 000075dc         AppCallbacks| APP-DEACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (30022): I 01/05/2016 15:43:19:581 000075dc         AppCallbacks| process command: APP-DEACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:43:19:581 000075dc         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (30022): I 01/05/2016 15:43:19:583 000075dd           HttpServer| Process URI: '/system/deactivateapp'
+I/APP     (30022): I 01/05/2016 15:43:19:584 000075dd                  APP| AppEvent Deactivated
+I/APP     (30022): I 01/05/2016 15:43:29:750 00007546            RhodesApp| callAppActiveCallback
+I/APP     (30022): I 01/05/2016 15:43:29:750 00007546         AppCallbacks| addCommand: APP-ACTIVATED
+I/APP     (30022): I 01/05/2016 15:43:29:751 00007546    RhodesApplication| New AppState: AppActivated
+I/APP     (30022): I 01/05/2016 15:43:29:751 00007546    RhodesApplication| New UiState: MainActivityStarted
+I/APP     (30022): I 01/05/2016 15:43:29:752 000075dc         AppCallbacks| APP-ACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (30022): I 01/05/2016 15:43:29:753 000075dc         AppCallbacks| Restart local server ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+I/APP     (30022): I 01/05/2016 15:43:29:753 000075dc            RhodesApp| restart local server.
+I/APP     (30022): I 01/05/2016 15:43:29:754 000075dc           HttpServer| Stopping server...
+I/APP     (30022): I 01/05/2016 15:43:29:755 000075dd           HttpServer| Start HTTP server
+I/APP     (30022): I 01/05/2016 15:43:29:755 000075dd           HttpServer| Listen for connections on port 33606
+I/APP     (30022): I 01/05/2016 15:43:29:756 000075dd         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I/APP     (30022): I 01/05/2016 15:43:29:760 00007546        GoogleWebView| applyWebSettings
+I/APP     (30022): I 01/05/2016 15:43:29:760 00007546        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     (30022): I 01/05/2016 15:43:29:760 00007546  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     (30022): I 01/05/2016 15:43:29:765 00007546  WebSettingsProvider| Allow universal access from file URL
+I/APP     (30022): I 01/05/2016 15:43:29:765 00007546    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:43:29:765 00007546         AppCallbacks| addCommand: UI-CREATED
+I/APP     (30022): I 01/05/2016 15:43:29:768 00007546    RhodesApplication| New UiState: MainActivitiResumed
+I/APP     (30022): I 01/05/2016 15:43:29:807 000075dc         AppCallbacks| Continue after server restart =======================================
+I/APP     (30022): I 01/05/2016 15:43:29:807 000075dc         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     (30022): I 01/05/2016 15:43:29:807 000075dc         AppCallbacks| LOCAL-SERVER-STARTED is received ++++++++++++++++++++++++++++
+I/APP     (30022): I 01/05/2016 15:43:29:807 000075dc         AppCallbacks| process command: LOCAL-SERVER-STARTED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:43:29:812 000075dc    RhodesApplication| New AppState: AppActivated
+I/APP     (30022): I 01/05/2016 15:43:29:813 000075dc         AppCallbacks| process command: APP-ACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:43:29:816 000075dd           HttpServer| Process URI: '/system/activateapp'
+I/APP     (30022): I 01/05/2016 15:43:29:817 000075dd                  APP| AppEvent Activated
+I/APP     (30022): I 01/05/2016 15:43:29:819 000075dc         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     (30022): I 01/05/2016 15:43:29:819 000075dc         AppCallbacks| m_uistate: 2
+I/APP     (30022): I 01/05/2016 15:43:29:819 000075dc         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (30022): I 01/05/2016 15:43:29:820 000075dc         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (30022): I 01/05/2016 15:43:50:718 00007546   RhoWebChromeClient| Nota de traslado incorrecto. -- From line 98 of http://127.0.0.1:33606/public/js/controllers/datosInicioController.js
+I/APP     (30022): I 01/05/2016 15:43:50:723 00000226    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:43:52:587 00007546    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:43:52:594 00007546       SimpleMainView| Cleared URL: javascript:Rho.callbackHandler( "__rhoID#4", {"result":{"button_index":"0","button_title":"Ok","button_id":"ok"}},"")
+I/APP     (30022): I 01/05/2016 15:43:52:595 00007546     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (30022): I 01/05/2016 15:43:52:600 0000761e    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:43:58:599 00007546   RhoWebChromeClient| ** Sincro GPS Automatica Activada** -- From line 173 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:43:58:601 00007546   RhoWebChromeClient| ** Sincro Automatica Desactivada** -- From line 161 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:43:58:638 00007546   RhoWebChromeClient|  -- From line 62 of http://127.0.0.1:33606/public/js/controllers/agendaCtrl.js
+I/APP     (30022): I 01/05/2016 15:43:58:681 000075dd           HttpServer| Process URI: '/public/bower_components/ionicons/fonts/ionicons.ttf'
+I/APP     (30022): I 01/05/2016 15:43:58:837 00007546     WebViewSingleton| onNavigateComplete <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:43:58:838 00007546         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     (30022): I 01/05/2016 15:43:58:839 00007546     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (30022): I 01/05/2016 15:43:58:927 0000761e         MetaReceiver| null', 'null'
+I/APP     (30022): I 01/05/2016 15:43:58:977 0000761e         MetaReceiver| Content-type', 'text/html; charset=UTF-8'
+I/APP     (30022): I 01/05/2016 15:43:59:034 0000761e         MetaReceiver| null', 'telephone=no'
+I/APP     (30022): I 01/05/2016 15:43:59:095 0000761e         MetaReceiver| null', 'no'
+I/APP     (30022): I 01/05/2016 15:43:59:149 0000761e         MetaReceiver| null', 'user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width'
+I/APP     (30022): I 01/05/2016 15:43:59:199 0000761e         MetaReceiver| null', 'null'
+I/APP     (30022): I 01/05/2016 15:43:59:200 0000761e         MetaReceiver| null', 'null'
+I/APP     (30022): I 01/05/2016 15:43:59:202 0000761e         MetaReceiver| status', 'eom'
+I/APP     (30022): I 01/05/2016 15:43:59:342 00007546   RhoWebChromeClient| done -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:43:59:353 00007546   RhoWebChromeClient|  -- From line 1065 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:43:59:354 00007546   RhoWebChromeClient| done -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:43:59:367 00007546   RhoWebChromeClient| done -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:43:59:394 00007546   RhoWebChromeClient| nada que enviar -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:43:59:406 00007546   RhoWebChromeClient| Nada que enviar -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:43:59:407 00007546   RhoWebChromeClient| Todo procesado -- From line 81 of http://127.0.0.1:33606/public/js/controllers/agendaCtrl.js
+I/APP     (30022): I 01/05/2016 15:43:59:781 000075dd           HttpServer| Process URI: '/system/uidestroyed'
+I/APP     (30022): I 01/05/2016 15:43:59:782 000075dd                  APP| AppEvent UIDestroyed
+I/APP     (30022): I 01/05/2016 15:43:59:784 00007546    RhodesApplication| New UiState: MainActivityPaused
+I/APP     (30022): I 01/05/2016 15:43:59:822 00007546   RhoWebChromeClient| Nada que actualizar -- From line 84 of http://127.0.0.1:33606/public/js/controllers/agendaCtrl.js
+I/APP     (30022): I 01/05/2016 15:44:00:168 00007546    RhodesApplication| New AppState: AppDeactivated
+I/APP     (30022): I 01/05/2016 15:44:00:168 00007546        RhodesService| activityStopped() temporary release wakeLock object
+I/APP     (30022): I 01/05/2016 15:44:00:169 00007546            RhodesApp| callAppActiveCallback
+I/APP     (30022): I 01/05/2016 15:44:00:169 00007546         AppCallbacks| addCommand: APP-DEACTIVATED
+I/APP     (30022): I 01/05/2016 15:44:00:169 000075dc         AppCallbacks| APP-DEACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (30022): I 01/05/2016 15:44:00:170 000075dc         AppCallbacks| process command: APP-DEACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:44:00:170 000075dc         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (30022): I 01/05/2016 15:44:00:173 000075dd           HttpServer| Process URI: '/system/deactivateapp'
+I/APP     (30022): I 01/05/2016 15:44:00:173 000075dd                  APP| AppEvent Deactivated
+I/APP     (30022): I 01/05/2016 15:44:08:990 00007546            RhodesApp| callAppActiveCallback
+I/APP     (30022): I 01/05/2016 15:44:08:990 00007546         AppCallbacks| addCommand: APP-ACTIVATED
+I/APP     (30022): I 01/05/2016 15:44:08:991 00007546    RhodesApplication| New AppState: AppActivated
+I/APP     (30022): I 01/05/2016 15:44:08:992 00007546    RhodesApplication| New UiState: MainActivityStarted
+I/APP     (30022): I 01/05/2016 15:44:08:993 00007546        GoogleWebView| applyWebSettings
+I/APP     (30022): I 01/05/2016 15:44:08:993 00007546        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     (30022): I 01/05/2016 15:44:08:993 00007546  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     (30022): I 01/05/2016 15:44:08:995 000075dc         AppCallbacks| APP-ACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (30022): I 01/05/2016 15:44:08:996 000075dc         AppCallbacks| Restart local server ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+I/APP     (30022): I 01/05/2016 15:44:08:996 000075dc            RhodesApp| restart local server.
+I/APP     (30022): I 01/05/2016 15:44:08:996 000075dc           HttpServer| Stopping server...
+I/APP     (30022): I 01/05/2016 15:44:08:998 000075dd           HttpServer| Start HTTP server
+I/APP     (30022): I 01/05/2016 15:44:08:999 000075dd           HttpServer| Listen for connections on port 33606
+I/APP     (30022): I 01/05/2016 15:44:08:999 000075dd         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I/APP     (30022): I 01/05/2016 15:44:09:001 00007546  WebSettingsProvider| Allow universal access from file URL
+I/APP     (30022): I 01/05/2016 15:44:09:001 00007546    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:44:09:001 00007546         AppCallbacks| addCommand: UI-CREATED
+I/APP     (30022): I 01/05/2016 15:44:09:003 00007546    RhodesApplication| New UiState: MainActivitiResumed
+I/APP     (30022): I 01/05/2016 15:44:09:054 000075dc         AppCallbacks| Continue after server restart =======================================
+I/APP     (30022): I 01/05/2016 15:44:09:055 000075dc         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     (30022): I 01/05/2016 15:44:09:061 000075dc         AppCallbacks| LOCAL-SERVER-STARTED is received ++++++++++++++++++++++++++++
+I/APP     (30022): I 01/05/2016 15:44:09:061 000075dc         AppCallbacks| process command: LOCAL-SERVER-STARTED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:44:09:063 000075dc    RhodesApplication| New AppState: AppActivated
+I/APP     (30022): I 01/05/2016 15:44:09:063 000075dc         AppCallbacks| process command: APP-ACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:44:09:066 000075dd           HttpServer| Process URI: '/system/activateapp'
+I/APP     (30022): I 01/05/2016 15:44:09:067 000075dd                  APP| AppEvent Activated
+I/APP     (30022): I 01/05/2016 15:44:09:069 000075dc         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     (30022): I 01/05/2016 15:44:09:069 000075dc         AppCallbacks| m_uistate: 2
+I/APP     (30022): I 01/05/2016 15:44:09:069 000075dc         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (30022): I 01/05/2016 15:44:09:069 000075dc         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (30022): I 01/05/2016 15:44:10:983 000075dd           HttpServer| Process URI: '/system/uidestroyed'
+I/APP     (30022): I 01/05/2016 15:44:10:983 000075dd                  APP| AppEvent UIDestroyed
+I/APP     (30022): I 01/05/2016 15:44:10:998 00007546    RhodesApplication| New UiState: MainActivityPaused
+I/APP     (30022): I 01/05/2016 15:44:11:405 00007546    RhodesApplication| New AppState: AppDeactivated
+I/APP     (30022): I 01/05/2016 15:44:11:405 00007546        RhodesService| activityStopped() temporary release wakeLock object
+I/APP     (30022): I 01/05/2016 15:44:11:405 00007546            RhodesApp| callAppActiveCallback
+I/APP     (30022): I 01/05/2016 15:44:11:405 00007546         AppCallbacks| addCommand: APP-DEACTIVATED
+I/APP     (30022): I 01/05/2016 15:44:11:406 000075dc         AppCallbacks| APP-DEACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (30022): I 01/05/2016 15:44:11:406 000075dc         AppCallbacks| process command: APP-DEACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:44:11:406 000075dc         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (30022): I 01/05/2016 15:44:11:408 000075dd           HttpServer| Process URI: '/system/deactivateapp'
+I/APP     (30022): I 01/05/2016 15:44:11:408 000075dd                  APP| AppEvent Deactivated
+I/APP     (30022): I 01/05/2016 15:44:18:977 000075dd           HttpServer| Process URI: '/public/jquery/jquery.min.map'
+I/APP     (30022): E 01/05/2016 15:44:18:978 000075dd           HttpServer| The file /public/jquery/jquery.min.map was not found
+I/APP     (30022): I 01/05/2016 15:44:26:770 00007546            RhodesApp| callAppActiveCallback
+I/APP     (30022): I 01/05/2016 15:44:26:771 00007546         AppCallbacks| addCommand: APP-ACTIVATED
+I/APP     (30022): I 01/05/2016 15:44:26:771 000075dc         AppCallbacks| APP-ACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (30022): I 01/05/2016 15:44:26:771 000075dc         AppCallbacks| Restart local server ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+I/APP     (30022): I 01/05/2016 15:44:26:771 000075dc            RhodesApp| restart local server.
+I/APP     (30022): I 01/05/2016 15:44:26:771 000075dc           HttpServer| Stopping server...
+I/APP     (30022): I 01/05/2016 15:44:26:772 00007546    RhodesApplication| New AppState: AppActivated
+I/APP     (30022): I 01/05/2016 15:44:26:772 00007546    RhodesApplication| New UiState: MainActivityStarted
+I/APP     (30022): I 01/05/2016 15:44:26:772 000075dd           HttpServer| Start HTTP server
+I/APP     (30022): I 01/05/2016 15:44:26:773 00007546        GoogleWebView| applyWebSettings
+I/APP     (30022): I 01/05/2016 15:44:26:773 000075dd           HttpServer| Listen for connections on port 33606
+I/APP     (30022): I 01/05/2016 15:44:26:773 000075dd         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I/APP     (30022): I 01/05/2016 15:44:26:773 00007546        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     (30022): I 01/05/2016 15:44:26:775 00007546  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     (30022): I 01/05/2016 15:44:26:775 00007546  WebSettingsProvider| Allow universal access from file URL
+I/APP     (30022): I 01/05/2016 15:44:26:775 00007546    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:44:26:776 00007546         AppCallbacks| addCommand: UI-CREATED
+I/APP     (30022): I 01/05/2016 15:44:26:777 00007546    RhodesApplication| New UiState: MainActivitiResumed
+I/APP     (30022): I 01/05/2016 15:44:26:823 000075dc         AppCallbacks| Continue after server restart =======================================
+I/APP     (30022): I 01/05/2016 15:44:26:823 000075dc         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     (30022): I 01/05/2016 15:44:26:823 000075dc         AppCallbacks| LOCAL-SERVER-STARTED is received ++++++++++++++++++++++++++++
+I/APP     (30022): I 01/05/2016 15:44:26:823 000075dc         AppCallbacks| process command: LOCAL-SERVER-STARTED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:44:26:826 000075dc    RhodesApplication| New AppState: AppActivated
+I/APP     (30022): I 01/05/2016 15:44:26:826 000075dc         AppCallbacks| process command: APP-ACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:44:26:834 000075dd           HttpServer| Process URI: '/system/activateapp'
+I/APP     (30022): I 01/05/2016 15:44:26:835 000075dd                  APP| AppEvent Activated
+I/APP     (30022): I 01/05/2016 15:44:26:836 000075dc         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     (30022): I 01/05/2016 15:44:26:837 000075dc         AppCallbacks| m_uistate: 2
+I/APP     (30022): I 01/05/2016 15:44:26:837 000075dc         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (30022): I 01/05/2016 15:44:26:837 000075dc         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (30022): I 01/05/2016 15:44:30:766 00007546   RhoWebChromeClient| Estoy en la agenda entonces tengo que relodear el estado. -- From line 341 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:44:30:808 00007546   RhoWebChromeClient|  -- From line 62 of http://127.0.0.1:33606/public/js/controllers/agendaCtrl.js
+I/APP     (30022): I 01/05/2016 15:44:30:809 00007546   RhoWebChromeClient| Debería estar funcionando con los nuevos pedidos. -- From line 345 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:44:30:813 0000060c    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:44:30:899 00007546   RhoWebChromeClient|  -- From line 62 of http://127.0.0.1:33606/public/js/controllers/agendaCtrl.js
+I/APP     (30022): I 01/05/2016 15:44:30:901 00007546   RhoWebChromeClient| ** Sincro Automatica Activada** -- From line 157 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:44:32:569 00007546    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:44:32:580 00007546       SimpleMainView| Cleared URL: javascript:Rho.callbackHandler( "__rhoID#5", {"result":{"button_index":"0","button_title":"Ok","button_id":"ok"}},"")
+I/APP     (30022): I 01/05/2016 15:44:32:581 00007546     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (30022): I 01/05/2016 15:44:32:588 0000761e    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:44:34:440 00007546   RhoWebChromeClient| ** Sincro Automatica Desactivada** -- From line 161 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:44:34:454 00007546   RhoWebChromeClient| Nada que enviar -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:44:34:473 00007546   RhoWebChromeClient|  -- From line 1065 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:44:34:476 00007546   RhoWebChromeClient| done -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:44:34:488 00007546   RhoWebChromeClient| done -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:44:34:511 00007546   RhoWebChromeClient| nada que enviar -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:44:34:523 00007546   RhoWebChromeClient| Nada que enviar -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:44:34:526 00007546   RhoWebChromeClient| Todo procesado -- From line 81 of http://127.0.0.1:33606/public/js/controllers/agendaCtrl.js
+I/APP     (30022): I 01/05/2016 15:44:34:988 00007546   RhoWebChromeClient| Nada que actualizar -- From line 84 of http://127.0.0.1:33606/public/js/controllers/agendaCtrl.js
+I/APP     (30022): I 01/05/2016 15:44:35:647 000075dd           HttpServer| Process URI: '/system/uidestroyed'
+I/APP     (30022): I 01/05/2016 15:44:35:647 000075dd                  APP| AppEvent UIDestroyed
+I/APP     (30022): I 01/05/2016 15:44:35:650 00007546    RhodesApplication| New UiState: MainActivityPaused
+I/APP     (30022): I 01/05/2016 15:44:36:022 00007546    RhodesApplication| New AppState: AppDeactivated
+I/APP     (30022): I 01/05/2016 15:44:36:022 00007546        RhodesService| activityStopped() temporary release wakeLock object
+I/APP     (30022): I 01/05/2016 15:44:36:022 00007546            RhodesApp| callAppActiveCallback
+I/APP     (30022): I 01/05/2016 15:44:36:022 00007546         AppCallbacks| addCommand: APP-DEACTIVATED
+I/APP     (30022): I 01/05/2016 15:44:36:023 000075dc         AppCallbacks| APP-DEACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (30022): I 01/05/2016 15:44:36:023 000075dc         AppCallbacks| process command: APP-DEACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:44:36:023 000075dc         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (30022): I 01/05/2016 15:44:36:025 000075dd           HttpServer| Process URI: '/system/deactivateapp'
+I/APP     (30022): I 01/05/2016 15:44:36:026 000075dd                  APP| AppEvent Deactivated
+I/APP     (30022): I 01/05/2016 15:44:52:871 00007546            RhodesApp| callAppActiveCallback
+I/APP     (30022): I 01/05/2016 15:44:52:871 00007546         AppCallbacks| addCommand: APP-ACTIVATED
+I/APP     (30022): I 01/05/2016 15:44:52:872 000075dc         AppCallbacks| APP-ACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (30022): I 01/05/2016 15:44:52:872 000075dc         AppCallbacks| Restart local server ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+I/APP     (30022): I 01/05/2016 15:44:52:872 000075dc            RhodesApp| restart local server.
+I/APP     (30022): I 01/05/2016 15:44:52:872 000075dc           HttpServer| Stopping server...
+I/APP     (30022): I 01/05/2016 15:44:52:873 00007546    RhodesApplication| New AppState: AppActivated
+I/APP     (30022): I 01/05/2016 15:44:52:873 00007546    RhodesApplication| New UiState: MainActivityStarted
+I/APP     (30022): I 01/05/2016 15:44:52:874 00007546        GoogleWebView| applyWebSettings
+I/APP     (30022): I 01/05/2016 15:44:52:874 000075dd           HttpServer| Start HTTP server
+I/APP     (30022): I 01/05/2016 15:44:52:875 000075dd           HttpServer| Listen for connections on port 33606
+I/APP     (30022): I 01/05/2016 15:44:52:875 000075dd         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I/APP     (30022): I 01/05/2016 15:44:52:874 00007546        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     (30022): I 01/05/2016 15:44:52:876 00007546  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     (30022): I 01/05/2016 15:44:52:876 00007546  WebSettingsProvider| Allow universal access from file URL
+I/APP     (30022): I 01/05/2016 15:44:52:877 00007546    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:44:52:877 00007546         AppCallbacks| addCommand: UI-CREATED
+I/APP     (30022): I 01/05/2016 15:44:52:878 00007546    RhodesApplication| New UiState: MainActivitiResumed
+I/APP     (30022): I 01/05/2016 15:44:52:926 000075dc         AppCallbacks| Continue after server restart =======================================
+I/APP     (30022): I 01/05/2016 15:44:52:926 000075dc         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     (30022): I 01/05/2016 15:44:52:926 000075dc         AppCallbacks| LOCAL-SERVER-STARTED is received ++++++++++++++++++++++++++++
+I/APP     (30022): I 01/05/2016 15:44:52:926 000075dc         AppCallbacks| process command: LOCAL-SERVER-STARTED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:44:52:928 000075dc    RhodesApplication| New AppState: AppActivated
+I/APP     (30022): I 01/05/2016 15:44:52:928 000075dc         AppCallbacks| process command: APP-ACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:44:52:932 000075dd           HttpServer| Process URI: '/system/activateapp'
+I/APP     (30022): I 01/05/2016 15:44:52:932 000075dd                  APP| AppEvent Activated
+I/APP     (30022): I 01/05/2016 15:44:52:934 000075dc         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     (30022): I 01/05/2016 15:44:52:934 000075dc         AppCallbacks| m_uistate: 2
+I/APP     (30022): I 01/05/2016 15:44:52:935 000075dc         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (30022): I 01/05/2016 15:44:52:935 000075dc         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (30022): I 01/05/2016 15:44:57:882 000075dd           HttpServer| Process URI: '/system/uidestroyed'
+I/APP     (30022): I 01/05/2016 15:44:57:882 000075dd                  APP| AppEvent UIDestroyed
+I/APP     (30022): I 01/05/2016 15:44:57:884 00007546    RhodesApplication| New UiState: MainActivityPaused
+I/APP     (30022): I 01/05/2016 15:44:58:289 00007546    RhodesApplication| New AppState: AppDeactivated
+I/APP     (30022): I 01/05/2016 15:44:58:289 00007546        RhodesService| activityStopped() temporary release wakeLock object
+I/APP     (30022): I 01/05/2016 15:44:58:289 00007546            RhodesApp| callAppActiveCallback
+I/APP     (30022): I 01/05/2016 15:44:58:290 00007546         AppCallbacks| addCommand: APP-DEACTIVATED
+I/APP     (30022): I 01/05/2016 15:44:58:290 000075dc         AppCallbacks| APP-DEACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (30022): I 01/05/2016 15:44:58:290 000075dc         AppCallbacks| process command: APP-DEACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:44:58:290 000075dc         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (30022): I 01/05/2016 15:44:58:293 000075dd           HttpServer| Process URI: '/system/deactivateapp'
+I/APP     (30022): I 01/05/2016 15:44:58:293 000075dd                  APP| AppEvent Deactivated
+I/APP     (30022): I 01/05/2016 15:45:05:287 00007546   RhoWebChromeClient| Estoy en la agenda entonces tengo que relodear el estado. -- From line 341 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:45:05:308 00007546   RhoWebChromeClient|  -- From line 62 of http://127.0.0.1:33606/public/js/controllers/agendaCtrl.js
+I/APP     (30022): I 01/05/2016 15:45:05:310 00007546   RhoWebChromeClient| Debería estar funcionando con los nuevos pedidos. -- From line 345 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:45:05:330 00007546   RhoWebChromeClient|  -- From line 62 of http://127.0.0.1:33606/public/js/controllers/agendaCtrl.js
+I/APP     (30022): I 01/05/2016 15:45:05:332 00007546   RhoWebChromeClient| ** Sincro Automatica Activada** -- From line 157 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:45:18:720 00007546   RhoWebChromeClient| ** Comienzo Sincro Automatica ** -- From line 130 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:45:18:737 00007546   RhoWebChromeClient| Nada que enviar -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:45:18:757 00007546   RhoWebChromeClient|  -- From line 1065 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:45:18:761 00007546   RhoWebChromeClient| done -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:45:18:775 00007546   RhoWebChromeClient| done -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:45:18:803 00007546   RhoWebChromeClient| nada que enviar -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:45:18:817 00007546   RhoWebChromeClient| Nada que enviar -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:45:18:821 00007546   RhoWebChromeClient| Todo procesado -- From line 136 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:45:19:064 00007546   RhoWebChromeClient| Nada que actualizar -- From line 139 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:45:20:121 00007546            RhodesApp| callAppActiveCallback
+I/APP     (30022): I 01/05/2016 15:45:20:121 00007546         AppCallbacks| addCommand: APP-ACTIVATED
+I/APP     (30022): I 01/05/2016 15:45:20:122 000075dc         AppCallbacks| APP-ACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (30022): I 01/05/2016 15:45:20:123 000075dc         AppCallbacks| Restart local server ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+I/APP     (30022): I 01/05/2016 15:45:20:123 00007546    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:45:20:124 000075dc            RhodesApp| restart local server.
+I/APP     (30022): I 01/05/2016 15:45:20:124 00007546    RhodesApplication| New AppState: AppActivated
+I/APP     (30022): I 01/05/2016 15:45:20:124 000075dc           HttpServer| Stopping server...
+I/APP     (30022): I 01/05/2016 15:45:20:126 000075dd           HttpServer| Start HTTP server
+I/APP     (30022): I 01/05/2016 15:45:20:127 000075dd           HttpServer| Listen for connections on port 33606
+I/APP     (30022): I 01/05/2016 15:45:20:127 00007546    RhodesApplication| New UiState: MainActivityStarted
+I/APP     (30022): I 01/05/2016 15:45:20:127 000075dd         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I/APP     (30022): I 01/05/2016 15:45:20:129 00007546        GoogleWebView| applyWebSettings
+I/APP     (30022): I 01/05/2016 15:45:20:129 00007546        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     (30022): I 01/05/2016 15:45:20:129 00007546  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     (30022): I 01/05/2016 15:45:20:130 00007546  WebSettingsProvider| Allow universal access from file URL
+I/APP     (30022): I 01/05/2016 15:45:20:130 00007546    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:45:20:130 00007546         AppCallbacks| addCommand: UI-CREATED
+I/APP     (30022): I 01/05/2016 15:45:20:140 00007546    RhodesApplication| New UiState: MainActivitiResumed
+I/APP     (30022): I 01/05/2016 15:45:20:177 000075dc         AppCallbacks| Continue after server restart =======================================
+I/APP     (30022): I 01/05/2016 15:45:20:177 000075dc         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     (30022): I 01/05/2016 15:45:20:177 000075dc         AppCallbacks| LOCAL-SERVER-STARTED is received ++++++++++++++++++++++++++++
+I/APP     (30022): I 01/05/2016 15:45:20:177 000075dc         AppCallbacks| process command: LOCAL-SERVER-STARTED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:45:20:178 000075dc    RhodesApplication| New AppState: AppActivated
+I/APP     (30022): I 01/05/2016 15:45:20:179 000075dc         AppCallbacks| process command: APP-ACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:45:20:186 000075dd           HttpServer| Process URI: '/system/activateapp'
+I/APP     (30022): I 01/05/2016 15:45:20:187 000075dd                  APP| AppEvent Activated
+I/APP     (30022): I 01/05/2016 15:45:20:189 000075dc         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     (30022): I 01/05/2016 15:45:20:189 000075dc         AppCallbacks| m_uistate: 2
+I/APP     (30022): I 01/05/2016 15:45:20:189 000075dc         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (30022): I 01/05/2016 15:45:20:189 000075dc         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (30022): I 01/05/2016 15:45:22:058 00007546    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:45:22:068 00007546       SimpleMainView| Cleared URL: javascript:Rho.callbackHandler( "__rhoID#6", {"result":{"button_index":"0","button_title":"Ok","button_id":"ok"}},"")
+I/APP     (30022): I 01/05/2016 15:45:22:069 00007546     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (30022): I 01/05/2016 15:45:22:075 0000761e    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:45:24:166 00007546     WebViewSingleton| onNavigateComplete <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:45:24:166 00007546         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     (30022): I 01/05/2016 15:45:24:167 00007546     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (30022): I 01/05/2016 15:45:24:635 0000761e         MetaReceiver| null', 'null'
+I/APP     (30022): I 01/05/2016 15:45:24:637 0000761e         MetaReceiver| Content-type', 'text/html; charset=UTF-8'
+I/APP     (30022): I 01/05/2016 15:45:24:643 0000761e         MetaReceiver| null', 'telephone=no'
+I/APP     (30022): I 01/05/2016 15:45:24:644 0000761e         MetaReceiver| null', 'no'
+I/APP     (30022): I 01/05/2016 15:45:24:645 0000761e         MetaReceiver| null', 'user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width'
+I/APP     (30022): I 01/05/2016 15:45:24:646 0000761e         MetaReceiver| null', 'null'
+I/APP     (30022): I 01/05/2016 15:45:24:650 0000761e         MetaReceiver| null', 'null'
+I/APP     (30022): I 01/05/2016 15:45:24:651 0000761e         MetaReceiver| status', 'eom'
+I/APP     (30022): I 01/05/2016 15:45:26:018 00000ae8    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:45:26:939 00007546    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:45:26:946 00007546       SimpleMainView| Cleared URL: javascript:Rho.callbackHandler( "__rhoID#7", {"result":{"button_index":"0","button_title":"Ok","button_id":"ok"}},"")
+I/APP     (30022): I 01/05/2016 15:45:26:947 00007546     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (30022): I 01/05/2016 15:45:26:951 0000761e    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:45:30:530 00000b42    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:45:31:311 00007546    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:45:31:320 00007546       SimpleMainView| Cleared URL: javascript:Rho.callbackHandler( "__rhoID#8", {"result":{"button_index":"0","button_title":"Ok","button_id":"ok"}},"")
+I/APP     (30022): I 01/05/2016 15:45:31:321 00007546     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (30022): I 01/05/2016 15:45:31:643 0000761e    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:45:33:032 00007546     WebViewSingleton| onNavigateComplete <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:45:33:032 00007546         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     (30022): I 01/05/2016 15:45:33:033 00007546     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (30022): I 01/05/2016 15:45:33:139 00007546   RhoWebChromeClient| ** Sincro GPS Automatica Activada** -- From line 173 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:45:33:160 00007546   RhoWebChromeClient|  -- From line 62 of http://127.0.0.1:33606/public/js/controllers/agendaCtrl.js
+I/APP     (30022): I 01/05/2016 15:45:33:370 0000761e         MetaReceiver| null', 'null'
+I/APP     (30022): I 01/05/2016 15:45:33:372 0000761e         MetaReceiver| Content-type', 'text/html; charset=UTF-8'
+I/APP     (30022): I 01/05/2016 15:45:33:379 0000761e         MetaReceiver| null', 'telephone=no'
+I/APP     (30022): I 01/05/2016 15:45:33:381 0000761e         MetaReceiver| null', 'no'
+I/APP     (30022): I 01/05/2016 15:45:33:382 0000761e         MetaReceiver| null', 'user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width'
+I/APP     (30022): I 01/05/2016 15:45:33:383 0000761e         MetaReceiver| null', 'null'
+I/APP     (30022): I 01/05/2016 15:45:33:384 0000761e         MetaReceiver| null', 'null'
+I/APP     (30022): I 01/05/2016 15:45:33:386 0000761e         MetaReceiver| status', 'eom'
+I/APP     (30022): I 01/05/2016 15:45:34:571 00000b93    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:45:35:323 00007546    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:45:35:329 00007546       SimpleMainView| Cleared URL: javascript:Rho.callbackHandler( "__rhoID#9", {"result":{"button_index":"0","button_title":"Ok","button_id":"ok"}},"")
+I/APP     (30022): I 01/05/2016 15:45:35:329 00007546     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (30022): I 01/05/2016 15:45:35:338 0000761e    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:45:36:468 00000bbc    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:45:37:062 00007546    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:45:37:070 00007546       SimpleMainView| Cleared URL: javascript:Rho.callbackHandler( "__rhoID#10", {"result":{"button_index":"0","button_title":"Ok","button_id":"ok"}},"")
+I/APP     (30022): I 01/05/2016 15:45:37:070 00007546     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (30022): I 01/05/2016 15:45:37:077 0000761e    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:45:44:504 00000c2c    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:45:45:399 00007546    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:45:45:406 00007546       SimpleMainView| Cleared URL: javascript:Rho.callbackHandler( "__rhoID#11", {"result":{"button_index":"0","button_title":"Ok","button_id":"ok"}},"")
+I/APP     (30022): I 01/05/2016 15:45:45:412 00007546     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (30022): I 01/05/2016 15:45:45:420 0000761e    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:45:49:467 00007546   RhoWebChromeClient| Estoy en la agenda entonces tengo que relodear el estado. -- From line 341 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:45:49:549 00007546   RhoWebChromeClient|  -- From line 62 of http://127.0.0.1:33606/public/js/controllers/agendaCtrl.js
+I/APP     (30022): I 01/05/2016 15:45:49:553 00007546   RhoWebChromeClient| Debería estar funcionando con los nuevos pedidos. -- From line 345 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:45:49:561 00007546   RhoWebChromeClient| _____INICIO ENVIO GPS _____ -- From line 684 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:45:49:576 00007546   RhoWebChromeClient| _____FIN ENVIO GPS _____ -- From line 721 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:45:49:577 00007546   RhoWebChromeClient| ** Fin Sincro Automatica ** -- From line 147 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:45:51:810 00007546   RhoWebChromeClient| ** Sincro Automatica Desactivada** -- From line 161 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:45:51:826 00007546   RhoWebChromeClient| Nada que enviar -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:45:51:849 00007546   RhoWebChromeClient|  -- From line 1065 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:45:51:852 00007546   RhoWebChromeClient| done -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:45:51:868 00007546   RhoWebChromeClient| done -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:45:51:891 00007546   RhoWebChromeClient| nada que enviar -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:45:51:904 00007546   RhoWebChromeClient| Nada que enviar -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:45:51:908 00007546   RhoWebChromeClient| Todo procesado -- From line 81 of http://127.0.0.1:33606/public/js/controllers/agendaCtrl.js
+I/APP     (30022): I 01/05/2016 15:45:52:389 00007546   RhoWebChromeClient| Nada que actualizar -- From line 84 of http://127.0.0.1:33606/public/js/controllers/agendaCtrl.js
+I/APP     (30022): I 01/05/2016 15:46:22:692 00007546   RhoWebChromeClient| Estoy en la agenda entonces tengo que relodear el estado. -- From line 341 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:46:22:712 00007546   RhoWebChromeClient|  -- From line 62 of http://127.0.0.1:33606/public/js/controllers/agendaCtrl.js
+I/APP     (30022): I 01/05/2016 15:46:22:719 00007546   RhoWebChromeClient| Debería estar funcionando con los nuevos pedidos. -- From line 345 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:46:22:735 00000e6c    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:46:22:809 00007546   RhoWebChromeClient|  -- From line 62 of http://127.0.0.1:33606/public/js/controllers/agendaCtrl.js
+I/APP     (30022): I 01/05/2016 15:46:22:811 00007546   RhoWebChromeClient| ** Sincro Automatica Activada** -- From line 157 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:46:25:431 00007546    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:46:25:439 00007546       SimpleMainView| Cleared URL: javascript:Rho.callbackHandler( "__rhoID#12", {"result":{"button_index":"0","button_title":"Ok","button_id":"ok"}},"")
+I/APP     (30022): I 01/05/2016 15:46:25:440 00007546     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (30022): I 01/05/2016 15:46:25:446 0000761e    RhodesApplication| Inside runwhen before return
+I/APP     (30022): I 01/05/2016 15:47:05:359 00007546   RhoWebChromeClient| ** Comienzo Sincro Automatica ** -- From line 130 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:47:05:377 00007546   RhoWebChromeClient| Nada que enviar -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:47:05:396 00007546   RhoWebChromeClient|  -- From line 1065 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:47:05:399 00007546   RhoWebChromeClient| done -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:47:05:413 00007546   RhoWebChromeClient| done -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:47:05:436 00007546   RhoWebChromeClient| nada que enviar -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:47:05:449 00007546   RhoWebChromeClient| Nada que enviar -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:47:05:453 00007546   RhoWebChromeClient| Todo procesado -- From line 136 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:47:05:911 00007546   RhoWebChromeClient| Nada que actualizar -- From line 139 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:47:18:719 00007546   RhoWebChromeClient| ** Comienzo Sincro Automatica ** -- From line 130 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:47:18:736 00007546   RhoWebChromeClient| Nada que enviar -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:47:18:757 00007546   RhoWebChromeClient|  -- From line 1065 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:47:18:760 00007546   RhoWebChromeClient| done -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:47:18:773 00007546   RhoWebChromeClient| done -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:47:18:794 00007546   RhoWebChromeClient| nada que enviar -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:47:18:807 00007546   RhoWebChromeClient| Nada que enviar -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:47:18:810 00007546   RhoWebChromeClient| Todo procesado -- From line 136 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:47:19:533 00007546   RhoWebChromeClient| Nada que actualizar -- From line 139 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:47:36:308 00007546   RhoWebChromeClient| Estoy en la agenda entonces tengo que relodear el estado. -- From line 341 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:47:36:326 00007546   RhoWebChromeClient|  -- From line 62 of http://127.0.0.1:33606/public/js/controllers/agendaCtrl.js
+I/APP     (30022): I 01/05/2016 15:47:36:328 00007546   RhoWebChromeClient| Debería estar funcionando con los nuevos pedidos. -- From line 345 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:47:36:330 00007546   RhoWebChromeClient| _____INICIO ENVIO GPS _____ -- From line 684 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:47:36:342 00007546   RhoWebChromeClient| _____FIN ENVIO GPS _____ -- From line 721 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:47:36:344 00007546   RhoWebChromeClient| ** Fin Sincro Automatica ** -- From line 147 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:48:07:237 00007546   RhoWebChromeClient| Estoy en la agenda entonces tengo que relodear el estado. -- From line 341 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:48:07:256 00007546   RhoWebChromeClient|  -- From line 62 of http://127.0.0.1:33606/public/js/controllers/agendaCtrl.js
+I/APP     (30022): I 01/05/2016 15:48:07:259 00007546   RhoWebChromeClient| Debería estar funcionando con los nuevos pedidos. -- From line 345 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:48:07:261 00007546   RhoWebChromeClient| _____INICIO ENVIO GPS _____ -- From line 684 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:48:07:273 00007546   RhoWebChromeClient| _____FIN ENVIO GPS _____ -- From line 721 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:48:07:276 00007546   RhoWebChromeClient| ** Fin Sincro Automatica ** -- From line 147 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:48:22:829 00007546   RhoWebChromeClient| ** Comienzo Sincro Automatica ** -- From line 130 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:48:22:845 00007546   RhoWebChromeClient| Nada que enviar -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:48:22:863 00007546   RhoWebChromeClient|  -- From line 1065 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:48:22:867 00007546   RhoWebChromeClient| done -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:48:22:879 00007546   RhoWebChromeClient| done -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:48:22:900 00007546   RhoWebChromeClient| nada que enviar -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:48:22:913 00007546   RhoWebChromeClient| Nada que enviar -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:48:22:917 00007546   RhoWebChromeClient| Todo procesado -- From line 136 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:48:23:132 00007546   RhoWebChromeClient| Nada que actualizar -- From line 139 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:48:53:526 00007546   RhoWebChromeClient| Estoy en la agenda entonces tengo que relodear el estado. -- From line 341 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:48:53:542 00007546   RhoWebChromeClient|  -- From line 62 of http://127.0.0.1:33606/public/js/controllers/agendaCtrl.js
+I/APP     (30022): I 01/05/2016 15:48:53:544 00007546   RhoWebChromeClient| Debería estar funcionando con los nuevos pedidos. -- From line 345 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:48:53:546 00007546   RhoWebChromeClient| _____INICIO ENVIO GPS _____ -- From line 684 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:48:53:559 00007546   RhoWebChromeClient| _____FIN ENVIO GPS _____ -- From line 721 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:48:53:562 00007546   RhoWebChromeClient| ** Fin Sincro Automatica ** -- From line 147 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:49:05:339 00007546   RhoWebChromeClient| ** Comienzo Sincro Automatica ** -- From line 130 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:49:05:365 00007546   RhoWebChromeClient| Nada que enviar -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:49:05:384 00007546   RhoWebChromeClient|  -- From line 1065 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:49:05:387 00007546   RhoWebChromeClient| done -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:49:05:400 00007546   RhoWebChromeClient| done -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:49:05:433 00007546   RhoWebChromeClient| nada que enviar -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:49:05:447 00007546   RhoWebChromeClient| Nada que enviar -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:49:05:450 00007546   RhoWebChromeClient| Todo procesado -- From line 136 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:49:05:806 00007546   RhoWebChromeClient| Nada que actualizar -- From line 139 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:49:18:702 00007546   RhoWebChromeClient| ** Comienzo Sincro Automatica ** -- From line 130 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:49:18:727 00007546   RhoWebChromeClient| Nada que enviar -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:49:18:745 00007546   RhoWebChromeClient|  -- From line 1065 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:49:18:748 00007546   RhoWebChromeClient| done -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:49:18:761 00007546   RhoWebChromeClient| done -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:49:18:782 00007546   RhoWebChromeClient| nada que enviar -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:49:18:795 00007546   RhoWebChromeClient| Nada que enviar -- From line 1236 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:49:18:798 00007546   RhoWebChromeClient| Todo procesado -- From line 136 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:49:19:738 00007546   RhoWebChromeClient| Nada que actualizar -- From line 139 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:49:36:228 00007546   RhoWebChromeClient| Estoy en la agenda entonces tengo que relodear el estado. -- From line 341 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:49:36:245 00007546   RhoWebChromeClient|  -- From line 62 of http://127.0.0.1:33606/public/js/controllers/agendaCtrl.js
+I/APP     (30022): I 01/05/2016 15:49:36:250 00007546   RhoWebChromeClient| Debería estar funcionando con los nuevos pedidos. -- From line 345 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:49:36:251 00007546   RhoWebChromeClient| _____INICIO ENVIO GPS _____ -- From line 684 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:49:36:263 00007546   RhoWebChromeClient| _____FIN ENVIO GPS _____ -- From line 721 of http://127.0.0.1:33606/public/js/syncManager.js
+I/APP     (30022): I 01/05/2016 15:49:36:266 00007546   RhoWebChromeClient| ** Fin Sincro Automatica ** -- From line 147 of http://127.0.0.1:33606/public/js/app.js
+I/APP     (30022): I 01/05/2016 15:49:36:818 000075dd           HttpServer| Process URI: '/system/uidestroyed'
+I/APP     (30022): I 01/05/2016 15:49:36:818 000075dd                  APP| AppEvent UIDestroyed
+I/APP     (30022): I 01/05/2016 15:49:36:822 00007546    RhodesApplication| New UiState: MainActivityPaused
+I/APP     (30022): I 01/05/2016 15:49:36:860 00007546    RhodesApplication| New AppState: AppDeactivated
+I/APP     (30022): I 01/05/2016 15:49:36:860 00007546        RhodesService| activityStopped() temporary release wakeLock object
+I/APP     (30022): I 01/05/2016 15:49:36:870 00007546            RhodesApp| callAppActiveCallback
+I/APP     (30022): I 01/05/2016 15:49:36:870 00007546         AppCallbacks| addCommand: APP-DEACTIVATED
+I/APP     (30022): I 01/05/2016 15:49:36:880 000075dd           HttpServer| Process URI: '/system/deactivateapp'
+I/APP     (30022): I 01/05/2016 15:49:36:880 000075dd                  APP| AppEvent Deactivated
+I/APP     (30022): I 01/05/2016 15:49:36:880 000075dc         AppCallbacks| APP-DEACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (30022): I 01/05/2016 15:49:36:880 000075dc         AppCallbacks| process command: APP-DEACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (30022): I 01/05/2016 15:49:36:880 000075dc         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (30022): I 01/05/2016 15:49:37:835 00007546         ButtonPlugin| onShutdown+
+I/APP     (30022): I 01/05/2016 15:49:37:839 00007546         ButtonPlugin| onShutdown+
+I/APP     (30022): I 01/05/2016 15:49:37:840 00007546         ButtonPlugin| onShutdown+
+I/APP     (30022): I 01/05/2016 15:49:37:841 00007546         ButtonPlugin| onShutdown+
+I/APP     (30022): I 01/05/2016 15:49:37:841 00007546         ButtonPlugin| onShutdown+
+I/APP     (30022): I 01/05/2016 15:49:37:842 00007546         ButtonPlugin| onShutdown+
+I/APP     (30022): I 01/05/2016 15:49:37:842 00007546         ButtonPlugin| onShutdown+
+I/APP     (30022): I 01/05/2016 15:49:37:843 00007546         ButtonPlugin| onShutdown+
+I/APP     (30022): I 01/05/2016 15:49:37:843 00007546         ButtonPlugin| onShutdown+
+I/APP     (30022): I 01/05/2016 15:49:37:843 00007546         ButtonPlugin| onShutdown+
+I/APP     (30022): I 01/05/2016 15:49:37:848 00007546         ButtonPlugin| onShutdown+
+I/APP     (30022): I 01/05/2016 15:49:37:855 00007546    RhodesApplication| New UiState: Undefined

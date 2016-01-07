@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<ion-view view-title="Recarga" hide-back-button="true" can-swipe-back="false">
+    <ion-content padding="true">
+        <div class="list">
+            <label class="item item-input item-input-chico">
+                <span class="input-label smallFont">N° Nota Traslado:</span>
+                <input ng-model='hr.notaTraslado' ng-readonly='showNotaTraslado' ng-change="textChangedHandler(hr)" class="smallFont" type="text" placeholder="Ej: 12345">
+            </label>
+            <label class="item item-input item-input-chico">
+                <span class="input-label smallFont">Kilos Gas:</span>
+                <input ng-model='hr.kilosGas' ng-readonly='showKilosGas' class="smallFont" type="number" placeholder="Kilos">
+            </label>
+            <label class="item item-input item-input-chico">
+                <span class="input-label smallFont">Densidad Producto:</span>
+                <input ng-model='hr.densidadProducto' readonly class="smallFont" type="number" placeholder="Ej: 0,51">
+            </label>
+            <label class="item item-input item-input-chico">
+                <span class="input-label smallFont">Kilometraje Camión:</span>
+                <input ng-model='hr.kilometrajeCamion' ng-readonly='showKmCamion' class="smallFont" type="number" placeholder="Ej: 12345">
+            </label>
+            <label class="itemChico item item-input item-select">
+                <div class="input-label">
+                    Planta:
+                </div>
+                <select ng-model="hr.plantasSelect" ng-options='item.Codigo as item.Descripcion for item in plantasSelectOptions'>
+                </select>
+            </label>
+            <label class="item item-input item-input-chico">
+                <span class="input-label smallFont">Remanente (kilos):</span>
+                <input ng-model='hr.remanente' ng-readonly='showPeso' class="smallFont" type="number" placeholder="Ej: 12345">
+            </label>
+        </div>
+    </ion-content>
+
+    <ion-footer-bar class=" bar-stable">
+        <button id="botonVolverRecarga" ng-click="goBack()"class="button button-stable boton-mitad-width button-small">Volver</button>
+        <button id="botonSiguienteRecarga" ng-click='siguiente(hr)' class="button button-stable boton-mitad-width button-small">Siguiente</button>
+    </ion-footer-bar>
+</ion-view>
+</body>
+</html>

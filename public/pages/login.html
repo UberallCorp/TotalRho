@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <!--<style type="text/css">
+        body.keyboard-open .has-footer{
+            bottom:0;
+        }
+    </style>-->
+</head>
+<body>
+<ion-view view-title="Login" hide-back-button="true" can-swipe-back="false">
+    <ion-content ionic.Platform.isFullScreen='true' overflow-scroll="true" scroll="true" class="has-header" has-header has-footer padding="true">
+        <div align="center">
+            <img src="images/total/total_logo_big.png" height="100" style="max-width: 300px" />
+        </div>
+        <form name="forms.loginForm">
+            <div class="list list-inset">
+                <label class="item item-input">
+                    <input name="username" ng-model="loginUser.username" ng-minlength="1" required type="text" placeholder="Usuario" />
+                </label>
+                <p ng-show="loginForm.username.$error.required && loginForm.username.$dirty">   Debe completar el campo Usuario</p>
+                <label class="item item-input">
+                    <input name="password" ng-model="loginUser.password" ng-minlength="1" required type="password" placeholder="Password" />
+                </label>
+                <p ng-show="loginForm.password.$error.required && loginForm.password.$dirty">   Debe completar el campo Password</p>
+            </div>
+        </form>
+
+        <div style="height: 60px; ">
+        </div>
+
+        <div class="button-bar bar-header">
+            <a ng-click="cerrarApp()" class="button">Salir</a>
+            <a ng-click="validarLogin()" ng-disabled="loginForm.$invalid" class="button">Ingresar</a>
+        </div>
+    </ion-content>
+    <ion-footer-bar class="hide-on-keyboard-open bar-footer bar-stable">
+        <button id="botonServicios" ng-click="serviceButton()" class="button button-stable boton-mitad-width">Servicios</button>
+        <!--<button id="botonVersion" ng-click="versionButton()" class="button button-stable boton-mitad-width">Version</button>-->
+        <button id="botonTestGPS" ng-click="testGPS()" class="button button-stable boton-mitad-width">Test GPS</button>
+    </ion-footer-bar>
+</ion-view>
+</body>
+</html>

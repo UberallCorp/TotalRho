@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<ion-view view-title="Detalle Venta" hide-back-button="true" can-swipe-back="false">
+    <ion-content padding="true">
+        <label class="itemChico item item-input item-select">
+            <div class="input-label">
+                Tipo Docto:
+            </div>
+            <select ng-options="item.ind_docEntrega as item.descripcion for item in docsEntrega"
+                    ng-model="frmDetalleVenta.docEntregaSeleccionado" ng-change="docEntregaChange()"
+                    ng-init="frmDetalleVenta.docEntregaSeleccionado=docsEntrega[0].ind_docEntrega">
+            </select>
+        </label>
+
+        <!--PAGINA UNO-->
+        <div ng-show="panelVisible==1 || panelVisible == 2">
+            <div style="display: block">Descripción: Gas Granel</div>
+            <div style="display: block">Kg: {{frmDetalleVenta.kg}}</div>
+            <div style="display: block">Litros: {{frmDetalleVenta.litros}}</div>
+            <div style="display: block">Pre. por Kg: {{frmDetalleVenta.precioKilo}}</div>
+            <div style="display: block">Pre. por Litro: {{frmDetalleVenta.precioLitro}}</div>
+            <br/>
+            <div style="display: block">Neto: {{frmDetalleVenta.neto}}</div>
+            <div style="display: block">IVA: {{frmDetalleVenta.iva}}</div>
+            <div style="display: block">Per. IVA: {{frmDetalleVenta.precioIVA}}</div>
+            <div style="display: block">IIBB: {{frmDetalleVenta.iibb}}</div>
+            <div style="display: block">Total: {{frmDetalleVenta.total}}</div>
+        </div>
+
+        <!--PAGINA DOS-->
+        <div ng-show="panelVisible==3">
+            <div style="display: block">Descripción: Gas Granel</div>
+            <div style="display: block">Kg: {{frmDetalleVenta.kg}}</div>
+            <div style="display: block">Litros: {{frmDetalleVenta.litros}}</div>
+        </div>
+
+    </ion-content>
+
+    <ion-footer-bar class=" bar-stable">
+        <button id="botonVolver" ng-click="btnVolver()" class="button button-stable boton-mitad-width">Volver</button>
+        <button id="botonSiguiente" ng-click="btnSiguiente()" class="button button-stable boton-mitad-width">Siguiente</button>
+    </ion-footer-bar>
+</ion-view>
+</body>
+</html>

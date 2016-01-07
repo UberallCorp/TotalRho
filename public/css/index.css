@@ -1,0 +1,98 @@
+ion-content div, select{
+    font-size: 16px;
+    margin-bottom: 1px;
+}
+
+.item p{
+    font-size: 15px !important;
+}
+
+.itemChico{
+    font-size: 16px;
+    /*height: 35px;*/
+    padding: 8px;
+}
+.item-select select{
+    padding: 17px 48px 16px 16px;
+}
+.selectFullWidth{
+    width: 200px !important;
+    margin-top: 10px;
+}
+.smallFont{
+    font-size: 16px !important;
+}
+.boton-mitad-width{
+    display: inline-block;
+    width: 49%;
+    font-size: 17px;
+}
+.item-input-chico{
+    padding: 0px 0 0px 8px;
+    width: 100.7%;
+}
+.cliente{
+    width: 100%;
+}
+.item-checkbox-sin-bordes{
+    border-width: 0px;
+    padding: 4px;
+    padding-left: 40px;
+}
+.tope-izquierda{
+    left:0px !important;
+    padding-left: 0px !important;
+}
+.span-inline-corto{
+    display: inline;
+}
+/*#content-agenda span{*/
+    /*font-size: 19px;*/
+/*}*/
+/*span{
+    font-size: 19px;
+}*/
+.button-small{
+    font-size:18px;
+}
+
+.row, .col{
+    padding: 0;
+}
+.row{
+    margin-bottom: 5px;
+}
+.numeroPedidoAgenda{
+    /*float:right;*/
+    text-align: right;
+}
+.bold{
+    font-weight: bold;
+}
+.line h3{
+    display: inline-block;
+}
+.item h3{
+    margin: 0 !important;
+}
+.item-divider{
+    padding: 9px;
+}
+.importantButton{
+    font-weight:bold;
+    color:black;
+}
+.formTitle{
+    font-weight: bold;
+}
+.formInput{
+    width:100%;
+    border-bottom: 1px solid gray !important;
+}
+.multiText{
+    height:100px;
+}
+.validation{
+    color:red;
+    font-size:10px;
+}

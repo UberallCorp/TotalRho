@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<ion-view view-title="Bandeja" hide-back-button="true" can-swipe-back="false">
+    <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+    </ion-nav-buttons>
+    <ion-nav-buttons side="right">
+        <button ng-click="actualizarAgenda()" class="button button-royal">
+            <i class="icon ion-refresh"></i>
+        </button>
+    </ion-nav-buttons>
+    <ion-content padding="true" has-header class="has-header" id="content-agenda">
+        <div style="display: block"><span style='margin-bottom: 3px;font-size:14px;'><span style="font-weight:bold;font-size:14px;">Usuario:</span> {{user.username}}</span> </div>
+        <div style="display: block"><span style='margin-bottom: 3px;font-size:14px;'><span style="font-weight:bold;font-size:14px;">Cantidad Pedidos:</span> {{pedidos.length}}</span> </div>
+        <div style="display: block"><span style='margin-bottom: 3px;font-size:14px;'><span style="font-weight:bold;font-size:14px;">Hoja de Ruta: </span>{{user.ntr}}</span> </div>
+        <div style="display: block; margin-bottom: 10px"><span style='margin-bottom: 3px;font-size:14px;'><span style="font-weight:bold;font-size:14px;">Nota de Translado:</span> {{user.NT}}</span></div>
+
+        <ion-list>
+            <ion-item class="item item-divider">
+                <h2>Pedidos:</h2>
+            </ion-item>
+            <ion-item ng-click="irADetallePedido(pedido)" class="itemChico item" ng-repeat="pedido in pedidos | orderBy: 'Localidad'">
+                <h3 style="font-weight: bold; white-space: initial; display: inline-block; width: 70%;">{{pedido.NombreCliente}}</h3>
+                <h3 style="display: inline-block; width: 30%;" class="numeroPedidoAgenda bold">{{pedido.NumeroPedido}}</h3>
+                <div class="line" ng-if="pedido.DireccionDestinatario"><h3 class="bold">Dirección:</h3> <h3>{{pedido.DireccionDestinatario}}</h3></div>
+                <div class="line" ng-if="pedido.Localidad"><h3 class="bold">Localidad:</h3> <h3>{{pedido.Localidad}}</h3></div>
+                <div class="line" ng-if="pedido.Observacion"><h3 class="bold">Observación:</h3> <h3>{{pedido.Observacion}}</h3></div>
+                <div class="line" ng-if="pedido.EstadoBloqueoReclamo"><h3 class="bold">Bloq/Reclamo:</h3> <h3>{{pedido.EstadoBloqueoReclamo}}</h3></div>
+                <div class="line" ng-if="pedido.Prioridad"><h3 class="bold">Prioridad:</h3> <h3>{{pedido.Prioridad}}</h3></div>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
+</body>
+</html>

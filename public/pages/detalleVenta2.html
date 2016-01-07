@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<ion-view view-title="Detalle Factura" hide-back-button="true" can-swipe-back="false">
+<!--PAGINA UNO-->
+<ion-content padding="true">
+
+        <div style="display: block">Tipo Docto: {{frmDetalleVenta2.descripcionTipoDoc}}</div>
+
+        <!--Factura A-->
+        <div ng-if="tipoDoc == 1">
+            <form novalidate name="forms.frmFacturaA">
+                <label style="margin-top: 5px;" class="item item-input item-input-chico">
+                <span class="input-label smallFont">Litros:</span>
+                <input class="smallFont" type="number" placeholder="Litros" ng-model="frmDetalleVenta2.facturaALitros">
+                </label>
+                <span style="color:red" ng-show="error == 1">El valor no es válido.</span>
+                <label class="item item-input item-input-chico">
+                    <span class="input-label smallFont">Neto:</span>
+                    <input class="smallFont" type="number" placeholder="Neto" ng-model="frmDetalleVenta2.facturaANeto">
+                </label>
+                <span style="color:red" ng-show="error == 2">El valor no es válido.</span>
+                <label class="item item-input item-input-chico">
+                    <span class="input-label smallFont">IVA:</span>
+                    <input class="smallFont" type="number" placeholder="IVA" ng-model="frmDetalleVenta2.facturaAIVA">
+                </label>
+                <span style="color:red" ng-show="error == 3">El valor no es válido.</span>
+                <label class="item item-input item-input-chico">
+                    <span class="input-label smallFont">Per. IVA:</span>
+                    <input class="smallFont" type="number" placeholder="Per. IVA" ng-model="frmDetalleVenta2.facturaAPrecioIVA">
+                </label>
+                <span style="color:red" ng-show="error == 4">El valor no es válido.</span>
+                <label class="item item-input item-input-chico">
+                    <span class="input-label smallFont">IIBB:</span>
+                    <input class="smallFont" type="number" placeholder="IIBB" ng-model="frmDetalleVenta2.facturaAIIBB">
+                </label>
+                <span style="color:red" ng-show="error == 5">El valor no es válido.</span>
+
+                <div style="display: block">Sumatoria: {{get_total()}}</div>
+
+                <div style="display: block">Total: {{frmDetalleVenta2.facturaATotal}}</div>
+
+                <!--<label class="item item-input item-input-chico">-->
+                    <!--<span class="input-label smallFont">Total Mod:</span>-->
+                    <!--<input class="smallFont" type="text" placeholder="XXXX">-->
+                <!--</label>-->
+            </form>
+        </div>
+
+        <!--Factura B-->
+        <div ng-if="tipoDoc == 2">
+            <form novalidate name="forms.frmFacturaB">
+                <label style="margin-top: 5px;" class="item item-input item-input-chico">
+                    <span class="input-label smallFont">Litros:</span>
+                    <input class="smallFont" type="number" placeholder="Litros" ng-model="frmDetalleVenta2.facturaBLitros">
+                </label>
+                <span style="color:red" ng-show="error == 6">El valor no es válido.</span>
+                <div ng-if="entrega.CodigoTipoCliente === '06'">
+                    <label class="item item-input item-input-chico">
+                        <span class="input-label smallFont">Neto:</span>
+                        <input class="smallFont" type="number" placeholder="Neto" ng-model="frmDetalleVenta2.facturaBNeto">
+                    </label>
+                    <span style="color:red" ng-show="error == 7">El valor no es válido.</span>
+                    <!--<label class="item item-input item-input-chico">-->
+                        <!--<span class="input-label smallFont">IVA:</span>-->
+                        <!--<input class="smallFont" type="number" placeholder="IVA" ng-model="frmDetalleVenta2.facturaBIVA">-->
+                    <!--</label>-->
+                    <label class="item item-input item-input-chico">
+                        <span class="input-label smallFont">IIBB:</span>
+                        <input class="smallFont" type="number" placeholder="IIBB" ng-model="frmDetalleVenta2.facturaBIIBB">
+                    </label>
+                    <span style="color:red" ng-show="error == 8">El valor no es válido.</span>
+                    <div style="display: block">Sumatoria: {{get_total_B()}}</div>
+                    <div style="display: block">Total: {{frmDetalleVenta2.facturaBTotal}}</div>
+                </div>
+
+                <div ng-if="entrega.CodigoTipoCliente !== '06'">
+                    <label class="item item-input item-input-chico">
+                        <span class="input-label smallFont">Total:</span>
+                        <input class="smallFont" type="number" placeholder="XXXX" ng-model="frmDetalleVenta2.facturaBTotalConfirmacion">
+                    </label>
+                    <span style="color:red" ng-show="error == 9">El valor no es válido.</span>
+                </div>
+            </form>
+        </div>
+
+        <!--Remito-->
+        <div ng-if="tipoDoc == 3">
+            <form novalidate name="forms.frmRemito">
+                <label style="margin-top: 5px;" class="item item-input item-input-chico">
+                    <span class="input-label smallFont">Litros:</span>
+                    <input class="smallFont" type="number" placeholder="Litros" name="remitoLitros" ng-model="frmDetalleVenta2.remitoLitros">
+                </label>
+                <span style="color:red" ng-show="error == 10">El valor no es válido.</span>
+            </form>
+        </div>
+</ion-content>
+
+<ion-footer-bar class=" bar-stable">
+    <button id="botonVolverDetalleVentaTwo" ng-click="btnVolver_click()"
+            class="button button-stable boton-mitad-width">Volver
+    </button>
+    <button id="botonSiguienteDetalleVentaTwo" ng-click="btnSiguiente_click()"
+            class="button button-stable boton-mitad-width">Siguiente
+    </button>
+</ion-footer-bar>
+</ion-view>
+</body>
+</html>

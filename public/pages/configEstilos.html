@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+	<ion-view view-title="Configuracion de Estilos">
+		<ion-content  padding="true">
+			<div>
+				<div class="item item-divider">
+					<h2>Tamaño de letra:</h2>
+				</div>
+				<ion-radio ng-repeat='item in fontSize' ng-model="data.fontSizeOption" ng-value="item.value" name='fontSize'>{{item.text}}</ion-radio>
+			</div>
+			<div>
+				<div class="item item-divider">
+					<h2>Tipo de contraste:</h2>
+				</div>
+				<ion-radio ng-repeat='item in contrast' ng-model="data.contrastOption" ng-value="item.value" name='contrast'>{{item.text}}</ion-radio>
+			</div>
+			<ion-footer-bar class=" bar-stable">
+		    	<button id="botonVolver" ng-click='goBack()' class="button button-stable boton-mitad-width">Volver</button>
+		    	<button id="botonVolver" ng-click='ingresar()' class="button button-stable boton-mitad-width">Guardar</button>
+			</ion-footer-bar>
+		</ion-content>
+	</ion-view>
+</body>
